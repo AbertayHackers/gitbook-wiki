@@ -15,5 +15,6 @@
 
 * [Programming / Scripting](help-guides/programming-scripting/README.md)
 	* [Bash Scripting](help-guides/programming-scripting/bash-scripting.md)
+	* [C Coding](help-guides/programming-scripting/c-coding.md)
 * [Software Guides](help-guides/guides.md)
 
