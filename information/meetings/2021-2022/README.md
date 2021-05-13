@@ -1,3 +1,0 @@
-# Talks from 2021-2022
-
-Come back later!
