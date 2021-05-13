@@ -18,5 +18,8 @@
 	* [C Coding](help-guides/programming-scripting/c-coding.md)
 	* [Java Coding](help-guides/programming-scripting/java-coding.md)
 	* [Python Scripting](help-guides/programming-scripting/python-scripting.md)
-* [Software Guides](help-guides/guides.md)
+* [Software](help-guides/software/README.md)
+* [Networking](help-guides/networking/README.md)
+* [Techniques](help-guides/techniques/README.md) 
+* [Tools](help-guides/tools/README.md)
 
