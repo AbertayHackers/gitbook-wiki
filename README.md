@@ -1,2 +1,6 @@
-# Initial page
+# Home
+
+Hello, and welcome to the Abertay Hacksoc Wiki!
+
+
 
