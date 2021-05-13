@@ -34,6 +34,4 @@ real-world environment.
 [Twitter](https://twitter.com/abertayhackers)  
 [Facebook](https://www.facebook.com/abertayhackers)  
 [GitHub](https://github.com/AbertayHackers)  
-[Slack](https://abertayhackers.slack.com) ([How to](/guides/slack))  
-[Reddit](https://www.reddit.com/r/abertayhackers) ([How
-to](/guides/reddit))
+[Reddit](https://www.reddit.com/r/abertayhackers)
