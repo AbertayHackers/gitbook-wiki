@@ -4,6 +4,7 @@
 
 ## Information
 
+* [Constitution](information/constitution/README.md)
 * [Change Logs](information/change-logs/README.md)
 	* [Discord](information/change-logs/discord.md)
 	* [Github](information/change-logs/github.md)
@@ -14,5 +15,5 @@
 
 * [Programming / Scripting](help-guides/programming-scripting/README.md)
 	* [Bash Scripting](help-guides/programming-scripting/bash-scripting.md)
-* [Guides](help-guides/guides.md)
+* [Software Guides](help-guides/guides.md)
 
