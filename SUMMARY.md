@@ -15,6 +15,11 @@
 
 * [Contributions](contributing/contributions.md)
 
+## Society Events
+
+* [Securi-Tay](society-events/securi-tay/README.md)
+  * [History](society-events/securi-tay/history.md)
+
 ## Help Guides
 
 * [Programming / Scripting](help-guides/programming-scripting/README.md)
@@ -26,4 +31,6 @@
 * [Networking](help-guides/networking.md)
 * [Techniques](help-guides/techniques.md)
 * [Tools](help-guides/tools.md)
+* [Jobs](help-guides/jobs/README.md)
+  * [Common Interview Questions](help-guides/jobs/common-interview-questions.md)
 
