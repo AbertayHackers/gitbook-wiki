@@ -12,3 +12,4 @@ description: A list of the society's honourary members
 * [Corey Forbes](https://twitter.com/yeroc_sebrof)
 * Jamie McCune
 * [Mikey](https://twitter.com/0xmachos)
+* [Paul Boyle](https://twitter.com/paulboyle98)
