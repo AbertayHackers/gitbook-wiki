@@ -11,7 +11,7 @@ description: A list of the society's honourary members
 * [Gordon Gray](https://twitter.com/gor_zilla)
 * Kathie \(Bergies\)
 * [Corey Forbes](https://twitter.com/yeroc_sebrof)
-* Jamie McCune
+* Jamie McCunnie
 * [Mikey](https://twitter.com/0xmachos)
 * [Paul Boyle](https://twitter.com/paulboyle98)
 
