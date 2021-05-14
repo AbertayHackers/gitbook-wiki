@@ -56,7 +56,7 @@ Many games will allow you to host your own private server. Minecraft is great, b
 
 A Pihole replaces your network's DNS server and blocks all adverts on all connected devices.
 
-[Here is a guide](https://wiki.hacksoc.co.uk/guides/pihole) with more information and how to configure your own.
+[Here is a guide](pihole.md) with more information and how to configure your own.
 
 ## Homelab Components <a id="homelab_components"></a>
 
@@ -191,9 +191,9 @@ TODO: Write more here
 
 Though you have almost definitely used ethernet cable before, it will be useful to know about different types of ethernet cable, and how to make your own, before investing in some for your lab.
 
-For the standard Homelab the LAN Connection will be established with a RJ-45 headed Ethernet cable. This would likely connect into a [Switch](https://wiki.hacksoc.co.uk/guides/homelab#switch) or [Router](https://wiki.hacksoc.co.uk/guides/homelab#router) as discussed above. 
+For the standard Homelab the LAN Connection will be established with a RJ-45 headed Ethernet cable. This would likely connect into a [Switch](./#switch) or [Router](./#router) as discussed above. 
 
-![RJ-45 headed Ethernet cable](../.gitbook/assets/image%20%281%29.png)
+![RJ-45 headed Ethernet cable](../../.gitbook/assets/image%20%281%29.png)
 
 It is recommended that the minimum Category for Ethernet cables for Homelabs would be Cat5e; as it is able to reach speeds of up to 1 Gbps. The Category of your Ethernet cable is very simple yet important as it could be the bottleneck of your interconnectivity. Bandwidths of &gt;1Gbps is **strongly** recommended for NAS setups along with RAID to ensure said bandwidth can be properly saturated.
 

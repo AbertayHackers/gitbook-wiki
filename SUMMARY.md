@@ -34,5 +34,6 @@
 * [Tools](help-guides/tools.md)
 * [Jobs](help-guides/jobs/README.md)
   * [Common Interview Questions](help-guides/jobs/common-interview-questions.md)
-* [Home Lab](help-guides/home-lab.md)
+* [Home Lab](help-guides/home-lab/README.md)
+  * [PiHole](help-guides/home-lab/pihole.md)
 
