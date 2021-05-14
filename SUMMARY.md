@@ -10,6 +10,7 @@
   * [Github](information/change-logs/github.md)
 * [Meetings](information/meetings/README.md)
   * [2021-2022](information/meetings/2021-2022.md)
+* [Honourary Members](information/honourary-members.md)
 
 ## Contributing
 
