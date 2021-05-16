@@ -15,6 +15,7 @@
 ## Contributing
 
 * [Contributions](contributing/contributions.md)
+	* [Using Git](contributing/how-to.md)
 
 ## Society Events
 
