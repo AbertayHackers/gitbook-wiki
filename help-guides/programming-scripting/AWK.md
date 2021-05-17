@@ -14,7 +14,7 @@ AWK is a very powerful interpreted programming language capable of advanced data
 
 The basic usage for awk in Linux is:
 
-```awk
+```bash
 awk '{[commands]}' [input file]
 ```
 

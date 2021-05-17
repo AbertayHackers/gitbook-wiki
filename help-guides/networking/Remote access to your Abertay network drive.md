@@ -19,17 +19,17 @@ I doesn't have to be like that! You can copy files from the home machine to univ
 3. Login as [user@uad.ac.uk](mailto:user@uad.ac.uk)
 4. Profit!
 
-[![img](https://wiki.hacksoc.co.uk/_media/guides/browser_view.png)](https://wiki.hacksoc.co.uk/_detail/guides/browser_view.png?id=guides%3Aremote-access)
+![img](../../../.gitbook/assets/browser_view.png)
 
 #### via WebDAV
 
-1. Open your file manager [![img](https://wiki.hacksoc.co.uk/_media/guides/connect_to_server.png?w=370&tok=dc3be9)](https://wiki.hacksoc.co.uk/_detail/guides/connect_to_server.png?id=guides%3Aremote-access)[1)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__1)
+1. Open your file manager ![img](../../../.gitbook/assets/connect_to_server.png)[1)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__1)
 2. Use `File > Connect to server`
 3. Fill out the form as in the example→
    1. Server:
       1. `https://myfiles.abertay.ac.uk/myfiles/hcwebdav/` for Windows and MacOS[2)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__2) ,
-      2. `davs://myfiles.abertay.ac.uk/myfiles/hcwebdav/` for GTK-based Linux distro's[3)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__3)
-      3. `webdavs://myfiles.abertay.ac.uk/myfiles/hcwebdav/` for QT-based Linux distro's[4)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__4)[5)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__5)
+      2. `davs://myfiles.abertay.ac.uk/myfiles/hcwebdav/` for GTK-based Linux distros[3)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__3)
+      3. `webdavs://myfiles.abertay.ac.uk/myfiles/hcwebdav/` for QT-based Linux distros[4)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__4)[5)](https://wiki.hacksoc.co.uk/guides/remote-access#fn__5)
    2. User name: [user@uad.ac.uk](mailto:user@uad.ac.uk)
 4. Profit!
 
