@@ -14,8 +14,8 @@
 
 ## Contributing
 
-* [Contributions](contributing/contributions.md)
-	* [Using Git](contributing/how-to.md)
+* [Contributions](contributing/contributions/README.md)
+  * [Using Git](contributing/contributions/how-to.md)
 
 ## Society Events
 
@@ -29,9 +29,9 @@
   * [C Coding](help-guides/programming-scripting/c-coding.md)
   * [Java Coding](help-guides/programming-scripting/java-coding.md)
   * [Python Scripting](help-guides/programming-scripting/python-scripting.md)
-* [Software](help-guides/software/software.md)
+* [Software](help-guides/software/README.md)
   * [Operating Systems](help-guides/software/operating-systems/README.md)
-    * [Installing Kali](help-guides/software/operating-systems/kali-walkthrough.md) 
+    * [Installing Kali](help-guides/software/operating-systems/kali-walkthrough.md)
 * [Networking](help-guides/networking.md)
 * [Techniques](help-guides/techniques.md)
 * [Tools](help-guides/tools.md)
