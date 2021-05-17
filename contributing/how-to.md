@@ -1,5 +1,5 @@
 ---
-description: Guide to contributing to the wiki via Github
+description: Guide to contributing to the wiki via Github - by [@Sam1ser](https://twitter.com/Sam1ser)
 ---
 # How to Contribute
 
