@@ -53,7 +53,7 @@ If you're piping to `grep` multiple times only the last `grep` in the sequence c
 
 First line of the script that indicates which interpreter is used to execute the file. The `#!` must be at the very start of the file, with no spaces or blank lines before it.
 
-```text
+```bash
 #!/usr/bin/env bash
 ```
 
@@ -66,13 +66,13 @@ First line of the script that indicates which interpreter is used to execute the
 
 Execute `bash` and tell it to read the script `myscript`. When executing the script this way the shebang line \(`#!`\) is just a comment, `bash` does nothing with it
 
-```text
+```bash
 bash myscript
 ```
 
 We can give the script executable permission. Instead of calling `bash` manually, we can execute `myscript` directly.
 
-```text
+```bash
 chmod +x myscript  # Mark myscript as executable
 ./myscript  # Directly execute myscript
 ```
@@ -83,7 +83,7 @@ When `myscript` is executed this way, the shebang line \(`#!`\) is used to deter
 
 Print every command before its execution, replacing the variables with their real values.
 
-```text
+```bash
 set -x
 ```
 
@@ -91,7 +91,7 @@ set -x
 
 ### Unofficial Strict Mode
 
-```text
+```bash
 set -euo pipefail
 # -e: Exit if any command returns non-zero status code
 # -u: Prevent using undefined variables
