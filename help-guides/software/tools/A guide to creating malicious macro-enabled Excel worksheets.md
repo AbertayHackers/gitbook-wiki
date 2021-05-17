@@ -1,6 +1,6 @@
 # A guide to creating malicious macro-enabled Excel worksheets
 
-*An tutorial by [Niall](https://wiki.hacksoc.co.uk/user/niall).*
+*An tutorial by Niall.*
 
 This guide will go through the steps taken in order to create a malicious macro-enabled Excel worksheet. The tutorial will explain how to use msfvenom to create an x64 reverse shell, how to install and use luckystrike and how to set up a listener in order to detect the reverse shell. This tutorial will be catered to work on a local area network
 
@@ -16,7 +16,7 @@ This guide **will not** give details on how to distribute the documents created 
 
 This part of the tutorial will contain instructions on how to create your reverse shell.
 
-[![hnz9skc.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=23fa47&media=http%3A%2F%2Fimgur.com%2FhNz9SKc.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=23fa47&media=http%3A%2F%2Fimgur.com%2FhNz9SKc.jpg)
+![Terminal running msfvenom](https://i.imgur.com/hNz9SKc.jpg)
 
 The image above shows a terminal running the msfvenom command that will generate a x64 windows reverse shell. When entering this command, ensure that LHOST is the IP address of your Kali machine. You will want to now store your executable on a USB or transfer it over to your windows machine.
 **Please note:** You may use any executable, powershell module or shell command, but this tutorial will use a simple reverse shell.
@@ -29,7 +29,7 @@ This part of the tutorial will walk through how to install Luckystrike in order 
 
 Open powershell as admin and run the following:
 
-```
+```powershell
 iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Shellntel/luckystrike/master/install.ps1')
 ```
 
@@ -37,13 +37,13 @@ iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com
 
 Luckystrike can be downloaded from their github here: [LuckyStrike Github](https://github.com/Shellntel/luckystrike) Once you have downloaded the source, browse to the Luckystrike directory and run
 
-```
+```powershell
 ./install.ps1
 ```
 
 If you get the execution policy error, the fix is:
 
-```
+```powershell
 Set-ExecutionPolicy Unrestricted
 ```
 
@@ -60,20 +60,27 @@ You should have now successfully built Luckystrike
 
 Once the above step has been completed, browse to your Luckystrike directory and run
 
-```
-./luckystrike.ps1
+```powershell
+./luckystrike.ps1.
 ```
 
-. If all has went well, you will get the following screen: [![0goete6.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=19eaf2&media=http%3A%2F%2Fimgur.com%2F0gOEtE6.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=19eaf2&media=http%3A%2F%2Fimgur.com%2F0gOEtE6.jpg)
+ If all has went well, you will get the following screen:
+
+![Luckystrike startup screen](https://i.imgur.com/0gOEtE6.jpg)
 
 Now we need to add our payload to Luckystrikes catlogue, select the payload and generate the .xls document. See the following images:
 
-[![3yl7j7g.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3cb9a5&media=http%3A%2F%2Fimgur.com%2F3yL7J7g.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3cb9a5&media=http%3A%2F%2Fimgur.com%2F3yL7J7g.jpg)
+![Luckystrike Catalog](https://i.imgur.com/3yL7J7g.jpg)
+
 The image above shows the commands and how to add the executable to the tool. Ensure to use the absolute patch when entering the file path.
 
-[![zmrkev5.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dd445&media=http%3A%2F%2Fimgur.com%2FzMrkEv5.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dd445&media=http%3A%2F%2Fimgur.com%2FzMrkEv5.jpg) Now select the payload for use.
+![Selecting options](https://i.imgur.com/zMrkEv5.jpg)
 
-Now generate the .xls file. [![mari3kz.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c5db57&media=http%3A%2F%2Fimgur.com%2FMari3kz.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c5db57&media=http%3A%2F%2Fimgur.com%2FMari3kz.jpg)
+Now select the payload for use.
+
+Now generate the .xls file.
+
+![Generating .xls file](https://i.imgur.com/Mari3kz.jpg)
 
 Your .xls file should be generated and stored in the path specified. Now rename it to something better and set up a listener.
 
@@ -81,7 +88,7 @@ Your .xls file should be generated and stored in the path specified. Now rename 
 
 In order for our shell to connect back to our Kali machine, we need to set up a listener.
 
-[![rc3ggl6.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dc208&media=http%3A%2F%2Fimgur.com%2FRc3GgL6.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dc208&media=http%3A%2F%2Fimgur.com%2FRc3GgL6.jpg)
+![Starting up the listener using msfconsole](https://i.imgur.com/Rc3GgL6.jpg)
 
 ### Distribution
 
@@ -91,7 +98,7 @@ As you are in a test environment and wouldn't be doing anything illegal, simply 
 
 If successful and your document is ran and macros enabled, it will connect back to your Kali machine and your listener will look like this:
 
-[![edyobr5.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c97287&media=http%3A%2F%2Fimgur.com%2FEDYoBR5.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c97287&media=http%3A%2F%2Fimgur.com%2FEDYoBR5.jpg)
+![Successful connection](https://i.imgur.com/EDYoBR5.jpg)
 
 ### Additional work
 

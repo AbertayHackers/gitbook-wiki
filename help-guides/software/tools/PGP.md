@@ -15,7 +15,7 @@ For now, feel free to just add links worth reading[1)](https://wiki.hacksoc.co.u
 
 ### MacOS X
 
-[GPG Suite](https://wiki.hacksoc.co.uk/guides/mac-pgp) by [Kyle](https://wiki.hacksoc.co.uk/user/kyle)
+[GPG Suite](https://wiki.hacksoc.co.uk/guides/mac-pgp) by Kyle
 [Thunderbird + Enigmail](https://ssd.eff.org/en/module/how-use-pgp-mac-os-x) by EFF
 
 ### Linux
@@ -28,7 +28,7 @@ For now, feel free to just add links worth reading[1)](https://wiki.hacksoc.co.u
 
 ### Android
 
-[Open Keychain](https://wiki.hacksoc.co.uk/guides/pgp.android) by [pshem](https://wiki.hacksoc.co.uk/user/pshem)
+[Open Keychain](https://wiki.hacksoc.co.uk/guides/pgp.android) by pshem
 
 ### iOS
 
