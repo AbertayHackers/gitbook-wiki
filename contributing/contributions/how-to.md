@@ -12,7 +12,8 @@ First you need to fork the repo, clone it, then synchronise it with the main rep
 
 1. Create a fork of the [main repository](https://github.com/AbertayHackers/gitbook-wiki)
 2. Clone your fork: `git clone https://github.com/[username]/gitbook-wiki`
-3. Add the main repo as an upstream remote: `git remote add --track master upstream https://github.com/AbertayHackers/gitbook-wiki`
+3. Change directory into the cloned repo: `cd gitbook-wiki`
+4. Add the main repo as an upstream remote: `git remote add --track master upstream https://github.com/AbertayHackers/gitbook-wiki`
 
 Before you make any changes, you should always synchronise your fork to the remote repository:
 
