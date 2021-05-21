@@ -8,6 +8,7 @@
 * [Change Logs](information/change-logs/README.md)
   * [Discord](information/change-logs/discord.md)
   * [Github](information/change-logs/github.md)
+  * [Server](information/change-logs/server.md)
 * [Meetings](information/meetings/README.md)
   * [2021-2022](information/meetings/2021-2022.md)
 * [Honourary Members](information/honourary-members.md)
