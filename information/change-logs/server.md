@@ -12,7 +12,7 @@
 		* php-gd
 		* php-mbstring
 		* php-imagick
-	* Apache2 (PHP Content, internal, port 8000)
+	* Apache2 (PHP Content, internal, to be proxied to)
 	* certbot
 	* MariaDB
 		* Secured MariaDB
