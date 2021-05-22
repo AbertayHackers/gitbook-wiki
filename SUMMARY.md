@@ -17,6 +17,7 @@
 
 * [Contributions](contributing/contributions/README.md)
   * [Using Git](contributing/contributions/how-to.md)
+  * [Formatting and Best Practise](contributing/contributions/formatting.md)
 
 ## Society Events
 
@@ -31,6 +32,7 @@
   * [C Coding](help-guides/programming-scripting/c-coding.md)
   * [Java Coding](help-guides/programming-scripting/java-coding.md)
   * [LaTeX](help-guides/programming-scripting/LaTeX.md)
+  * [Markdown](help-guides/programming-scripting/markdown.md)
   * [Python Scripting](help-guides/programming-scripting/python-scripting.md)
 * [Software](help-guides/software/README.md)
   * [Operating Systems](help-guides/software/operating-systems/README.md)
