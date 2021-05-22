@@ -9,5 +9,5 @@ description: Help with standard tooling (mainly in Linux)
 - [A guide to using PGP on macOS](A guide to using PGP on macOS.md)
 - [PGP](PGP)
 - [Regular Expressions](Regular Expressions)
-- [The Browser Exploitation Framework (BeEF)](The Browser Exploitation Framework (BeEF))
+- [The Browser Exploitation Framework \(BeEF\)](The Browser Exploitation Framework \(BeEF\))
 
