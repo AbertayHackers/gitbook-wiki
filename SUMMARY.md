@@ -56,3 +56,4 @@
 ## Members
 * [Profiles](members/README.md)
 	* [AG](members/ag.md)
+	* [Isaac](members/isaac.md)
