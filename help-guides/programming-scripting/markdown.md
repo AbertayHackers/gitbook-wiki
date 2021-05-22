@@ -200,14 +200,14 @@ Together, they look look like this in the code editor:
 ```markdown
 `print("like this")`
 
-​```c++
+(backticks here)c++
 #include <iostream>
 
 int main() {
     std::cout << "This is how you do it in c++";
     return 0;
 }
-​```
+(backticks here)
 ```
 
 ## Escaping Characters
