@@ -53,3 +53,6 @@
 * [Home Lab](help-guides/home-lab/README.md)
   * [PiHole](help-guides/home-lab/pihole.md)
 
+## Members
+* [Profiles](members/README.md)
+	* [AG](members/ag.md)
