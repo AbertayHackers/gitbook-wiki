@@ -57,3 +57,7 @@
 * [Profiles](members/README.md)
 	* [AG](members/ag.md)
 	* [Isaac](members/isaac.md)
+
+## Other
+* [Other](other/README.md)
+	* [Recommended Reading](other/recommended-reading.md)
