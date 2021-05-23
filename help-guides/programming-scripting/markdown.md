@@ -1,4 +1,7 @@
-An introduction to Markdown, the basic markup language for online text formatting
+---
+description: >-
+  An introduction to Markdown, the basic markup language for online text formatting
+---
 
 # Markdown
 

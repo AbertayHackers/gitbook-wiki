@@ -1,4 +1,7 @@
-A guide to formatting when committing to the Hacksoc wiki
+---
+description: >-
+  A guide to formatting when committing to the Hacksoc wiki
+---
 
 # Formatting and Best Practise
 

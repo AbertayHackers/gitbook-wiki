@@ -1,3 +1,8 @@
+---
+description: >-
+  A guide to installing Kali Linux in a VMWare Workstation virtual machine
+---
+
 # Installing Kali
 
 *Written by [Isaac](../../../members/isaac.md)*
