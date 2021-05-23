@@ -2,7 +2,7 @@ An introduction to Markdown, the basic markup language for online text formattin
 
 # Markdown
 
-*Written by Isaac (*[*@IBRIce101*](https://twitter.com/IBRice101)*)*
+*Written by [Isaac](../../members/isaac.md)*
 
 Markdown is an extremely lightweight markup language for formatting text in a plaintext editor. Places Markdown is used include Wikipedia's editor, GitHub (for documentation and readme files), online forums, blogs, Discord, and this wiki!
 
