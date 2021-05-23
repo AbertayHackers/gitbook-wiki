@@ -64,5 +64,8 @@
 
 ## Other
 * [Other](other/README.md)
-	* [Recommended Reading](other/recommended-reading.md)
-	* [Meltdown & Spectre](other/meltdown-spectre.md)
+  * [Data Dumps](other/data-dumps)
+  * [Meltdown & Spectre](other/meltdown-spectre.md)
+  * [Movies](other/movies.md)
+  * [Project topic suggestions](other/project-topic-suggestions)
+  * [Recommended Reading](other/recommended-reading.md)
