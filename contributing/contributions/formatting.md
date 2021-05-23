@@ -1,8 +1,11 @@
-A guide to formatting when committing to the Hacksoc wiki
+---
+description: >-
+  A guide to formatting when committing to the Hacksoc wiki
+---
 
 # Formatting and Best Practise
 
-_Written by Isaac \(_[_@IBRice101_](https://twitter.com/IBRice101)_\)_
+By [Isaac](../../members/isaac.md)
 
 There are a few things you'll need to consider when contributing to the Wiki when writing articles, creating new sections, and making general improvements.
 

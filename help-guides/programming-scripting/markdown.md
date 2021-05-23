@@ -1,8 +1,11 @@
-An introduction to Markdown, the basic markup language for online text formatting
+---
+description: >-
+  An introduction to Markdown, the basic markup language for online text formatting
+---
 
 # Markdown
 
-*Written by Isaac (*[*@IBRIce101*](https://twitter.com/IBRice101)*)*
+*Written by [Isaac](../../members/isaac.md)*
 
 Markdown is an extremely lightweight markup language for formatting text in a plaintext editor. Places Markdown is used include Wikipedia's editor, GitHub (for documentation and readme files), online forums, blogs, Discord, and this wiki!
 
@@ -200,14 +203,14 @@ Together, they look look like this in the code editor:
 ```markdown
 `print("like this")`
 
-​```c++
+(backticks here)c++
 #include <iostream>
 
 int main() {
     std::cout << "This is how you do it in c++";
     return 0;
 }
-​```
+(backticks here)
 ```
 
 ## Escaping Characters
