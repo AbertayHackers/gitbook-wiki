@@ -5,7 +5,7 @@ description: >-
 
 # Formatting and Best Practise
 
-By [Isaac](../../members/isaac.md)
+*By [Isaac](../../members/isaac.md)*
 
 There are a few things you'll need to consider when contributing to the Wiki when writing articles, creating new sections, and making general improvements.
 
@@ -20,7 +20,7 @@ This article will go over a few recommendations for formatting and best practise
 
 ## Editing using Markdown/Git
 
-* Make sure to adhere to the [markdown guide](../help-guides/programming-scripting/markdown.md)
+* Make sure to adhere to the [markdown guide](../../help-guides/programming-scripting/markdown.md)
 * When naming files, try to avoid using spaces and capital letters, this is to avoid any context-sensitivity issues and aid linking to other places in the wiki
 
 ## Editing using GitBook
