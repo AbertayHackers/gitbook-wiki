@@ -65,6 +65,7 @@
 ## Other
 * [Other](other/README.md)
   * [Data Dumps](other/data-dumps)
+  * [Meetups](other/meetups)
   * [Meltdown & Spectre](other/meltdown-spectre.md)
   * [Movies](other/movies.md)
   * [Project topic suggestions](other/project-topic-suggestions)
