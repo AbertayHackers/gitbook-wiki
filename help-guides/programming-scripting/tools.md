@@ -12,15 +12,19 @@ Here be a list of tools and useful things for programming.
 
 ### Sublime Text
 
-[Sublime](https://www.sublimetext.com/)is cross platform and has a free trial for life. It supports loads of languages, has a built in terminal, etc.
+[Sublime](https://www.sublimetext.com/) is cross platform and has a free trial for life. It supports loads of languages, has a built in terminal, etc.
 
 ### Atom
 
-[Github's homemade editor ](https://atom.io/)is cross platform, [Open source](https://github.com/atom/atom) and has lots of support.
+[Github's homemade editor](https://atom.io/)is cross platform, [Open source](https://github.com/atom/atom) and has lots of support.
 
 ### Visual Studio Code (VSCode)
 
 [VSCode](https://code.visualstudio.com/) by Microsoft “Free. Built on open source. Runs everywhere.”.
+
+### Vim
+
+A highly configurable (normally) [terminal based text editor](https://www.vim.org/). Open source, huge amounts of support. High skill ceiling due to the unique way the editor is navigated, but improves workflow/efficiency massively
 
 ## Git
 

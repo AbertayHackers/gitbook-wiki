@@ -34,6 +34,7 @@
   * [LaTeX](help-guides/programming-scripting/LaTeX.md)
   * [Markdown](help-guides/programming-scripting/markdown.md)
   * [Python Scripting](help-guides/programming-scripting/python-scripting.md)
+  * [Tools](help-guides/programming-scripting/tools.md)
 * [Software](help-guides/software/README.md)
   * [Operating Systems](help-guides/software/operating-systems/README.md)
     * [Installing Kali](help-guides/software/operating-systems/kali-walkthrough.md)
