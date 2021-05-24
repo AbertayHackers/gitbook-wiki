@@ -27,10 +27,12 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Installing Kali in VMWare](../help-guides/software/operating-systems/kali-walkthrough.md)
 * [A Guide to Markdown](../help-guides/programming-scripting.markdown.md)
 * [Some formatting rules for contributing to the Wiki](../contributing/contributions/formatting.md)
+* [Vim](../help-guides/software/tools/vim.md)
 
 ### Articles I edited
 
-[N/A]
+- [Programming Tools](..help-guides/programming-scripting/tools.md)
+  - Added basic info about JetBrains IDEs, Visual Studio, and Vim
 
 ### Articles I archived and brought over from the old wiki
 
@@ -48,7 +50,8 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
   - [C Coding](../help-guides/programming-scripting/c-coding.md)
   - [Java Coding](../help-guides/programming-scripting/java-coding.md)
   - [LaTeX](../help-guides/programming-scripting/LaTeX.md)
-  - [Python Scripting](../help-guides/programming-scripting/python-scripting)
+  - [Python Scripting](../help-guides/programming-scripting/python-scripting.md)
+  - [Tools](..help-guides/programming-scripting/tools.md)
 - Operating Systems:
   - [MacOS](../help-guides/software/operating-systems/macos.md)
 - Tools:

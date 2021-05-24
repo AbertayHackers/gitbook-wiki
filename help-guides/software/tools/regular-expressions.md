@@ -2,7 +2,7 @@
 
 ### Intro
 
-In theoretical computer science, a regular expression is a sequence of characters that define a *search pattern*. It's basically a fancy way of doing text searches. Very useful in combination with sed and [awk](https://wiki.hacksoc.co.uk/guides/linux/awk)![img](https://wiki.hacksoc.co.uk/_media/guides/regular_expressions.png)
+In theoretical computer science, a regular expression is a sequence of characters that define a *search pattern*. It's basically a fancy way of doing text searches. Very useful in combination with sed and [awk](https://wiki.hacksoc.co.uk/guides/linux/awk)![xkcd 208 - Regular Expressions](../../../.gitbook/assets/regular_expressions.png)
 
 ### Basic Usage
 

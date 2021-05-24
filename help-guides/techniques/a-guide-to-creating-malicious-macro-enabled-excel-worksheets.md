@@ -16,7 +16,7 @@ This guide **will not** give details on how to distribute the documents created 
 
 This part of the tutorial will contain instructions on how to create your reverse shell.
 
-[![hnz9skc.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=23fa47&media=http%3A%2F%2Fimgur.com%2FhNz9SKc.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=23fa47&media=http%3A%2F%2Fimgur.com%2FhNz9SKc.jpg)
+![ifconfig and msfvenom running in a kali terminal](https://i.imgur.com/hNz9SKc.jpg)
 
 The image above shows a terminal running the msfvenom command that will generate a x64 windows reverse shell. When entering this command, ensure that LHOST is the IP address of your Kali machine. You will want to now store your executable on a USB or transfer it over to your windows machine.
 **Please note:** You may use any executable, powershell module or shell command, but this tutorial will use a simple reverse shell.
@@ -64,16 +64,23 @@ Once the above step has been completed, browse to your Luckystrike directory and
 ./luckystrike.ps1
 ```
 
-. If all has went well, you will get the following screen: [![0goete6.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=19eaf2&media=http%3A%2F%2Fimgur.com%2F0gOEtE6.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=19eaf2&media=http%3A%2F%2Fimgur.com%2F0gOEtE6.jpg)
+. If all has went well, you will get the following screen: 
+
+![Luckystrike running in Powershell](https://i.imgur.com/0gOEtE6.jpg)
 
 Now we need to add our payload to Luckystrikes catlogue, select the payload and generate the .xls document. See the following images:
 
-[![3yl7j7g.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3cb9a5&media=http%3A%2F%2Fimgur.com%2F3yL7J7g.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3cb9a5&media=http%3A%2F%2Fimgur.com%2F3yL7J7g.jpg)
+![Luckystrike Menu](https://i.imgur.com/3yL7J7g.jpg)
+
 The image above shows the commands and how to add the executable to the tool. Ensure to use the absolute patch when entering the file path.
 
-[![zmrkev5.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dd445&media=http%3A%2F%2Fimgur.com%2FzMrkEv5.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dd445&media=http%3A%2F%2Fimgur.com%2FzMrkEv5.jpg) Now select the payload for use.
+![Luckystrike Main menu with payload added](https://i.imgur.com/zMrkEv5.jpg)
 
-Now generate the .xls file. [![mari3kz.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c5db57&media=http%3A%2F%2Fimgur.com%2FMari3kz.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c5db57&media=http%3A%2F%2Fimgur.com%2FMari3kz.jpg)
+Now select the payload for use.
+
+Now generate the .xls file. 
+
+![Generating the .xls file](https://i.imgur.com/Mari3kz.jpg)
 
 Your .xls file should be generated and stored in the path specified. Now rename it to something better and set up a listener.
 
@@ -81,7 +88,7 @@ Your .xls file should be generated and stored in the path specified. Now rename 
 
 In order for our shell to connect back to our Kali machine, we need to set up a listener.
 
-[![rc3ggl6.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dc208&media=http%3A%2F%2Fimgur.com%2FRc3GgL6.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=3dc208&media=http%3A%2F%2Fimgur.com%2FRc3GgL6.jpg)
+![Setting up the listener in the Kali terminal](https://i.imgur.com/Rc3GgL6.jpg)
 
 ### Distribution
 
@@ -91,7 +98,7 @@ As you are in a test environment and wouldn't be doing anything illegal, simply 
 
 If successful and your document is ran and macros enabled, it will connect back to your Kali machine and your listener will look like this:
 
-[![edyobr5.jpg](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c97287&media=http%3A%2F%2Fimgur.com%2FEDYoBR5.jpg)](https://wiki.hacksoc.co.uk/lib/exe/fetch.php?tok=c97287&media=http%3A%2F%2Fimgur.com%2FEDYoBR5.jpg)
+![Successful reverse shell](https://i.imgur.com/EDYoBR5.jpg)
 
 ### Additional work
 

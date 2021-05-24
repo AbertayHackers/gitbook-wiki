@@ -4,21 +4,21 @@ By Mikey
 
 ## Intro/links/basics
 
-- [A basic intro](https://web.archive.org/web/20210125134604/http://www.macforbeginners.com/osx-guide/mac-os-x-introduction/)
-- [Security & Privacy Guide](https://web.archive.org/web/20210125134604/https://github.com/drduh/macOS-Security-and-Privacy-Guide)
-- [Awesome commands](https://web.archive.org/web/20210125134604/https://github.com/herrbischoff/awesome-osx-command-line) like default TextEdit to plain text
-- [launchd.info](https://web.archive.org/web/20210125134604/http://www.launchd.info/) “A launchd Tutorial”
+- [A basic intro](http://www.macforbeginners.com/osx-guide/mac-os-x-introduction/)
+- [Security & Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+- [Awesome commands](https://github.com/herrbischoff/awesome-osx-command-line) like default TextEdit to plain text
+- [launchd.info](http://www.launchd.info/) “A launchd Tutorial”
 
 # Apple Documentation
 
-- [Security updates list](https://web.archive.org/web/20210125134604/https://support.apple.com/en-gb/HT201222)
-- [WWDC Privacy and Security sessions](https://web.archive.org/web/20210125134604/https://developer.apple.com/videos/frameworks/privacy-and-security) (Videos)
+- [Security updates list](https://support.apple.com/en-gb/HT201222)
+- [WWDC Privacy and Security sessions](https://developer.apple.com/videos/frameworks/privacy-and-security) (Videos)
 
 # General
 
 ## iCloud
 
-- Adding `.nosync` to the end of a folder in iCloud Drive stops it being synced (via [@jimconacher](https://web.archive.org/web/20210125134604/https://twitter.com/jimconacher)).
+- Adding `.nosync` to the end of a folder in iCloud Drive stops it being synced (via [@jimconacher](https://twitter.com/jimconacher)).
 
 ## .bash_profile vs .bashrc
 
@@ -28,9 +28,9 @@ By default `Terminal.app` runs a login shell.
 
 If you're adding `aliases`, exporting environment variables or setting a custom prompt that code should go in `.bash_profile`.
 
-[Source](https://web.archive.org/web/20210125134604/https://apple.stackexchange.com/a/51038)
+[Source](https://apple.stackexchange.com/a/51038)
 
-See also [.bash_profile vs .bashrc](https://web.archive.org/web/20210125134604/http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+See also [.bash_profile vs .bashrc](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
 
 ## .hushlogin
 
@@ -57,24 +57,24 @@ sudo ./airport en0 prefs DisconnectOnLogout=NO
 
 ## Disk Images
 
-- [Understanding DMG Files](https://web.archive.org/web/20210125134604/https://www.blackbagtech.com/blog/2011/04/15/understanding-dmg-files-part-1-of-3/)
-- [Sparse Bundles Defined](https://web.archive.org/web/20210125134604/http://www.thexlab.com/faqs/sparsebundledefined.html)
+- [Understanding DMG Files](https://www.blackbagtech.com/blog/2011/04/15/understanding-dmg-files-part-1-of-3/)
+- [Sparse Bundles Defined](http://www.thexlab.com/faqs/sparsebundledefined.html)
 
 # Random
 
-- [How to Fix Slow SMB File Transfers on OS X](https://web.archive.org/web/20210125134604/https://dpron.com/os-x-10-11-5-slow-smb/) - [Dan Roncadin](https://web.archive.org/web/20210125134604/https://twitter.com/dpron)
+- [How to Fix Slow SMB File Transfers on OS X](https://dpron.com/os-x-10-11-5-slow-smb/) - [Dan Roncadin](https://twitter.com/dpron)
 
 # Homebrew
 
 *Going to start this off with it's own section but might fold it into General Advice later on*
 
-[Homebrew](https://web.archive.org/web/20210125134604/https://brew.sh/) (`brew`) is a package manager for macOS akin to the [Advanced Package Tool](https://web.archive.org/web/20210125134604/https://wiki.debian.org/Apt) (`apt`) on Debian and Ubuntu.
+[Homebrew](https://brew.sh/) (`brew`) is a package manager for macOS akin to the [Advanced Package Tool](https://wiki.debian.org/Apt) (`apt`) on Debian and Ubuntu.
 
 ## Taps
 
-[Taps](https://web.archive.org/web/20210125134604/https://docs.brew.sh/Taps) are third party repositories for homebrew.
+[Taps](https://docs.brew.sh/Taps) are third party repositories for homebrew.
 
-- [sidaf/homebrew-pentest](https://web.archive.org/web/20210125134604/https://github.com/sidaf/homebrew-pentest) “penetration testing related tools”
+- [sidaf/homebrew-pentest](https://github.com/sidaf/homebrew-pentest) “penetration testing related tools”
 
 ### Example
 
@@ -82,11 +82,11 @@ If you run `brew tap sidaf/homebrew-pentest` you'll be able to install any formu
 
 ## Python
 
-As of Homebrew [1.5.0](https://web.archive.org/web/20210125134604/https://brew.sh/2018/01/19/homebrew-1.5.0/) `brew install python` installs `python3.x` **not** `python2.7.x`. This was not [PEP 394](https://web.archive.org/web/20210125134604/https://www.python.org/dev/peps/pep-0394/) compliant as running `python` would execute the `python3.x` binary which violates “all distributions should ensure that `python` refers to the same target as `python2`”.
+As of Homebrew [1.5.0](https://brew.sh/2018/01/19/homebrew-1.5.0/) `brew install python` installs `python3.x` **not** `python2.7.x`. This was not [PEP 394](https://www.python.org/dev/peps/pep-0394/) compliant as running `python` would execute the `python3.x` binary which violates “all distributions should ensure that `python` refers to the same target as `python2`”.
 
-This was fixed in [1.6.0](https://web.archive.org/web/20210125134604/https://brew.sh/2018/04/09/homebrew-1.6.0/). `brew install python` still installs `python3.x` but will not symlink `python` to the `python3.x` binary. Running `python` will execute the system `python2.7.x` binary and running `python3` will execute the brew `python3.x` binary.
+This was fixed in [1.6.0](https://brew.sh/2018/04/09/homebrew-1.6.0/). `brew install python` still installs `python3.x` but will not symlink `python` to the `python3.x` binary. Running `python` will execute the system `python2.7.x` binary and running `python3` will execute the brew `python3.x` binary.
 
-See [Homebrew and Python ](https://web.archive.org/web/20210125134604/https://docs.brew.sh/Homebrew-and-Python)for more info.
+See [Homebrew and Python ](https://docs.brew.sh/Homebrew-and-Python)for more info.
 
 ## Upgrading Packages
 
@@ -97,166 +97,166 @@ By default Homebrew **does not** automatically update itself or installed packag
 
 By default, Homebrew **does not** uninstall old versions of formula. From time to time you'll want to run `brew cleanup` to remove old version of formula.
 
-See [FAQ](https://web.archive.org/web/20210125134604/https://docs.brew.sh/FAQ) for more info.
+See [FAQ](https://docs.brew.sh/FAQ) for more info.
 
 # Virtualisation
 
 ### VMWare Fusion
 
-We get [VMWare Fusion](https://web.archive.org/web/20210125134604/https://www.vmware.com/products/fusion.html) free from [VMWare DreamSpark](https://web.archive.org/web/20210125134604/https://vmapss.onthehub.com/WebStore/Welcome.aspx). Used by most mac wankers on the course. Would recommend over all other virtualisation programs for Mac.
+We get [VMWare Fusion](https://www.vmware.com/products/fusion.html) free from [VMWare DreamSpark](https://vmapss.onthehub.com/WebStore/Welcome.aspx). Used by most mac wankers on the course. Would recommend over all other virtualisation programs for Mac.
 
 #### defaultVMPath
 
-By default Fusion creates `${HOME}/Documents/Virtual Machines` to store VMs in. This is likely sub optimal for those using [iCloud Drive](https://web.archive.org/web/20210125134604/https://support.apple.com/en-gb/HT206985), you probably don't want to upload your 20GB VM to iCloud.
+By default Fusion creates `${HOME}/Documents/Virtual Machines` to store VMs in. This is likely sub optimal for those using [iCloud Drive](https://support.apple.com/en-gb/HT206985), you probably don't want to upload your 20GB VM to iCloud.
 
 The location Fusion saves VMs to can be changed:
 
 1. Create a new directory to store VMs e.g. `${HOME}/VMware Fusion`
 2. Add the line `“prefvmx.defaultVMPath = ${HOME}/VMware Fusion”` to `${HOME}/Library/Preferences/VMware Fusion/preferences`
 
-Taken from [bittersweet.sh](https://web.archive.org/web/20210125134604/https://github.com/0xmachos/dotfiles/blob/02db588d31db68b2470b04df5ed242adaecdebf4/bittersweet.sh#L106-L145).
+Taken from [bittersweet.sh](https://github.com/0xmachos/dotfiles/blob/02db588d31db68b2470b04df5ed242adaecdebf4/bittersweet.sh#L106-L145).
 
 ### Parallels
 
-[Parallels](https://web.archive.org/web/20210125134604/https://www.parallels.com/uk/products/desktop/)
+[Parallels](https://www.parallels.com/uk/products/desktop/)
 
 # Apps
 
 ## General
 
-- [Amphetamine](https://web.archive.org/web/20210125134604/https://github.com/x74353/Amphetamine) ([ App Store](https://web.archive.org/web/20210125134604/https://itunes.apple.com/gb/app/amphetamine/id937984704)) - This app keeps your Mac awake for a set period of time, whilst an app is running, and much more.
-- [The Unarchiver](https://web.archive.org/web/20210125134604/https://theunarchiver.com/) ([ App Store ](https://web.archive.org/web/20210125134604/https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12)) Open any archive in seconds
-- [Rocket](https://web.archive.org/web/20210125134604/https://matthewpalmer.net/rocket/) Slack-style emoji picker for your Mac
-- [Texpad](https://web.archive.org/web/20210125134604/https://www.texpad.com/osx) Native Mac OS app with efficient LaTeX environment
-- [DiskMaker X](https://web.archive.org/web/20210125134604/http://diskmakerx.com/) Build an OS X boot disk
-- [BitBar](https://web.archive.org/web/20210125134604/https://getbitbar.com/) Put anything in your menu bar
-- [DiscreteScroll](https://web.archive.org/web/20210125134604/https://github.com/emreyolcu/discrete-scroll/releases) Stop the annoying mouse acceleration when scrolling in macOS
+- [Amphetamine](https://github.com/x74353/Amphetamine) ([ App Store](https://itunes.apple.com/gb/app/amphetamine/id937984704)) - This app keeps your Mac awake for a set period of time, whilst an app is running, and much more.
+- [The Unarchiver](https://theunarchiver.com/) ([ App Store ](https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12)) Open any archive in seconds
+- [Rocket](https://matthewpalmer.net/rocket/) Slack-style emoji picker for your Mac
+- [Texpad](https://www.texpad.com/osx) Native Mac OS app with efficient LaTeX environment
+- [DiskMaker X](http://diskmakerx.com/) Build an OS X boot disk
+- [BitBar](https://getbitbar.com/) Put anything in your menu bar
+- [DiscreteScroll](https://github.com/emreyolcu/discrete-scroll/releases) Stop the annoying mouse acceleration when scrolling in macOS
 
 ## Programming
 
-For general information see [Programmming](https://web.archive.org/web/20210125134604/https://wiki.hacksoc.co.uk/programming/tools). This section list macOS specific tools.
+For general information see [Programmming](../../programming-scripting/tools.md). This section list macOS specific tools.
 
-- [Xcode](https://web.archive.org/web/20210125134604/https://developer.apple.com/xcode/) ([ App Store ](https://web.archive.org/web/20210125134604/https://itunes.apple.com/us/app/xcode/id497799835)) Apple's own IDE. Best for [C](https://web.archive.org/web/20210125134604/https://wiki.hacksoc.co.uk/programming/c), C++ and Objective-C.
-- [Quiver](https://web.archive.org/web/20210125134604/http://happenapps.com/#quiver) ([ App Store](https://web.archive.org/web/20210125134604/https://itunes.apple.com/app/quiver-programmers-notebook/id866773894)) notebook built for programmers
-- [Dash](https://web.archive.org/web/20210125134604/https://kapeli.com/dash) offline access to 200+ API documentation sets
+- [Xcode](https://developer.apple.com/xcode/) ([ App Store ](https://itunes.apple.com/us/app/xcode/id497799835)) Apple's own IDE. Best for [C](../../programming-scripting/c-coding.md), C++ and Objective-C.
+- [Quiver](http://happenapps.com/#quiver) ([ App Store](https://itunes.apple.com/app/quiver-programmers-notebook/id866773894)) notebook built for programmers
+- [Dash](https://kapeli.com/dash) offline access to 200+ API documentation sets
 
 ## Security/ Privacy
 
-- [1Password](https://web.archive.org/web/20210125134604/https://1password.com/) ([ App Store ](https://web.archive.org/web/20210125134604/https://itunes.apple.com/us/app/1password/id443987910)) Apple device focused password manager
-- [Little Snitch](https://web.archive.org/web/20210125134604/https://www.obdev.at/products/littlesnitch/index.html) Application firewall
-- [GPGTools/ GPG Suite](https://web.archive.org/web/20210125134604/https://gpgtools.org/) “Use GPG Suite to encrypt, decrypt, sign and verify files or messages”
-- [Privileges.app](https://web.archive.org/web/20210125134604/https://github.com/SAP/macOS-enterprise-privileges) “providing a quick and easy way to get administrator rights when needed”
+- [1Password](https://1password.com/) ([ App Store ](https://itunes.apple.com/us/app/1password/id443987910)) Apple device focused password manager
+- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) Application firewall
+- [GPGTools/ GPG Suite](https://gpgtools.org/) “Use GPG Suite to encrypt, decrypt, sign and verify files or messages”
+- [Privileges.app](https://github.com/SAP/macOS-enterprise-privileges) “providing a quick and easy way to get administrator rights when needed”
 
 ### Objective-See
 
-[Objective-See](https://web.archive.org/web/20210125134604/https://objective-see.com/index.html) was created by [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) to provide simple, effective and free macOS security tools. Some of his most useful tools are listed below.
+[Objective-See](https://objective-see.com/index.html) was created by [Patrick Wardle](https://twitter.com/patrickwardle) to provide simple, effective and free macOS security tools. Some of his most useful tools are listed below.
 
-- [BlockBlock](https://web.archive.org/web/20210125134604/https://objective-see.com/products/blockblock.html) (*Beta*) Alerts when something is persistently installed
-- [OverSight](https://web.archive.org/web/20210125134604/https://objective-see.com/products/oversight.html) Monitors and alerts on mic and webcam access
-- [What's Your Sign?](https://web.archive.org/web/20210125134604/https://objective-see.com/products/whatsyoursign.html) Adds a menu item to Finder.app to view the cryptographic signature of files
+- [BlockBlock](https://objective-see.com/products/blockblock.html) (*Beta*) Alerts when something is persistently installed
+- [OverSight](https://objective-see.com/products/oversight.html) Monitors and alerts on mic and webcam access
+- [What's Your Sign?](https://objective-see.com/products/whatsyoursign.html) Adds a menu item to Finder.app to view the cryptographic signature of files
 
 ## Touch Bar
 
-- [HapticKey](https://web.archive.org/web/20210125134604/https://github.com/niw/HapticKey) “trigger haptic feedback when tapping Touch Bar”
+- [HapticKey](https://github.com/niw/HapticKey) “trigger haptic feedback when tapping Touch Bar”
 
 # Research
 
-- [Papers, Slides and Thesis Archive](https://web.archive.org/web/20210125134604/https://papers.put.as/macosx/macosx/) - [osxreverser](https://web.archive.org/web/20210125134604/https://twitter.com/osxreverser)
-- [osx-security-awesome](https://web.archive.org/web/20210125134604/https://github.com/kai5263499/osx-security-awesome) “collection of OSX and iOS security resources”
+- [Papers, Slides and Thesis Archive](https://papers.put.as/macosx/macosx/) - [osxreverser](https://twitter.com/osxreverser)
+- [osx-security-awesome](https://github.com/kai5263499/osx-security-awesome) “collection of OSX and iOS security resources”
 
 ## Blogs
 
-- [The Eclectic Light Company](https://web.archive.org/web/20210125134604/https://eclecticlight.co/category/macs/) - [Howard Oakley](https://web.archive.org/web/20210125134604/https://twitter.com/howardnoakley) (Security, General)
-- [mac4n6](https://web.archive.org/web/20210125134604/https://www.mac4n6.com/) - [Sarah Edwards](https://web.archive.org/web/20210125134604/https://twitter.com/iamevltwin) (Forensics)
-- [Objective-See](https://web.archive.org/web/20210125134604/https://objective-see.com/blog.html) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) (Security)
-- [derflounder](https://web.archive.org/web/20210125134604/https://derflounder.wordpress.com/) - [Rich Trouton](https://web.archive.org/web/20210125134604/https://twitter.com/rtrouton) (General, Security)
+- [The Eclectic Light Company](https://eclecticlight.co/category/macs/) - [Howard Oakley](https://twitter.com/howardnoakley) (Security, General)
+- [mac4n6](https://www.mac4n6.com/) - [Sarah Edwards](https://twitter.com/iamevltwin) (Forensics)
+- [Objective-See](https://objective-see.com/blog.html) - [Patrick Wardle](https://twitter.com/patrickwardle) (Security)
+- [derflounder](https://derflounder.wordpress.com/) - [Rich Trouton](https://twitter.com/rtrouton) (General, Security)
 
 ## Talks
 
 #### Older
 
-- [Thunderstrike: EFI bootkits for Apple MacBooks](https://web.archive.org/web/20210125134604/https://media.ccc.de/v/31c3_-_6128_-_en_-_saal_1_-_201412291830_-_thunderstrike_efi_bootkits_for_apple_macbooks_-_trammell_hudson) - [Trammell Hudson](https://web.archive.org/web/20210125134604/https://twitter.com/qrs) [Annotated Slides](https://web.archive.org/web/20210125134604/https://trmm.net/Thunderstrike_31c3) (31c3)
-- [De Mysteriis Dom Jobsivs: Mac EFI Rootkits](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=W21ZIaKf5HA) - [snare](https://web.archive.org/web/20210125134604/https://twitter.com/snare) [Slides](https://web.archive.org/web/20210125134604/https://media.blackhat.com/bh-us-12/Briefings/Loukas_K/BH_US_12_LoukasK_De_Mysteriis_Dom_Jobsivs_Slides.pdf) (Black Hat 2012)
+- [Thunderstrike: EFI bootkits for Apple MacBooks](https://media.ccc.de/v/31c3_-_6128_-_en_-_saal_1_-_201412291830_-_thunderstrike_efi_bootkits_for_apple_macbooks_-_trammell_hudson) - [Trammell Hudson](https://twitter.com/qrs) [Annotated Slides](https://trmm.net/Thunderstrike_31c3) (31c3)
+- [De Mysteriis Dom Jobsivs: Mac EFI Rootkits](https://www.youtube.com/watch?v=W21ZIaKf5HA) - [snare](https://twitter.com/snare) [Slides](https://media.blackhat.com/bh-us-12/Briefings/Loukas_K/BH_US_12_LoukasK_De_Mysteriis_Dom_Jobsivs_Slides.pdf) (Black Hat 2012)
 
 #### 2015
 
-- [Stick That In Your (root)Pipe & Smoke It](https://web.archive.org/web/20210125134604/https://vimeo.com/147887652) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) (Ekoparty 2015)
-- [ThunderStrike 2: Sith Strike](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=xxl5xOQxXOk) - [Xeno Kovah](https://web.archive.org/web/20210125134604/https://twitter.com/XenoKovah) [Slides](https://web.archive.org/web/20210125134604/http://www.legbacore.com/Research_files/TS2-HITB_GSEC.pdf) (HITBGSEC 2015)
-- [ThunderStrike 2: Sith Strike](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=CtEdfMP6rJo) - [Trammell Hudson](https://web.archive.org/web/20210125134604/https://twitter.com/qrs), [Xeno Kovah](https://web.archive.org/web/20210125134604/https://twitter.com/XenoKovah) & [Corey Kallenberg](https://web.archive.org/web/20210125134604/https://twitter.com/coreykal) [Annotated Slides](https://web.archive.org/web/20210125134604/https://trmm.net/Thunderstrike2_details) (Black Hat 2015)
-- [DLL Hijacking on OS X](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=PGVNja2MNws) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) [Slides](https://web.archive.org/web/20210125134604/https://s3.amazonaws.com/s3.synack.com/canSecW.pdf) (DEFCON 23)
+- [Stick That In Your (root)Pipe & Smoke It](https://vimeo.com/147887652) - [Patrick Wardle](https://twitter.com/patrickwardle) (Ekoparty 2015)
+- [ThunderStrike 2: Sith Strike](https://www.youtube.com/watch?v=xxl5xOQxXOk) - [Xeno Kovah](https://twitter.com/XenoKovah) [Slides](http://www.legbacore.com/Research_files/TS2-HITB_GSEC.pdf) (HITBGSEC 2015)
+- [ThunderStrike 2: Sith Strike](https://www.youtube.com/watch?v=CtEdfMP6rJo) - [Trammell Hudson](https://twitter.com/qrs), [Xeno Kovah](https://twitter.com/XenoKovah) & [Corey Kallenberg](https://twitter.com/coreykal) [Annotated Slides](https://trmm.net/Thunderstrike2_details) (Black Hat 2015)
+- [DLL Hijacking on OS X](https://www.youtube.com/watch?v=PGVNja2MNws) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://s3.amazonaws.com/s3.synack.com/canSecW.pdf) (DEFCON 23)
 
 #### 2016
 
-- [The Apple Sandbox: Deeper Into The Quagmire](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=mG715HcDgO8) - [Jonathan Levin](https://web.archive.org/web/20210125134604/https://twitter.com/Morpheus______) [Slides](https://web.archive.org/web/20210125134604/http://newosxbook.com/files/HITSB.pdf) (HITBGSEC 2016)
-- [I've got 99 Problems, but LittleSnitch ain't one](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=sRcHt-sxcPI) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) [Slides](https://web.archive.org/web/20210125134604/https://speakerd.s3.amazonaws.com/presentations/881b7cc511b34f73a6009d4c4e3ac2ad/DefCon_2016.pdf) (DEFCON 24)
-- [Thunderstrike 2](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=B3vQCaak1EI) - [Trammell Hudson](https://web.archive.org/web/20210125134604/https://twitter.com/qrs) (CITP Princeton)
+- [The Apple Sandbox: Deeper Into The Quagmire](https://www.youtube.com/watch?v=mG715HcDgO8) - [Jonathan Levin](https://twitter.com/Morpheus______) [Slides](http://newosxbook.com/files/HITSB.pdf) (HITBGSEC 2016)
+- [I've got 99 Problems, but LittleSnitch ain't one](https://www.youtube.com/watch?v=sRcHt-sxcPI) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://speakerd.s3.amazonaws.com/presentations/881b7cc511b34f73a6009d4c4e3ac2ad/DefCon_2016.pdf) (DEFCON 24)
+- [Thunderstrike 2](https://www.youtube.com/watch?v=B3vQCaak1EI) - [Trammell Hudson](https://twitter.com/qrs) (CITP Princeton)
 
 #### 2017
 
-- [The Apple of your EFI](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=VT7WwAyOCXI) - [Rich Smith](https://web.archive.org/web/20210125134604/http://twitter.com/iodboi) and [Pepijn Bruienne](https://web.archive.org/web/20210125134604/https://twitter.com/bruienne) (Ekoparty 2017)
-- [Oversight: Exposing Spies On MacOS](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=xsDGozG5t9A) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) (HITBAMS 2017)
+- [The Apple of your EFI](https://www.youtube.com/watch?v=VT7WwAyOCXI) - [Rich Smith](http://twitter.com/iodboi) and [Pepijn Bruienne](https://twitter.com/bruienne) (Ekoparty 2017)
+- [Oversight: Exposing Spies On MacOS](https://www.youtube.com/watch?v=xsDGozG5t9A) - [Patrick Wardle](https://twitter.com/patrickwardle) (HITBAMS 2017)
 
 #### 2018
 
-- [A Deep Dive into macOS MDM](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=ku8jZe-MHUU) - [Jesse Endahl](https://web.archive.org/web/20210125134604/https://twitter.com/jesseendahl) & [Max Bélanger](https://web.archive.org/web/20210125134604/https://twitter.com/maxbelanger) [Slides](https://web.archive.org/web/20210125134604/https://www.dropbox.com/s/8gcuckiwfcmjsr5/us-18-Endahl-A-Deep-Dive-Into-macOS-MDM-And-How-It-Can-Be-Compromised.pdf) (Black Hat 2018)
-- [Fire & Ice: Making and Breaking macOS Firewalls](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=UANF2FQctDg) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) [Slides](https://web.archive.org/web/20210125134604/https://speakerdeck.com/patrickwardle/fire-and-ice-making-and-breaking-macos-firewalls) (Black Hat 2018)
-- [The Mouse is Mightier than the Sword](https://web.archive.org/web/20210125134604/https://www.youtube.com/watch?v=gLrB7enpbiw) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) [Slides](https://web.archive.org/web/20210125134604/https://media.defcon.org/DEF CON 26/DEF CON 26 presentations/Patrick Wardle/DEFCON-26-Patrick-Wardle-The-Mouse-Is-Mightier-Synthetic0Reality.pdf) (DEFCON 26)
+- [A Deep Dive into macOS MDM](https://www.youtube.com/watch?v=ku8jZe-MHUU) - [Jesse Endahl](https://twitter.com/jesseendahl) & [Max Bélanger](https://twitter.com/maxbelanger) [Slides](https://www.dropbox.com/s/8gcuckiwfcmjsr5/us-18-Endahl-A-Deep-Dive-Into-macOS-MDM-And-How-It-Can-Be-Compromised.pdf) (Black Hat 2018)
+- [Fire & Ice: Making and Breaking macOS Firewalls](https://www.youtube.com/watch?v=UANF2FQctDg) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://speakerdeck.com/patrickwardle/fire-and-ice-making-and-breaking-macos-firewalls) (Black Hat 2018)
+- [The Mouse is Mightier than the Sword](https://www.youtube.com/watch?v=gLrB7enpbiw) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://media.defcon.org/DEF CON 26/DEF CON 26 presentations/Patrick Wardle/DEFCON-26-Patrick-Wardle-The-Mouse-Is-Mightier-Synthetic0Reality.pdf) (DEFCON 26)
 
 ## Slides
 
-- [The Apple Sandbox](https://web.archive.org/web/20210125134604/https://media.blackhat.com/bh-dc-11/Blazakis/BlackHat_DC_2011_Blazakis_Apple Sandbox-Slides.pdf) - Dionysus Blazakis (No video)
-- [OS X El Capitan sinking the S\H/IP](https://web.archive.org/web/20210125134604/https://papers.put.as/papers/macosx/2016/syscan360stefanesserosxelcapitansinkingtheship.pdf) - [Stefan Esser](https://web.archive.org/web/20210125134604/https://twitter.com/i0n1c) (No video)
-- [Code Signing – Hashed Out](https://web.archive.org/web/20210125134604/http://www.newosxbook.com/articles/CodeSigning.pdf) - [Jonathan Levin](https://web.archive.org/web/20210125134604/https://twitter.com/Morpheus______) (No video)
+- [The Apple Sandbox](https://media.blackhat.com/bh-dc-11/Blazakis/BlackHat_DC_2011_Blazakis_Apple Sandbox-Slides.pdf) - Dionysus Blazakis (No video)
+- [OS X El Capitan sinking the S\H/IP](https://papers.put.as/papers/macosx/2016/syscan360stefanesserosxelcapitansinkingtheship.pdf) - [Stefan Esser](https://twitter.com/i0n1c) (No video)
+- [Code Signing – Hashed Out](http://www.newosxbook.com/articles/CodeSigning.pdf) - [Jonathan Levin](https://twitter.com/Morpheus______) (No video)
 
 ## Articles
 
-- [The Evolution of Mac OS X Security and Privacy Features](https://web.archive.org/web/20210125134604/https://www.intego.com/mac-security-blog/mac-os-x-security-features-timeline/) - Joshua Long (Intego Mac Security Blog)
-- [Booting Secure](https://web.archive.org/web/20210125134604/https://michaellynn.github.io/2018/07/27/booting-secure/) - [Michael Lynn](https://web.archive.org/web/20210125134604/https://twitter.com/mikeymikey) On Mac Secure Boot
-- [Apple iMac Pro and Secure Storage](https://web.archive.org/web/20210125134604/https://duo.com/blog/apple-imac-pro-and-secure-storage) - Pepijn Bruienne (Duo Blog)
-- [Bypass macOS rootless by sandboxing](https://web.archive.org/web/20210125134604/https://medium.com/0xcc/bypass-macos-rootless-by-sandboxing-5e24cca744be) - [CodeColorist](https://web.archive.org/web/20210125134604/https://twitter.com/CodeColorist)
-- [Creating signed and customized backdoored macOS applications](https://web.archive.org/web/20210125134604/https://medium.com/@adam.toscher/creating-signed-and-customized-backdoored-macos-applications-by-abusing-apple-developer-tools-b4cbf1a98187) - [Adam Toscher](https://web.archive.org/web/20210125134604/https://twitter.com/W00Tock)
-- [Leveraging Emond on macOS For Persistence](https://web.archive.org/web/20210125134604/https://posts.specterops.io/leveraging-emond-on-macos-for-persistence-a040a2785124) - [Christopher Ross](https://web.archive.org/web/20210125134604/https://twitter.com/xorrior) (SpecterOps)
-- [macOS 10.13.1 insecure cron system](https://web.archive.org/web/20210125134604/https://m4.rkw.io/blog/macos-high-sierra-10131-insecure-cron-system.html) - Mark Wadham
-- [Load & Execute Bundles with migrationTool](https://web.archive.org/web/20210125134604/https://posts.specterops.io/load-execute-bundles-with-migrationtool-f952e276e1a6?gi=8d4811ed1eb0) - [Christopher Ross](https://web.archive.org/web/20210125134604/https://twitter.com/xorrior) (SpecterOps)
-- [MacOS monitoring the open source way](https://web.archive.org/web/20210125134604/https://blogs.dropbox.com/tech/2018/04/4696/) - Michael George (Dropbox Blog)
-- [Little Snitch Detection in Malware](https://web.archive.org/web/20210125134604/https://bitrot.sh/post/24-12-2017-little-snitch/) - [bitsrot](https://web.archive.org/web/20210125134604/https://twitter.com/bitsrot)
-- [A useless analysis of macOS (OS X) release dates](https://web.archive.org/web/20210125134604/https://robservatory.com/a-useless-analysis-of-os-x-release-dates/) - [Rob Griffiths](https://web.archive.org/web/20210125134604/https://twitter.com/rgriff)
-- [Encrypting for Apple's Secure Enclave](https://web.archive.org/web/20210125134604/https://darthnull.org/security/2018/05/31/secure-enclave-ecies/) - [David Schuetz](https://web.archive.org/web/20210125134604/https://twitter.com/darthnull)
-- [The Empire Strikes Back Apple](https://web.archive.org/web/20210125134604/https://reverse.put.as/2015/05/29/the-empire-strikes-back-apple-how-your-mac-firmware-security-is-completely-broken/) - [osxreverser](https://web.archive.org/web/20210125134604/https://twitter.com/osxreverser)
-- [macOS FileVault2 Password Retrieval](https://web.archive.org/web/20210125134604/http://blog.frizk.net/2016/12/filevault-password-retrieval.html) - [Ulf Frisk](https://web.archive.org/web/20210125134604/https://twitter.com/UlfFrisk)
-- [Escaping the Sandbox – MS Office on MacOS](https://web.archive.org/web/20210125134604/https://www.mdsec.co.uk/2018/08/escaping-the-sandbox-microsoft-office-on-macos/) - MDSec
-- [task_t considered harmful](https://web.archive.org/web/20210125134604/https://googleprojectzero.blogspot.com/2016/10/taskt-considered-harmful.html) - [Ian Beer](https://web.archive.org/web/20210125134604/https://twitter.com/i41nbeer) (Project Zero Blog)
-- [Reverse Engineering macOS High Sierra Supplemental Update](https://web.archive.org/web/20210125134604/https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/) - [Daniel Martín](https://web.archive.org/web/20210125134604/https://twitter.com/dmartincy/)
-- [Password Cracking AES-256 DMGs and Epic Self-Pwnage](https://web.archive.org/web/20210125134604/https://www.whitehatsec.com/blog/cracking-aes-256-dmgs-and-epic-self-pwnage/) - [Jeremiah Grossman](https://web.archive.org/web/20210125134604/https://twitter.com/jeremiahg)
-- [The Apple of Your EFI: Mac Firmware Security Research](https://web.archive.org/web/20210125134604/https://duo.com/blog/the-apple-of-your-efi-mac-firmware-security-research) - [Rich Smith](https://web.archive.org/web/20210125134604/http://twitter.com/iodboi) and [Pepijn Bruienne](https://web.archive.org/web/20210125134604/https://twitter.com/bruienne) (Duo Blog)
+- [The Evolution of Mac OS X Security and Privacy Features](https://www.intego.com/mac-security-blog/mac-os-x-security-features-timeline/) - Joshua Long (Intego Mac Security Blog)
+- [Booting Secure](https://michaellynn.github.io/2018/07/27/booting-secure/) - [Michael Lynn](https://twitter.com/mikeymikey) On Mac Secure Boot
+- [Apple iMac Pro and Secure Storage](https://duo.com/blog/apple-imac-pro-and-secure-storage) - Pepijn Bruienne (Duo Blog)
+- [Bypass macOS rootless by sandboxing](https://medium.com/0xcc/bypass-macos-rootless-by-sandboxing-5e24cca744be) - [CodeColorist](https://twitter.com/CodeColorist)
+- [Creating signed and customized backdoored macOS applications](https://medium.com/@adam.toscher/creating-signed-and-customized-backdoored-macos-applications-by-abusing-apple-developer-tools-b4cbf1a98187) - [Adam Toscher](https://twitter.com/W00Tock)
+- [Leveraging Emond on macOS For Persistence](https://posts.specterops.io/leveraging-emond-on-macos-for-persistence-a040a2785124) - [Christopher Ross](https://twitter.com/xorrior) (SpecterOps)
+- [macOS 10.13.1 insecure cron system](https://m4.rkw.io/blog/macos-high-sierra-10131-insecure-cron-system.html) - Mark Wadham
+- [Load & Execute Bundles with migrationTool](https://posts.specterops.io/load-execute-bundles-with-migrationtool-f952e276e1a6?gi=8d4811ed1eb0) - [Christopher Ross](https://twitter.com/xorrior) (SpecterOps)
+- [MacOS monitoring the open source way](https://blogs.dropbox.com/tech/2018/04/4696/) - Michael George (Dropbox Blog)
+- [Little Snitch Detection in Malware](https://bitrot.sh/post/24-12-2017-little-snitch/) - [bitsrot](https://twitter.com/bitsrot)
+- [A useless analysis of macOS (OS X) release dates](https://robservatory.com/a-useless-analysis-of-os-x-release-dates/) - [Rob Griffiths](https://twitter.com/rgriff)
+- [Encrypting for Apple's Secure Enclave](https://darthnull.org/security/2018/05/31/secure-enclave-ecies/) - [David Schuetz](https://twitter.com/darthnull)
+- [The Empire Strikes Back Apple](https://reverse.put.as/2015/05/29/the-empire-strikes-back-apple-how-your-mac-firmware-security-is-completely-broken/) - [osxreverser](https://twitter.com/osxreverser)
+- [macOS FileVault2 Password Retrieval](http://blog.frizk.net/2016/12/filevault-password-retrieval.html) - [Ulf Frisk](https://twitter.com/UlfFrisk)
+- [Escaping the Sandbox – MS Office on MacOS](https://www.mdsec.co.uk/2018/08/escaping-the-sandbox-microsoft-office-on-macos/) - MDSec
+- [task_t considered harmful](https://googleprojectzero.blogspot.com/2016/10/taskt-considered-harmful.html) - [Ian Beer](https://twitter.com/i41nbeer) (Project Zero Blog)
+- [Reverse Engineering macOS High Sierra Supplemental Update](https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/) - [Daniel Martín](https://twitter.com/dmartincy/)
+- [Password Cracking AES-256 DMGs and Epic Self-Pwnage](https://www.whitehatsec.com/blog/cracking-aes-256-dmgs-and-epic-self-pwnage/) - [Jeremiah Grossman](https://twitter.com/jeremiahg)
+- [The Apple of Your EFI: Mac Firmware Security Research](https://duo.com/blog/the-apple-of-your-efi-mac-firmware-security-research) - [Rich Smith](http://twitter.com/iodboi) and [Pepijn Bruienne](https://twitter.com/bruienne) (Duo Blog)
 
 ## Papers
 
-- [The Apple Sandbox](https://web.archive.org/web/20210125134604/https://dl.packetstormsecurity.net/papers/general/apple-sandbox.pdf) - Dionysus Blazakis (2011)
-- [De Mysteriis Dom Jobsivs: Mac EFI Rootkits](https://web.archive.org/web/20210125134604/http://ho.ax/De_Mysteriis_Dom_Jobsivs_Black_Hat_Paper.pdf) - [snare](https://web.archive.org/web/20210125134604/https://twitter.com/snare) (2012)
-- [Dylib hijacking on OS X](https://web.archive.org/web/20210125134604/https://www.virusbulletin.com/uploads/pdf/magazine/2015/vb201503-dylib-hijacking.pdf) - [Patrick Wardle](https://web.archive.org/web/20210125134604/https://twitter.com/patrickwardle) (2015)
-- [A Deep Dive into macOS MDM](https://web.archive.org/web/20210125134604/https://www.dropbox.com/s/d5ikab99q7h3aga/us-18-Endahl-A-Deep-Dive-Into-macOS-MDM-And-How-It-Can-Be-Compromised-wp.pdf) - [Jesse Endahl](https://web.archive.org/web/20210125134604/https://twitter.com/jesseendahl) & [Max Bélanger](https://web.archive.org/web/20210125134604/https://twitter.com/maxbelanger) (2018)
+- [The Apple Sandbox](https://dl.packetstormsecurity.net/papers/general/apple-sandbox.pdf) - Dionysus Blazakis (2011)
+- [De Mysteriis Dom Jobsivs: Mac EFI Rootkits](http://ho.ax/De_Mysteriis_Dom_Jobsivs_Black_Hat_Paper.pdf) - [snare](https://twitter.com/snare) (2012)
+- [Dylib hijacking on OS X](https://www.virusbulletin.com/uploads/pdf/magazine/2015/vb201503-dylib-hijacking.pdf) - [Patrick Wardle](https://twitter.com/patrickwardle) (2015)
+- [A Deep Dive into macOS MDM](https://www.dropbox.com/s/d5ikab99q7h3aga/us-18-Endahl-A-Deep-Dive-Into-macOS-MDM-And-How-It-Can-Be-Compromised-wp.pdf) - [Jesse Endahl](https://twitter.com/jesseendahl) & [Max Bélanger](https://twitter.com/maxbelanger) (2018)
 
 ## Forensics
 
-- [Detection of Backdating the System Clock in macOS](https://web.archive.org/web/20210125134604/http://cyberforensicator.com/2018/01/21/detection-of-backdating-the-system-clock-in-macos/) - [Igor Mikhaylov](https://web.archive.org/web/20210125134604/https://twitter.com/Weare4n6)
-- [How to mount Mac APFS images in Windows](https://web.archive.org/web/20210125134604/https://az4n6.blogspot.com/2018/01/how-to-mount-mac-apfs-images-in-windows.html) - [Mari Degrazia](https://web.archive.org/web/20210125134604/https://twitter.com/maridegrazia)
-- [Mounting an APFS image in Linux](https://web.archive.org/web/20210125134604/https://az4n6.blogspot.com/2018/01/mounting-apfs-image-in-linux.html) - [Mari Degrazia](https://web.archive.org/web/20210125134604/https://twitter.com/maridegrazia)
-- [I Know What You Did Last Month: A New Artifact of Execution on macOS 10.13](https://web.archive.org/web/20210125134604/https://www.crowdstrike.com/blog/i-know-what-you-did-last-month-a-new-artifact-of-execution-on-macos-10-13/) - Kshitij Kumar and Jai Musunuri (CrowdStrike Blog)
-- [Introducing Unified Logging](https://web.archive.org/web/20210125134604/https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging ) - [Sarah Edwards](https://web.archive.org/web/20210125134604/https://twitter.com/iamevltwin )
+- [Detection of Backdating the System Clock in macOS](http://cyberforensicator.com/2018/01/21/detection-of-backdating-the-system-clock-in-macos/) - [Igor Mikhaylov](https://twitter.com/Weare4n6)
+- [How to mount Mac APFS images in Windows](https://az4n6.blogspot.com/2018/01/how-to-mount-mac-apfs-images-in-windows.html) - [Mari Degrazia](https://twitter.com/maridegrazia)
+- [Mounting an APFS image in Linux](https://az4n6.blogspot.com/2018/01/mounting-apfs-image-in-linux.html) - [Mari Degrazia](https://twitter.com/maridegrazia)
+- [I Know What You Did Last Month: A New Artifact of Execution on macOS 10.13](https://www.crowdstrike.com/blog/i-know-what-you-did-last-month-a-new-artifact-of-execution-on-macos-10-13/) - Kshitij Kumar and Jai Musunuri (CrowdStrike Blog)
+- [Introducing Unified Logging](https://www.mac4n6.com/blog/2016/11/13/new-macos-sierra-1012-forensic-artifacts-introducing-unified-logging ) - [Sarah Edwards](https://twitter.com/iamevltwin )
 
 ## Exploits
 
-- [DYLD_ROOT_PATH vulnerability](https://web.archive.org/web/20210125134604/https://github.com/luismiras/muymacho) (10.10.5)
-- [task_t considered harmful](https://web.archive.org/web/20210125134604/https://bugs.chromium.org/p/project-zero/issues/attachmentText?aid=256266) - [Ian Beer](https://web.archive.org/web/20210125134604/https://twitter.com/i41nbeer) (10.11.5) (10.12)
+- [DYLD_ROOT_PATH vulnerability](https://github.com/luismiras/muymacho) (10.10.5)
+- [task_t considered harmful](https://bugs.chromium.org/p/project-zero/issues/attachmentText?aid=256266) - [Ian Beer](https://twitter.com/i41nbeer) (10.11.5) (10.12)
 
 # Books
 
-- [Mac OS X Internals: A Systems Approach](https://web.archive.org/web/20210125134604/http://osxbook.com/) - Amit Singh (2006)
-- [The Mac Hacker's Handbook](https://web.archive.org/web/20210125134604/https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363) - [Charlie Miller](https://web.archive.org/web/20210125134604/https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://web.archive.org/web/20210125134604/https://twitter.com/dinodaizovi) ([ Amazon](https://web.archive.org/web/20210125134604/https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)) (2009)
-- [Mac OS X and iOS Internals](https://web.archive.org/web/20210125134604/http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://web.archive.org/web/20210125134604/https://twitter.com/Morpheus______) ([ Amazon](https://web.archive.org/web/20210125134604/https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)) ([ Legit PDF](https://web.archive.org/web/20210125134604/http://newosxbook.com/MOXiI.pdf)) (2012)
+- [Mac OS X Internals: A Systems Approach](http://osxbook.com/) - Amit Singh (2006)
+- [The Mac Hacker's Handbook](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) ([ Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)) (2009)
+- [Mac OS X and iOS Internals](http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://twitter.com/Morpheus______) ([ Amazon](https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)) ([ Legit PDF](http://newosxbook.com/MOXiI.pdf)) (2012)
 
 ## MacOS and iOS Internals (Levin)
 
-- [MacOS and iOS Internals, Volume I - User Mode](https://web.archive.org/web/20210125134604/http://newosxbook.com/index.php) - [Jonathan Levin](https://web.archive.org/web/20210125134604/https://twitter.com/Morpheus______) ([ Amazon](https://web.archive.org/web/20210125134604/https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)) (2017)
-- [MacOS and iOS Internals, Volume III: Security & Insecurity](https://web.archive.org/web/20210125134604/http://newosxbook.com/index.php) - [Jonathan Levin](https://web.archive.org/web/20210125134604/https://twitter.com/Morpheus______) ([ Amazon ](https://web.archive.org/web/20210125134604/https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)) (2016)
+- [MacOS and iOS Internals, Volume I - User Mode](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) ([ Amazon](https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)) (2017)
+- [MacOS and iOS Internals, Volume III: Security & Insecurity](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) ([ Amazon ](https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)) (2016)

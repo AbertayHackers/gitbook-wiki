@@ -2,9 +2,9 @@
 
 A great way to learn some extra stuff, network with other people and (usually) get free pizza and beer. A lot of them are listed on
 
-- [https://www.meetup.com](https://web.archive.org/web/20210125134942/https://www.meetup.com/)
-- [https://opentechcalendar.co.uk/](https://web.archive.org/web/20210125134942/https://opentechcalendar.co.uk/)
-- [https://www.thedatalab.com/events](https://web.archive.org/web/20210125134942/https://www.thedatalab.com/events)
+- [https://www.meetup.com](https://www.meetup.com/)
+- [https://opentechcalendar.co.uk/](https://opentechcalendar.co.uk/)
+- [https://www.thedatalab.com/events](https://www.thedatalab.com/events)
 
 ## Dundee
 
@@ -22,7 +22,7 @@ Frequency:
 
 Where: Queen Mother Building, Dundee University, DD1 4HN
 
-Website: [https://techmeetup.co.uk/dundee.html](https://web.archive.org/web/20210125134942/https://techmeetup.co.uk/dundee.html)
+Website: [https://techmeetup.co.uk/dundee.html](https://techmeetup.co.uk/dundee.html)
 
 ## Aberdeen
 
@@ -32,7 +32,7 @@ Frequency: Last Thursday of the month (i think)
 
 Where: 57 north hacklab
 
-Website: [https://cryptonoise.org](https://web.archive.org/web/20210125134942/https://cryptonoise.org/)
+Website: [https://cryptonoise.org](https://cryptonoise.org/)
 
 ## Edinburgh
 
@@ -42,9 +42,9 @@ Frequency: first Monday of every month
 
 Where: Beehive Inn on grassmarket
 
-Website: [http://dc44131.org/](https://web.archive.org/web/20210125134942/http://dc44131.org/)
+Website: [http://dc44131.org/](http://dc44131.org/)
 
-Website: [https://2600edinburgh.org/](https://web.archive.org/web/20210125134942/https://2600edinburgh.org/)
+Website: [https://2600edinburgh.org/](https://2600edinburgh.org/)
 
 ### OWASP Scotland
 
@@ -52,7 +52,7 @@ Frequency: infrequent. Sign up to mailing list for news
 
 Where:
 
-Website: [https://www.owasp.org/index.php/Scotland](https://web.archive.org/web/20210125134942/https://www.owasp.org/index.php/Scotland)
+Website: [https://www.owasp.org/index.php/Scotland](https://www.owasp.org/index.php/Scotland)
 
 ## Glasgow
 
@@ -62,7 +62,7 @@ Frequency: First Tuesday of the month
 
 Where:
 
-Website: [https://www.meetup.com/Glasgow-Defcon-DC44141/](https://web.archive.org/web/20210125134942/https://www.meetup.com/Glasgow-Defcon-DC44141/)
+Website: [https://www.meetup.com/Glasgow-Defcon-DC44141/](https://www.meetup.com/Glasgow-Defcon-DC44141/)
 
 ## London
 
@@ -96,7 +96,7 @@ Frequency: Monthly
 
 Where: WeWork, Bishopsgate, EC2N 3AR
 
-Website: [https://www.meetup.com/SecTalks-London/](https://web.archive.org/web/20210125134942/https://www.meetup.com/SecTalks-London/)
+Website: [https://www.meetup.com/SecTalks-London/](https://www.meetup.com/SecTalks-London/)
 
 ### OWASP London
 
@@ -104,4 +104,4 @@ Frequency:
 
 Where:
 
-Website: [https://www.owasp.org/index.php/London](https://web.archive.org/web/20210125134942/https://www.owasp.org/index.php/London)
+Website: [https://www.owasp.org/index.php/London](https://www.owasp.org/index.php/London)

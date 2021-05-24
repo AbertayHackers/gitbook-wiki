@@ -1,7 +1,7 @@
 # PGP
 
 This is a Joker page, ie. it mainly links to things. A possible rework might move common elements from other PGP guides here.
-For now, feel free to just add links worth reading[1)](https://wiki.hacksoc.co.uk/guides/pgp#fn__1).
+For now, feel free to just add links worth reading
 
 ## Theory
 
@@ -33,7 +33,3 @@ For now, feel free to just add links worth reading[1)](https://wiki.hacksoc.co.u
 ### iOS
 
 Due to [Apple's rules](https://www.fsf.org/news/2010-05-app-store-compliance) for the App Store being incompatible with the GPL, no ready, open source solution is available. The program below seems to be the only implementation still being worked on. Possible project for dissertation? [Objective PGP(program)](https://github.com/krzyzanowskim/ObjectivePGP)
-
-[1)](https://wiki.hacksoc.co.uk/guides/pgp#fnt__1) 
-
-Ordered from basic to advanced, with Wiki articles taking precedence. Note the level of competence they require if it isn't low

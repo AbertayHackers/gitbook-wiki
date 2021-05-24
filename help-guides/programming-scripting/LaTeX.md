@@ -1,6 +1,6 @@
 # LaTeX
 
-“LaTeX, which is pronounced «Lah-tech» or «Lay-tech», is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.”[1)](https://wiki.hacksoc.co.uk/guides/latex#fn__1)
+“LaTeX, which is pronounced «Lah-tech» or «Lay-tech», is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.”
 
 [What is the difference between TeX and LaTeX?](https://tex.stackexchange.com/questions/49/what-is-the-difference-between-tex-and-latex)
 
@@ -48,13 +48,13 @@ Executing `sudo tlmgr update –all` will actually update them.
 To build your Bibliography run:
 
 1. `pdflatex whitepaper.tex`
-2. `bibtex whitepaper.aux`[2)](https://wiki.hacksoc.co.uk/guides/latex#fn__2)
+2. `bibtex whitepaper.aux`
 3. `pdflatex whitepaper.tex`
 
 To build your Glossary run:
 
 1. `pdflatex whitepaper.tex`
-2. `makeglossaries whitepaper` [3)](https://wiki.hacksoc.co.uk/guides/latex#fn__3)
+2. `makeglossaries whitepaper` 
 3. `pdflatex whitepaper.tex`
 
 ### Shit You Might Encounter While Compiling
@@ -67,7 +67,7 @@ To build your Glossary run:
 
 ## Referencing
 
-From September 2017, Abertay adopted the Cite Them Right version of Harvard [4)](https://wiki.hacksoc.co.uk/guides/latex#fn__4)
+From September 2017, Abertay adopted the Cite Them Right version of Harvard 
 
 When referencing a website the references page entry should look like:
 
@@ -133,8 +133,8 @@ Usage: `Cost \customtilde \$10,000`
 
 ## Templates
 
-- Template for 4th year dissertation proposal (two-column) – [Two column proposal template](https://wiki.hacksoc.co.uk/_media/meetings/2columndissproposaltemp.tex)
-- Template for 4th year dissertation (one column, 1.5 line spaced with special documentation pages and title page) – [Dissertation Template with Bibliography and LoT and LoF](https://gist.github.com/admrply/11174cc930f48b52c3ef6f0511a343a0)
+- Template for 4th year dissertation proposal (two-column) – Two column proposal template
+- Template for 4th year dissertation (one column, 1.5 line spaced with special documentation pages and title page) – Dissertation Template with Bibliography and LoT and LoF
 
 #### Syntax Highlighting
 
@@ -191,24 +191,8 @@ Enables support for Text Companion fonts such as legal, currency and mathematica
 
 ## Resources
 
-- [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex ![;-)](https://wiki.hacksoc.co.uk/lib/images/smileys/icon_wink.gif)
+- [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex 
 - [Tex StackExchange](https://tex.stackexchange.com/)
 - [Awesome Documentation that 'just works'](https://www.sharelatex.com/learn)
 - [The Comprehensive LATEX Symbol List](https://www.cs.cmu.edu/~bhudson/symbols-letter.pdf)
 - [Arbitrary LaTeX Reference](http://latex.knobs-dials.com/) “Many problems in LaTeX requires some research, so I started to record my findings.”
-
-[1)](https://wiki.hacksoc.co.uk/guides/latex#fnt__1) 
-
-https://www.latex-project.org/about/
-
-[2)](https://wiki.hacksoc.co.uk/guides/latex#fnt__2) 
-
-https://en.wikibooks.org/wiki/LaTeX/Glossary#Building_your_document
-
-[3)](https://wiki.hacksoc.co.uk/guides/latex#fnt__3) 
-
-http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907111
-
-[4)](https://wiki.hacksoc.co.uk/guides/latex#fnt__4) 
-
-[https://intranet.abertay.ac.uk/download.php?f=CTR%20Harvard%202017-18.pdf](https://intranet.abertay.ac.uk/download.php?f=CTR Harvard 2017-18.pdf)
