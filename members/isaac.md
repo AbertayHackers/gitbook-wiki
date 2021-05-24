@@ -27,6 +27,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Installing Kali in VMWare](../help-guides/software/operating-systems/kali-walkthrough.md)
 * [A Guide to Markdown](../help-guides/programming-scripting.markdown.md)
 * [Some formatting rules for contributing to the Wiki](../contributing/contributions/formatting.md)
+* [Vim](../help-guides/software/tools/vim.md)
 
 ### Articles I edited
 

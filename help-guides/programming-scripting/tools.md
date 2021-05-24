@@ -50,3 +50,4 @@ A highly configurable (normally) [terminal based text editor](https://www.vim.or
 ### GitHub Desktop
 
 [GitHub Desktop](https://desktop.github.com/) is GitHub's own cross platform GitHub client.
+

@@ -8,7 +8,7 @@ It **will not** explain how PGP works or good tradecraft to deploy when using PG
 
 ## Install GPG Suite
 
-Head over to [GPGTools](https://gpgtools.org/) and download the latest version of the package[3)](https://wiki.hacksoc.co.uk/guides/mac-pgp#fn__3). Go to `Finder > Downloads > GPGSuite.dmg` and double click it. A box should pop up, just like the one below.
+Head over to [GPGTools](https://gpgtools.org/) and download the latest version of the package. Go to `Finder > Downloads > GPGSuite.dmg` and double click it. A box should pop up, just like the one below.
 
 ![GPG Suite start screen in MacOS](https://i.imgur.com/PkaEhox.png)
 

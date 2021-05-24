@@ -4,7 +4,7 @@ This guide was written and tested on Android 5, and according to the authors of 
 
 ### Ingredients
 
-1. [Open Keychain](https://wiki.hacksoc.co.uk/guides/pgp.android#open_keychain) - Essential. Handles key management and the actual decryption, other apps just use it's API to work with PGP
+1. Open Keychain - Essential. Handles key management and the actual decryption, other apps just use it's API to work with PGP
 2. Communication app of your choice. This guide will use K-9 Mail, but a [number of other options](https://www.openkeychain.org/apps/) are available.
 3. Password Manager - Highly recommended, but not necessary. For convenience, use a password manager with support for the same password database format as on the desktop. All of [KeePass(.kbd & .kbdx)](https://play.google.com/store/apps/details?id=com.android.keepass), [PasswordSafe(.psafe3)](https://pwsafe.org/) and [PasswordStore](https://www.passwordstore.org/) have Android versions.
 
