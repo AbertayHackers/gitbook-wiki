@@ -4,7 +4,7 @@
 
 ## Override DHCP Nameservers (Debian/ Ubuntu)
 
-[Source](https://web.archive.org/web/20210125134502/http://unix.stackexchange.com/a/154538)
+[Source](http://unix.stackexchange.com/a/154538)
 
 ```bash
 sudo nano /etc/dhcp/dhclient.conf

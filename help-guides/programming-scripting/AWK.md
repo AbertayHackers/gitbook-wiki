@@ -29,7 +29,7 @@ Variables in AWK are referenced with a $ sign. A number of variables are defined
 
 ### Pattern Matching
 
-AWK has full support for [regex](https://wiki.hacksoc.co.uk/guides/regex), and will match lines based on the pattern provided. For example
+AWK has full support for [regex](../software/tools/regular-expressions.md), and will match lines based on the pattern provided. For example
 
 ```awk
 awk '/hello/ {print $0}'
