@@ -8,7 +8,7 @@ they/them :)
 
 ## About Me
 
-Abertay Hackers class of '23. Really interested in the security of infrastructure, industrial control systems, and Internet of Things devices. So, you know, all the things that are computers but don't feel like they are lol.
+Abertay Hackers class of '23. Really interested in the security of infrastructure, industrial control systems, and Internet of Things devices. So, you know, all the things that are computers but don't feel like they are lol. I'm also an avid Linux stan, but admittedly haven't made the jump to having it as a daily driver yet. My preferred Distro is [KDE Manjaro](https://manjaro.org/downloads/official/kde/) and I use [zsh](https://en.wikipedia.org/wiki/Z_shell) as my shell (because it's just lovely).
 
 Outside of Security and tech I'm really into music and am an occasional bassist (the bass is the best don't @ me), anything with a groove goes straight to my heart. I've had a huge passion for movies for years now and have over 460 films logged in my Letterboxd (which I think is probably a lot, right?).
 
@@ -28,6 +28,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [A Guide to Markdown](../help-guides/programming-scripting.markdown.md)
 * [Some formatting rules for contributing to the Wiki](../contributing/contributions/formatting.md)
 * [Vim](../help-guides/software/tools/vim.md)
+* [Linux Commands for Beginners](../help-guides/software/operating-systems/linux-commands.md)
 
 ### Articles I edited
 
