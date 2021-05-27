@@ -49,6 +49,7 @@
     * [The Browser Exploitation Framework (BeEF)](help-guides/software/tools/the-browser-exploitation-framework.md)
     * [Nmap](help-guides/software/tools/nmap.md)
     * [Vim](help-guides/software/tools/vim.md)
+    * [Zsh](help-guides/software/tools/zsh.md)
 * [Networking](help-guides/networking.md)
   * [Domain Name System (DNS)](help-guides/networking/dns.md)
   * [Remote access to your Abertay network drive](help-guides/networking/remote-access-to-your-abertay-network-drive.md)

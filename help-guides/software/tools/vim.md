@@ -1,3 +1,10 @@
+---
+description: >-
+  a guide to the Vim text editor
+---
+
+
+
 # Vim
 
 *By [Isaac](../../../members/isaac.md)*

@@ -29,6 +29,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Some formatting rules for contributing to the Wiki](../contributing/contributions/formatting.md)
 * [Vim](../help-guides/software/tools/vim.md)
 * [Linux Commands for Beginners](../help-guides/software/operating-systems/linux-commands.md)
+* [Zsh](../help-guides/software/tools/zsh.md)
 
 ### Articles I edited
 

@@ -17,6 +17,8 @@ A typical man page will give you the name of the tool, its general usage syntax 
 
 ![the nmap man page in a stock Ubuntu terminal](../../../.gitbook/assets/man-nmap.png)
 
+Typically, if a command doesn't have a `man` page, using the `-h`/`--help` flag allows the user to view some usage info (such as helpful additional flags etc.)
+
 ## ls
 
 `ls` is a standard Linux tool that allows a user to list information about the files in a certain directory. If used without switches (simply typing `ls`), then the program will just list the names of files, subdirectories, and programs in that directory at that time. If  used with switches, however, a user can get much more information out of the directory.
@@ -52,3 +54,34 @@ There are various options you can give it, that can all be used in tandem with o
 `cp` copies a file from one location to another, and `mv` moves it. `mv` also has the secondary function of renaming a file if the file path specified is the same as the  current location of the file in question.
 
 ![copying test.txt to another file and then moving the original file (renaming it in this case)](../../../.gitbook/assets/cp-mv.png)
+
+## grep
+
+
+
+## awk
+
+
+
+## sed
+
+
+
+## less and more
+
+
+
+## | (pipe)
+
+
+
+## xargs
+
+
+
+## test
+
+
+
+## time
+
