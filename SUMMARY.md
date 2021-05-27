@@ -38,6 +38,7 @@
 * [Software](help-guides/software/README.md)
   * [Operating Systems](help-guides/software/operating-systems/README.md)
     * [Installing Kali](help-guides/software/operating-systems/kali-walkthrough.md)
+    * [Linux Commands for Beginners](help-guides/software/operating-systems/linux-commands.md)
     * [MacOS](help-guides/software/operating-systems/macos.md)
   * [Tools](help-guides/software/tools/README.md)
     * PGP
@@ -48,6 +49,7 @@
     * [The Browser Exploitation Framework (BeEF)](help-guides/software/tools/the-browser-exploitation-framework.md)
     * [Nmap](help-guides/software/tools/nmap.md)
     * [Vim](help-guides/software/tools/vim.md)
+    * [Zsh](help-guides/software/tools/zsh.md)
 * [Networking](help-guides/networking.md)
   * [Domain Name System (DNS)](help-guides/networking/dns.md)
   * [Remote access to your Abertay network drive](help-guides/networking/remote-access-to-your-abertay-network-drive.md)
