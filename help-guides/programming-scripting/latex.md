@@ -6,22 +6,20 @@
 
 ## Get LaTeX
 
-- [MacOS](http://www.tug.org/mactex/) (Required)
-
-- Windows
-  - [MiKTeX ](http://miktex.org/)(Required)
-  - [TexMaker](http://www.xm1math.net/texmaker/download.html#windows)
-  - [proTeXt](http://www.tug.org/protext/)
-  - [TeX Live](http://www.tug.org/texlive)
-
-- Linux
-  - [Tex Live ](http://www.tug.org/texlive)(Required)
+* [MacOS](http://www.tug.org/mactex/) \(Required\)
+* Windows
+  * [MiKTeX ](http://miktex.org/)\(Required\)
+  * [TexMaker](http://www.xm1math.net/texmaker/download.html#windows)
+  * [proTeXt](http://www.tug.org/protext/)
+  * [TeX Live](http://www.tug.org/texlive)
+* Linux
+  * [Tex Live ](http://www.tug.org/texlive)\(Required\)
 
 [Source](https://www.latex-project.org/get/)
 
 ## Manually Package Management
 
-On *nix systems `tlmgr` can be used to install and update packages from the command line.
+On \*nix systems `tlmgr` can be used to install and update packages from the command line.
 
 ### Install Package
 
@@ -59,47 +57,46 @@ To build your Glossary run:
 
 ### Shit You Might Encounter While Compiling
 
-- When using the `glossaries` package the `\printglossaries` command wont print your Glossary if you've suppressed page numbers with `\pagenumbering{gobble}`
+* When using the `glossaries` package the `\printglossaries` command wont print your Glossary if you've suppressed page numbers with `\pagenumbering{gobble}`
 
 ## Editors
 
-- [gummi](https://github.com/alexandervdm/gummi) “Simple LaTeX editor” [Linux & Windows]
+* [gummi](https://github.com/alexandervdm/gummi) “Simple LaTeX editor” \[Linux & Windows\]
 
 ## Referencing
 
-From September 2017, Abertay adopted the Cite Them Right version of Harvard 
+From September 2017, Abertay adopted the Cite Them Right version of Harvard
 
 When referencing a website the references page entry should look like:
 
-```tex
+```text
   National Literacy Trust (2011) Policy. Available at: http://www.literacytrust.org.uk/policy
   (Accessed: 7 January 2011).
 ```
 
 The in-text citation should look like:
 
-```tex
+```text
   (National Literacy Trust, 2011)
 ```
 
 The `natbib` package can be used to achieve this referencing style. The following should be in your preamble:
 
-```tex
+```text
   \usepackage{natbib}
   \setcitestyle{aysep={,}}
 ```
 
 The following should be placed wherever you want your References page rendered:
 
-```tex
+```text
   \bibliographystyle{agsm}
   \bibliography{bibfile}
-  
 ```
 
 The following entry in your `.bib` file will produce the correct reference page entry:
 
-```tex
+```text
   @misc{nlt_2011,
   title={Policy},
   author={{N}ational {L}iteracy {T}rust},
@@ -115,7 +112,7 @@ Credit to [Rory](https://twitter.com/Sheldorr) for putting in most of the leg wo
 
 ### Tilde
 
-```tex
+```text
 \newcommand\customtilderaise.17ex_hbox_scriptstyle_mathtt_sim}
 ```
 
@@ -126,27 +123,27 @@ Usage: `Cost \customtilde \$10,000`
 ### Page Breaks
 
 > In situations like a chapter start it is advisable to end the previous chapter with a `\clearpage` to flush out all floats, but in other situations this might result fairly empty pages with only floats on them which may or may not be desired.
-
+>
 > A second difference is `\clearpage` actually always starts a new “page” while `\newpage` really only ends the current column.
 
 [Source](https://tex.stackexchange.com/questions/45609/is-it-wrong-to-use-clearpage-instead-of-newpage)
 
 ## Templates
 
-- Template for 4th year dissertation proposal (two-column) – Two column proposal template
-- Template for 4th year dissertation (one column, 1.5 line spaced with special documentation pages and title page) – Dissertation Template with Bibliography and LoT and LoF
+* Template for 4th year dissertation proposal \(two-column\) – Two column proposal template
+* Template for 4th year dissertation \(one column, 1.5 line spaced with special documentation pages and title page\) – Dissertation Template with Bibliography and LoT and LoF
 
 #### Syntax Highlighting
 
-```tex
+```text
   \usepackage{listings}
   \usepackage{color}
-  
+
   \definecolor{codegreen}{rgb}{0,0.6,0}
   \definecolor{codegray}{rgb}{0.5,0.5,0.5}
   \definecolor{codepurple}{rgb}{0.58,0,0.82}
   \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-  
+
   \lstdefinestyle{mystyle}{
       backgroundcolor=\color{backcolour},   
       commentstyle=\color{codegreen},
@@ -164,12 +161,12 @@ Usage: `Cost \customtilde \$10,000`
       showstringspaces=false,
       showtabs=false,                  
       tabsize=2
-  } 
+  }
 ```
 
 Then use
 
-```tex
+```text
   \begin{lstlisting}[language=Python,style=MyStyle]
       Radge code
   \end{lstlisting}
@@ -181,9 +178,9 @@ Then use
 
 Enables support for Text Companion fonts such as legal, currency and mathematical symbols.
 
-```tex
+```text
   \usepackage{textcomp}
-  
+
   A\textrightarrow B
   10\textcelsius
   Sony\texttrademark
@@ -191,8 +188,9 @@ Enables support for Text Companion fonts such as legal, currency and mathematica
 
 ## Resources
 
-- [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex 
-- [Tex StackExchange](https://tex.stackexchange.com/)
-- [Awesome Documentation that 'just works'](https://www.sharelatex.com/learn)
-- [The Comprehensive LATEX Symbol List](https://www.cs.cmu.edu/~bhudson/symbols-letter.pdf)
-- [Arbitrary LaTeX Reference](http://latex.knobs-dials.com/) “Many problems in LaTeX requires some research, so I started to record my findings.”
+* [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex 
+* [Tex StackExchange](https://tex.stackexchange.com/)
+* [Awesome Documentation that 'just works'](https://www.sharelatex.com/learn)
+* [The Comprehensive LATEX Symbol List](https://www.cs.cmu.edu/~bhudson/symbols-letter.pdf)
+* [Arbitrary LaTeX Reference](http://latex.knobs-dials.com/) “Many problems in LaTeX requires some research, so I started to record my findings.”
+

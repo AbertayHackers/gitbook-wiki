@@ -1,11 +1,10 @@
 ---
-description: >-
-  A guide to formatting when committing to the Hacksoc wiki
+description: A guide to formatting when committing to the Hacksoc wiki
 ---
 
 # Formatting and Best Practise
 
-*By [Isaac](../../members/isaac.md)*
+_By_ [_Isaac_](../../members/members/isaac.md)
 
 There are a few things you'll need to consider when contributing to the Wiki when writing articles, creating new sections, and making general improvements.
 
@@ -14,7 +13,7 @@ This article will go over a few recommendations for formatting and best practise
 ## General Tips
 
 * If you're adding a new section/directory, make sure to add a `README.md` file with the name of the section as the title
-* If you're creating a new document or section, add it (and a link to it) in the `SUMMARY.md` file in the root of the wiki
+* If you're creating a new document or section, add it \(and a link to it\) in the `SUMMARY.md` file in the root of the wiki
 * Don't forget to add a [by-line](https://en.wikipedia.org/wiki/Byline) if you want to be credited for the article
   * If there's already a by-line for an article you're editing, just add your own name on
 
@@ -25,5 +24,5 @@ This article will go over a few recommendations for formatting and best practise
 
 ## Editing using GitBook
 
-[TBA]
+\[TBA\]
 

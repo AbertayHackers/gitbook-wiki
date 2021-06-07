@@ -1,11 +1,10 @@
 ---
-description: >-
-  Guide to contributing to the wiki via Github
+description: Guide to contributing to the wiki via Github
 ---
 
 # Using Git
 
-*by [@Sam1ser](https://twitter.com/Sam1ser)*
+_by_ [_@Sam1ser_](https://twitter.com/Sam1ser)
 
 You will need a Github account and a place where you can use git.
 

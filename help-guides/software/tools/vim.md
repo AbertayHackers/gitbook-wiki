@@ -1,17 +1,14 @@
 ---
-description: >-
-  a guide to the Vim text editor
+description: a guide to the Vim text editor
 ---
-
-
 
 # Vim
 
-*By [Isaac](../../../members/isaac.md)*
+_By_ [_Isaac_](../../../members/members/isaac.md)
 
 ![Vim with the Gruvbox Dark Theme installed](../../../.gitbook/assets/vim-gruvbox.png)
 
-Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor (hence the name vim, standing for vi iMproved), which was originally published in 1976 for some essentially prehistoric computer systems.
+Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor \(hence the name vim, standing for vi iMproved\), which was originally published in 1976 for some essentially prehistoric computer systems.
 
 Its wide availability and extensive customisability, on top of the efficiency the program affords makes it one of the most popular and most preferred text editors by many amateur and professional programmers.
 
@@ -19,9 +16,9 @@ Its wide availability and extensive customisability, on top of the efficiency th
 
 1. Wide availability
 
-   Vim, and its predecessor vi, is pretty much ubiquitous across all Unix based systems. Essentially it's possible to access any Unix terminal anywhere in the world, (including over SSH which is a big benefit for CLI text editors), and be pretty confident that the vi/vim text editors will be on there so you can start editing straight away. 
+   Vim, and its predecessor vi, is pretty much ubiquitous across all Unix based systems. Essentially it's possible to access any Unix terminal anywhere in the world, \(including over SSH which is a big benefit for CLI text editors\), and be pretty confident that the vi/vim text editors will be on there so you can start editing straight away.
 
-   As hackers this is really important, as in the course of our work it's often important to access many different machines and edit text on them, having a constant like vi/vim is really nice. 
+   As hackers this is really important, as in the course of our work it's often important to access many different machines and edit text on them, having a constant like vi/vim is really nice.
 
 2. Great documentation and a fantastic community
 
@@ -31,27 +28,27 @@ Its wide availability and extensive customisability, on top of the efficiency th
 
 3. Customisability
 
-   Through the usage of the `vimrc` config file (examples at the bottom of this page), you can customise Vim to your absolute heart's content. You can change colour schemes, remap key bindings, add plugins that allow you to do essentially anything you could do in an IDE, configure tabs and whitespace, and so much more. You really can do anything with Vim and enough time.
+   Through the usage of the `vimrc` config file \(examples at the bottom of this page\), you can customise Vim to your absolute heart's content. You can change colour schemes, remap key bindings, add plugins that allow you to do essentially anything you could do in an IDE, configure tabs and whitespace, and so much more. You really can do anything with Vim and enough time.
 
 4. Efficiency
 
-   This is the big one, and the main reason that most people can be such Vim evangelists. In most text editors, you're thrown into the editor able to write to the buffer immediately, this is brilliant if you're editing a long stream of text and not going back to edit it much (like writing a report or something), but not so great when writing code. In code you often have to edit single lines at a time and quickly jump to other lines in other parts of the document, Vim makes this process much quicker and easier by removing the mouse from the equation and making you edit using keystrokes without straying too far from the home row (starting asdf). 
+   This is the big one, and the main reason that most people can be such Vim evangelists. In most text editors, you're thrown into the editor able to write to the buffer immediately, this is brilliant if you're editing a long stream of text and not going back to edit it much \(like writing a report or something\), but not so great when writing code. In code you often have to edit single lines at a time and quickly jump to other lines in other parts of the document, Vim makes this process much quicker and easier by removing the mouse from the equation and making you edit using keystrokes without straying too far from the home row \(starting asdf\).
 
-   "How does this work?" you may ask, well, Vim is a modal editor, meaning there are several distinct modes you can put the editor in, including "Insert" (`i`), which is what you'd expect from a text editor, "Visual" (`v`), which highlights blocks of text,  and "Normal" (`Esc`), which allows you to navigate the document.
+   "How does this work?" you may ask, well, Vim is a modal editor, meaning there are several distinct modes you can put the editor in, including "Insert" \(`i`\), which is what you'd expect from a text editor, "Visual" \(`v`\), which highlights blocks of text, and "Normal" \(`Esc`\), which allows you to navigate the document.
 
-   [This article](https://betterprogramming.pub/understanding-the-efficiency-of-vim-d6a5ab8feb2d) on the efficiency of Vim is a great introduction. TL;DR: you're able to send commands (like `dd` which deletes a line), repeat the commands by adding a number (`d10d` deletes 10 lines)
+   [This article](https://betterprogramming.pub/understanding-the-efficiency-of-vim-d6a5ab8feb2d) on the efficiency of Vim is a great introduction. TL;DR: you're able to send commands \(like `dd` which deletes a line\), repeat the commands by adding a number \(`d10d` deletes 10 lines\)
 
 ## How to learn
 
 You may be thinking this is all very complicated, and you'd be right. The skill ceiling for Vim is famously high, but when you get the hang of it it becomes second nature and improves workflow massively. How do you start learning though?
 
-Helpfully, when you install the Vim package, it comes bundled with a program called `vimtutor`,  this program resembles a vim text file and walks you through editing itself in the same way you'd edit a text file in Vim. Once you complete it you should have a rudimentary grasp on the editor.
+Helpfully, when you install the Vim package, it comes bundled with a program called `vimtutor`, this program resembles a vim text file and walks you through editing itself in the same way you'd edit a text file in Vim. Once you complete it you should have a rudimentary grasp on the editor.
 
 ## Some Basics
 
-With thanks to David Rayner and his [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips) article on the Vim wiki (recommended skim).
+With thanks to David Rayner and his [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips) article on the Vim wiki \(recommended skim\).
 
-```
+```text
 <Esc> is the escape key or use <ctrl>[  sometimes written as  <C-[>
 
 vimtutor    : starts vim editing a copy of a tutorial file -- very good.
@@ -98,20 +95,20 @@ Commands are case sensitive:
 
 ## Further Reading
 
-- [The Vim Website](https://www.vim.org/)
-- [Vim's Man page](https://linux.die.net/man/1/vim)
-- [Vi/Vim stack exchange](https://vi.stackexchange.com/)
-- [Vimawesome](https://vimawesome.com/) (plugin site)
-- [Cheat sheet](https://vim.rtorr.com/)
-- [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
+* [The Vim Website](https://www.vim.org/)
+* [Vim's Man page](https://linux.die.net/man/1/vim)
+* [Vi/Vim stack exchange](https://vi.stackexchange.com/)
+* [Vimawesome](https://vimawesome.com/) \(plugin site\)
+* [Cheat sheet](https://vim.rtorr.com/)
+* [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
 
-## Various vimrcs (configs)
+## Various vimrcs \(configs\)
 
 ### Isaac's vimrc
 
 To use this `vimrc` file you'll need to install [Vundle](https://github.com/VundleVim/Vundle.vim) and [Gruvbox](https://github.com/morhetz/gruvbox).
 
-```vimscript
+```text
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -181,7 +178,7 @@ Plugin 'scrooloose/syntastic' # syntax checking
 
 ### Sam's vimrc
 
-```vimscript
+```text
 "        _
 " __   _(_)_ __ ___  _ __ ___  
 " \ \ / / | '_ ` _ \| '__/ __| 
@@ -257,7 +254,7 @@ Plugin 'scrooloose/syntastic' # syntax checking
 " hex editing
     " bind command for calling hex mode function
     command -bar Hexmode call ToggleHex()
-    
+
     " hex editing toggle function
     function ToggleHex()
         if !exists("b:editingHex") || !b:editingHex
@@ -272,14 +269,12 @@ Plugin 'scrooloose/syntastic' # syntax checking
             %!xxd -r
         endif
     endfunction
-    
+
     " bind ctrl+B to toggle hex mode in 
     nnoremap <C-B> :Hexmode<CR>
     inoremap <C-B> <Esc>:Hexmode<CR>
     vnoremap <C-B> :<C-U>Hexmode<CR>
 ```
-
-
 
 ![:wq!](../../../.gitbook/assets/vim-logo.png)
 

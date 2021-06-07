@@ -9,3 +9,4 @@ Nick Sulivan of CloudFlare does an excellent job of explaining the IETF standard
 [Current Draft](https://tlswg.github.io/tls13-spec/)
 
 [36:40 onwards](https://media.ccc.de/v/33c3-8348-deploying_tls_1_3_the_great_the_good_and_the_bad#video&t=2204)
+

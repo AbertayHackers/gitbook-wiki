@@ -1,4 +1,4 @@
-# Open Source Intelligence (OSINT)
+# Open Source Intelligence \(OSINT\)
 
 `TARGET` is used to represent the username of the person/ account that you're actually targeting.
 
@@ -6,14 +6,14 @@
 
 ### Facebook
 
-- [Stalkscan](https://stalkscan.com/) - “All 'public' info Facebook doesn't let you see”
+* [Stalkscan](https://stalkscan.com/) - “All 'public' info Facebook doesn't let you see”
 
 ### Twitter
 
-- [Twitter Advanced Search](https://twitter.com/search-advanced)
-- [Social Bearing](https://socialbearing.com/)
-- [Sleeping Time](http://sleepingtime.org/) (Requires sign in)
-- [tweet-device.py](https://github.com/0xmachos/python-scripts/blob/master/tweet-device.py) See devices used to tweet (Requires API keys)
+* [Twitter Advanced Search](https://twitter.com/search-advanced)
+* [Social Bearing](https://socialbearing.com/)
+* [Sleeping Time](http://sleepingtime.org/) \(Requires sign in\)
+* [tweet-device.py](https://github.com/0xmachos/python-scripts/blob/master/tweet-device.py) See devices used to tweet \(Requires API keys\)
 
 ## Techniques
 
@@ -23,7 +23,7 @@
 
 Find Tweets that mention `TARGET` and contain the words `Happy`, `Birthday`, or `bday`.
 
-```
+```text
 https://twitter.com/search?l=&q=Happy%20OR%20Birthday%20OR%20bday%20%40TARGET
 ```
 
@@ -31,8 +31,8 @@ https://twitter.com/search?l=&q=Happy%20OR%20Birthday%20OR%20bday%20%40TARGET
 
 Scroll to bottom of:
 
-- `https://twitter.com/TARGET/following`
-- `https://twitter.com/TARGET/followers`
+* `https://twitter.com/TARGET/following`
+* `https://twitter.com/TARGET/followers`
 
 `CTRL` + `F`, search for `TARGET`'s last name.
 
@@ -42,8 +42,9 @@ You probably want to [script](http://www.tweepy.org/) this for accounts with a l
 
 #### Family
 
-```
+```text
 https://www.facebook.com/TARGET/friends
 ```
 
 If `TARGET`'s friends list is public, search for `TARGET`'s last name via search box.
+

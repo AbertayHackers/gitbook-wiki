@@ -1,11 +1,11 @@
-## Movies
+# Movies
 
 Here are some watchable hacker films and documentaries. Most of these are about hacking whereas some are more loosely infosec related. They're all still gud movies tho.
 
-### Films
+## Films
 
 | Title | Release date |
-| :----------------------------------------------------------- | :----------- |
+| :--- | :--- |
 | [WarGames](https://www.imdb.com/title/tt0086567/) | 1983 |
 | [Hackers](https://www.imdb.com/title/tt0113243/) | 1995 |
 | [Live Free or Die Hard](https://www.imdb.com/title/tt0337978/) | 2007 |
@@ -20,12 +20,13 @@ Here are some watchable hacker films and documentaries. Most of these are about 
 | [Snowden](https://www.imdb.com/title/tt3774114/) | 2016 |
 | [Sneakers](https://www.imdb.com/title/tt0105435/) | 1992 |
 
-### Documentaries
+## Documentaries
 
-| Title                                                        | Release Date |
-| :----------------------------------------------------------- | :----------- |
+| Title | Release Date |
+| :--- | :--- |
 | [We Are Legion](https://www.imdb.com/title/tt2177843/) | 2012 |
 | [The Internet's Own Boy](https://www.imdb.com/title/tt3268458/) | 2014 |
 | [Zero Days](https://www.imdb.com/title/tt5446858/) | 2016 |
 | [The Code](https://www.imdb.com/title/tt0315417/) | 2001 |
 | [The Great Hack](https://www.imdb.com/title/tt9358204/) | 2019 |
+
