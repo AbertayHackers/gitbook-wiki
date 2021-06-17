@@ -1,5 +1,13 @@
 # Server
 
+## 17/06/2021
+
+* Installed postfix and opendkim for a local SMTP server \(to be used for the Discord invite system\)
+* Updated DNS accordingly to include SPF, DMARC and DKIM records
+* Got the new VPS IP removed from a bunch of blocklists
+  * Emails are now received by uni email accounts, so, mission accomplished
+* Moved the bot across to the Hacksoc VPS
+
 ## 21/05/2021
 
 * Started the new VPS replacing the old Debian 8 i386 droplet
