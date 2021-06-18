@@ -34,19 +34,19 @@ This tutorial assumes you're using ERE \(Extended Regular Expressions\). Basic, 
 
 ## List of Metacharacters
 
-| **Metacharacter** | **Description** |  |  |
-| :--- | :--- | :--- | :--- |
-| `.` | Matches any single character \(whether this includes newlines sometimes depends on the application\) |  |  |
-| `[ ]` | A bracket expression. Matches a single character that is contained within the brackets. For example, \[abc\] matches “a”, “b”, or “c”. \[a-z\] specifies a range which matches any lowercase letter from “a” to “z”. |  |  |
-| `[^ ]` | Matches a single character that is not contained within the brackets. For example, `[^abc]` matches any character other than “a”, “b”, or “c”. `[^a-z]` matches any single character that is not a lowercase letter from “a” to “z”. |  |  |
-| `^` | Matches the starting position within the string. In line-based tools, it matches the starting position of any line. |  |  |
-| `$` | Matches the ending position of the string or the position just before a string-ending newline. In line-based tools, it matches the ending position of any line. |  |  |
-| `( )` | Defines a marked subexpression. The string that gets matched in the parentheses can be recalled later but that's a bit more advanced. |  |  |
-| \` | \` | The choice \(also known as alternation or set union\) operator matches either the expression before or the expression after the operator. For example, \`abc | def\` matches “abc” or “def”. |
-| `*` | Matches the preceding element zero or more times. For example, `ab*c` matches “ac”, “abc”, “abbbc”, etc. `[xyz]*` matches “”, “x”, “y”, “z”, “zx”, “zyx”, “xyzzy”, and so on. `(ab)*` matches “”, “ab”, “abab”, “ababab”, and so on. |  |  |
-| `?` | Matches the preceding element zero or one time. For example, ab?c matches only “ac” or “abc”. |  |  |
-| `+` | Matches the preceding element one or more times. For example, ab+c matches “abc”, “abbc”, “abbbc”, and so on, but not “ac”. |  |  |
-| `{m,n}` | Matches the preceding element at least `m` and not more than `n` times. For example, `a{3,5}` matches only “aaa”, “aaaa”, and “aaaaa”. This is not found in a few older instances of regexes. |  |  |
+| **Metacharacter** | **Description** |
+| :--- | :--- |
+| `.` | Matches any single character \(whether this includes newlines sometimes depends on the application\) |
+| `[ ]` | A bracket expression. Matches a single character that is contained within the brackets. For example, \[abc\] matches “a”, “b”, or “c”. \[a-z\] specifies a range which matches any lowercase letter from “a” to “z”. |
+| `[^ ]` | Matches a single character that is not contained within the brackets. For example, `[^abc]` matches any character other than “a”, “b”, or “c”. `[^a-z]` matches any single character that is not a lowercase letter from “a” to “z”. |
+| `^` | Matches the starting position within the string. In line-based tools, it matches the starting position of any line. |
+| `$` | Matches the ending position of the string or the position just before a string-ending newline. In line-based tools, it matches the ending position of any line. |
+| `( )` | Defines a marked subexpression. The string that gets matched in the parentheses can be recalled later but that's a bit more advanced. |
+| `\|` | The choice \(also known as alternation or set union\) operator matches either the expression before or the expression after the operator. For example, `abc \| def` matches “abc” or “def”. |
+| `*` | Matches the preceding element zero or more times. For example, `ab*c` matches “ac”, “abc”, “abbbc”, etc. `[xyz]*` matches “”, “x”, “y”, “z”, “zx”, “zyx”, “xyzzy”, and so on. `(ab)*` matches “”, “ab”, “abab”, “ababab”, and so on. |
+| `?` | Matches the preceding element zero or one time. For example, ab?c matches only “ac” or “abc”. |
+| `+` | Matches the preceding element one or more times. For example, ab+c matches “abc”, “abbc”, “abbbc”, and so on, but not “ac”. |
+| `{m,n}` | Matches the preceding element at least `m` and not more than `n` times. For example, `a{3,5}` matches only “aaa”, “aaaa”, and “aaaaa”. This is not found in a few older instances of regexes. |
 
 ## More Examples
 
