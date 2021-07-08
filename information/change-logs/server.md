@@ -1,5 +1,11 @@
 # Server
 
+## 08/07/2021
+
+* Moved all hacksoc/securi-tay sites from the old server to the new server
+* Installed the Discord bot under a systemd service
+* Created the discord.hacksoc.co.uk subdomain and set a holding page
+
 ## 17/06/2021
 
 * Installed postfix and opendkim for a local SMTP server \(to be used for the Discord invite system\)
