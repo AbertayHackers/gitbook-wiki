@@ -1,7 +1,5 @@
 # Secure Shell \(SSH\)
 
-By Mikey
-
 * [OpenSSH Manual Pages](https://www.openssh.com/manual.html)
 
 ## Guides
@@ -56,7 +54,7 @@ ssh-keygen -t ed25519 -a 100
 #### RSA
 
 ```text
-ssh-keygen -t rsa -b 4096 -a 100
+ssh-keygen -t rsa -b 2048 -a 100
 ```
 
 * `-t`: Type of key to generate
@@ -96,12 +94,45 @@ chmod 644 ~/.ssh/id_*.pub
 Only allow your user to access `~/.ssh` and your private keys, allow group and world to access your public keys.
 
 #### config
-
-Client configuration file, only lists no default settings.
-
-* config
-
-  `# ~/.shh/config # ssh_config(5) Host * # For all hosts use the following directives Protocol 2 # Use only protocol version two IdentitiesOnly yes # By default ssh will send all public keys (identities) in ~/.ssh to the server if you don't specify which key to use with -i # This prevents that by only using the public keys explicitly configured in config or specified with -i VisualHostKey yes # Print an ASCII art representation of the remote host key fingerprint at login and for unknown host keys HashKnownHosts yes # Hash host names and addresses when they are added to ~/.ssh/known_hosts. # ssh-keygen -R hostname # Removes all keys belonging to hostname from a known_hosts file. UseRoaming no # Mitigates CVE-0216-0777 # Cryptography KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 # Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred HostKeyAlgorithms ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com # Only allow ed25519 or RSA keys for client authentication Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com # Only use authenticated symmetric ciphers # aes listed for compatibility, chacha20-poly1305 is preferred MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com # Only use encrypt then mac (etm) MACs`
+ 
+ ```
+  # ~/.shh/config 
+  # ssh_config(5) 
+  
+  Host * 
+  # For all hosts use the following directives 
+  
+  Protocol 2 
+  # Use only protocol version two 
+  
+  IdentitiesOnly yes 
+  # By default ssh will send all public keys (identities) in ~/.ssh to the server if you don't specify which key to use with -i 
+  # This prevents that by only using the public keys explicitly configured in config or specified with -i 
+  
+  VisualHostKey yes 
+  # Print an ASCII art representation of the remote host key fingerprint at login and for unknown host keys 
+  
+  HashKnownHosts yes 
+  # Hash host names and addresses when they are added to ~/.ssh/known_hosts. 
+  # ssh-keygen -R hostname 
+  # Removes all keys belonging to hostname from a known_hosts file. 
+  UseRoaming no 
+  # Mitigates CVE-0216-0777 
+  
+  # Cryptography 
+  KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 
+  # Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred 
+  
+  HostKeyAlgorithms ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com 
+  # Only allow ed25519 or RSA keys for client authentication 
+  
+  Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com 
+  # Only use authenticated symmetric ciphers 
+  # aes listed for compatibility, chacha20-poly1305 is preferred 
+  
+  MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
+  # Only use encrypt then mac (etm) MACs
+ ```
 
 ### Server
 
@@ -116,9 +147,52 @@ Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These pe
 
 #### sshd\_config
 
-Server configuration file, only lists none default settings.
+```
+# /etc/ssh/sshd_config 
+# sshd_config(5) 
 
-* sshd\_config
+AddressFamily inet 
+# Only use IPv4 
 
-  `# /etc/ssh/sshd_config # sshd_config(5) AddressFamily inet # Only use IPv4 ListenAddress x.x.x.x # Default is to listen on all local addresses # Better to specify an actual IP address to listen on Protocol 2 # Only use protocol version 2 LogLevel VERBOSE # Logs user's key fingerprint on login HostKey /etc/ssh/ssh_host_rsa_key HostKey /etc/ssh/ssh_host_ed25519_key # Key files cannot be group/world-accessible PermitRootLogin no # root user cannot login via SSH AuthenticationMethods publickey # Only allow public key authentication for login Subsystem sftp internal-sftp # Use sshd internal SFTP server code (plays nicer with Chroot) # See https://serverfault.com/a/660325 for differences with # Subsystem sftp /usr/libexec/openssh/sftp-server # If you just scp files you can disable this to reduce attack surface # Cryptography KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 # Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred HostKeyAlgorithms ssh-ed25519,ssh-rsa # Only allow ed25519 or RSA keys for client authentication Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com # Only use authenticated symmetric ciphers # aes listed for compatibility, chacha20-poly1305 is preferred MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com # Only use encrypt then mac (etm) MACs`
+ListenAddress x.x.x.x 
+# Default is to listen on all local addresses 
+# Better to specify an actual IP address to listen on 
+
+Protocol 2 
+# Only use protocol version 2 
+
+LogLevel VERBOSE 
+# Logs user's key fingerprint on login 
+
+HostKey /etc/ssh/ssh_host_rsa_key 
+HostKey /etc/ssh/ssh_host_ed25519_key 
+# Key files cannot be group/world-accessible 
+
+PermitRootLogin no 
+# root user cannot login via SSH 
+
+AuthenticationMethods publickey 
+# Only allow public key authentication for login 
+
+Subsystem sftp internal-sftp 
+# Use sshd internal SFTP server code (plays nicer with Chroot) 
+# See https://serverfault.com/a/660325 for differences with 
+# Subsystem sftp /usr/libexec/openssh/sftp-server 
+# If you just scp files you can disable this to reduce attack surface 
+
+# Cryptography 
+
+KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 
+# Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred 
+
+HostKeyAlgorithms ssh-ed25519,ssh-rsa 
+# Only allow ed25519 or RSA keys for client authentication 
+
+Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com 
+# Only use authenticated symmetric ciphers 
+# aes listed for compatibility, chacha20-poly1305 is preferred 
+
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
+# Only use encrypt then mac (etm) MACs
+```
 
