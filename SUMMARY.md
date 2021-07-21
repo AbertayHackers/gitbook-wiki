@@ -37,6 +37,7 @@
   * [Tools](help-guides/programming-scripting/tools.md)
 * [Software](help-guides/software/README.md)
   * [Operating Systems](help-guides/software/operating-systems/README.md)
+    * [Installing Arch](help-guides/software/operating-systems/arch-walkthrough.md)
     * [Installing Kali](help-guides/software/operating-systems/kali-walkthrough.md)
     * [Linux Commands for Beginners](help-guides/software/operating-systems/linux-commands.md)
     * [MacOS](help-guides/software/operating-systems/macos.md)
