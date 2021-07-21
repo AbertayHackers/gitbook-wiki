@@ -4,7 +4,7 @@ _By_ [_Isaac_](../../../members/members/isaac.md)
 
 Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design. 
 
- ## Why Arch?
+## Why Arch?
 
 Arch's inherent customisability and lightweight design means it's the distro of choice for many users who like to have a lot of control over their operating system, the ability to choose exactly what packages you want, what desktop environment, services, and components, it's all up to you in Arch.
 
