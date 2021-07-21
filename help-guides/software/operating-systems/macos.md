@@ -1,10 +1,6 @@
 # MacOS
 
-By Mikey
-
-## MacOS
-
-### Intro/links/basics
+## Intro/links/basics
 
 * [A basic intro](http://www.macforbeginners.com/osx-guide/mac-os-x-introduction/)
 * [Security & Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
@@ -22,23 +18,17 @@ By Mikey
 
 * Adding `.nosync` to the end of a folder in iCloud Drive stops it being synced \(via [@jimconacher](https://twitter.com/jimconacher)\).
 
-### .bash\_profile vs .bashrc
+### .zshprofile
 
-`.bash_profile` is executed for login shells, while `.bashrc` is executed for interactive non-login shells
+macOS Catalina and later ship with `zsh` as [the default shell](https://support.apple.com/en-us/HT208050).
 
-By default `Terminal.app` runs a login shell.
-
-If you're adding `aliases`, exporting environment variables or setting a custom prompt that code should go in `.bash_profile`.
-
-[Source](https://apple.stackexchange.com/a/51038)
-
-See also [.bash\_profile vs .bashrc](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+* [Moving to Zsh](https://scriptingosx.com/2019/06/moving-to-zsh/) - [Armin Briegel](https://twitter.com/titanonearth)
 
 ### .hushlogin
 
 Add a `.hushlogin` file to the directory you terminal starts in to suppress the `Last login:` message at the top of your terminal.
 
-```text
+```shell
 touch .hushlogin
 ```
 
@@ -46,13 +36,13 @@ touch .hushlogin
 
 #### Change Key Combo
 
-Go to System Prefs &gt; Keyboard &gt; Shortcuts &gt; App Shortcuts
+Go to `System Preferences` &gt; `Keyboard` &gt; `Shortcuts` &gt; `App Shortcuts`
 
 Click `+` to add a new one called `Lock Screen` and set the key combo \(eg. `⌥⌘+L`\)
 
-#### Stop Wifi dropping on screen lock
+#### Stop Wifi Dropping on Screen Lock
 
-```text
+```shell
 cd /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/
 sudo ./airport en0 prefs DisconnectOnLogout=NO
 ```
@@ -62,13 +52,11 @@ sudo ./airport en0 prefs DisconnectOnLogout=NO
 * [Understanding DMG Files](https://www.blackbagtech.com/blog/2011/04/15/understanding-dmg-files-part-1-of-3/)
 * [Sparse Bundles Defined](http://www.thexlab.com/faqs/sparsebundledefined.html)
 
-## Random
+### Random
 
 * [How to Fix Slow SMB File Transfers on OS X](https://dpron.com/os-x-10-11-5-slow-smb/) - [Dan Roncadin](https://twitter.com/dpron)
 
 ## Homebrew
-
-_Going to start this off with it's own section but might fold it into General Advice later on_
 
 [Homebrew](https://brew.sh/) \(`brew`\) is a package manager for macOS akin to the [Advanced Package Tool](https://wiki.debian.org/Apt) \(`apt`\) on Debian and Ubuntu.
 
@@ -88,7 +76,7 @@ As of Homebrew [1.5.0](https://brew.sh/2018/01/19/homebrew-1.5.0/) `brew install
 
 This was fixed in [1.6.0](https://brew.sh/2018/04/09/homebrew-1.6.0/). `brew install python` still installs `python3.x` but will not symlink `python` to the `python3.x` binary. Running `python` will execute the system `python2.7.x` binary and running `python3` will execute the brew `python3.x` binary.
 
-See [Homebrew and Python ](https://docs.brew.sh/Homebrew-and-Python)for more info.
+See [Homebrew and Python ](https://docs.brew.sh/Homebrew-and-Python) for more info.
 
 ### Upgrading Packages
 
@@ -107,16 +95,7 @@ See [FAQ](https://docs.brew.sh/FAQ) for more info.
 
 We get [VMWare Fusion](https://www.vmware.com/products/fusion.html) free from [VMWare DreamSpark](https://vmapss.onthehub.com/WebStore/Welcome.aspx). Used by most mac wankers on the course. Would recommend over all other virtualisation programs for Mac.
 
-**defaultVMPath**
-
-By default Fusion creates `${HOME}/Documents/Virtual Machines` to store VMs in. This is likely sub optimal for those using [iCloud Drive](https://support.apple.com/en-gb/HT206985), you probably don't want to upload your 20GB VM to iCloud.
-
-The location Fusion saves VMs to can be changed:
-
-1. Create a new directory to store VMs e.g. `${HOME}/VMware Fusion`
-2. Add the line `“prefvmx.defaultVMPath = ${HOME}/VMware Fusion”` to `${HOME}/Library/Preferences/VMware Fusion/preferences`
-
-Taken from [bittersweet.sh](https://github.com/0xmachos/dotfiles/blob/02db588d31db68b2470b04df5ed242adaecdebf4/bittersweet.sh#L106-L145).
+Currently [does not work with M1 Macs](https://blogs.vmware.com/teamfusion/2021/04/fusion-on-apple-silicon-progress-update.html).
 
 #### Parallels
 
@@ -155,6 +134,7 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 
 * [BlockBlock](https://objective-see.com/products/blockblock.html) \(_Beta_\) Alerts when something is persistently installed
 * [OverSight](https://objective-see.com/products/oversight.html) Monitors and alerts on mic and webcam access
+* [LuLu](https://objective-see.com/products/lulu.html) Open-source application firewall 
 * [What's Your Sign?](https://objective-see.com/products/whatsyoursign.html) Adds a menu item to Finder.app to view the cryptographic signature of files
 
 ### Touch Bar
@@ -165,6 +145,7 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 
 * [Papers, Slides and Thesis Archive](https://papers.put.as/macosx/macosx/) - [osxreverser](https://twitter.com/osxreverser)
 * [osx-security-awesome](https://github.com/kai5263499/osx-security-awesome) “collection of OSX and iOS security resources”
+* [mac-white-papers](https://github.com/0xmachos/mac-white-papers) "Every OS X/ macOS white paper"
 
 ### Blogs
 
@@ -172,33 +153,34 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 * [mac4n6](https://www.mac4n6.com/) - [Sarah Edwards](https://twitter.com/iamevltwin) \(Forensics\)
 * [Objective-See](https://objective-see.com/blog.html) - [Patrick Wardle](https://twitter.com/patrickwardle) \(Security\)
 * [derflounder](https://derflounder.wordpress.com/) - [Rich Trouton](https://twitter.com/rtrouton) \(General, Security\)
+* [theevilbit](https://theevilbit.github.io/posts/) - [Csaba Fitzl](https://twitter.com/theevilbit)\(Security\)
 
 ### Talks
 
-**Older**
+#### Older
 
 * [Thunderstrike: EFI bootkits for Apple MacBooks](https://media.ccc.de/v/31c3_-_6128_-_en_-_saal_1_-_201412291830_-_thunderstrike_efi_bootkits_for_apple_macbooks_-_trammell_hudson) - [Trammell Hudson](https://twitter.com/qrs) [Annotated Slides](https://trmm.net/Thunderstrike_31c3) \(31c3\)
 * [De Mysteriis Dom Jobsivs: Mac EFI Rootkits](https://www.youtube.com/watch?v=W21ZIaKf5HA) - [snare](https://twitter.com/snare) [Slides](https://media.blackhat.com/bh-us-12/Briefings/Loukas_K/BH_US_12_LoukasK_De_Mysteriis_Dom_Jobsivs_Slides.pdf) \(Black Hat 2012\)
 
-**2015**
+#### 2015
 
 * [Stick That In Your \(root\)Pipe & Smoke It](https://vimeo.com/147887652) - [Patrick Wardle](https://twitter.com/patrickwardle) \(Ekoparty 2015\)
 * [ThunderStrike 2: Sith Strike](https://www.youtube.com/watch?v=xxl5xOQxXOk) - [Xeno Kovah](https://twitter.com/XenoKovah) [Slides](http://www.legbacore.com/Research_files/TS2-HITB_GSEC.pdf) \(HITBGSEC 2015\)
 * [ThunderStrike 2: Sith Strike](https://www.youtube.com/watch?v=CtEdfMP6rJo) - [Trammell Hudson](https://twitter.com/qrs), [Xeno Kovah](https://twitter.com/XenoKovah) & [Corey Kallenberg](https://twitter.com/coreykal) [Annotated Slides](https://trmm.net/Thunderstrike2_details) \(Black Hat 2015\)
 * [DLL Hijacking on OS X](https://www.youtube.com/watch?v=PGVNja2MNws) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://s3.amazonaws.com/s3.synack.com/canSecW.pdf) \(DEFCON 23\)
 
-**2016**
+#### 2016
 
 * [The Apple Sandbox: Deeper Into The Quagmire](https://www.youtube.com/watch?v=mG715HcDgO8) - [Jonathan Levin](https://twitter.com/Morpheus______) [Slides](http://newosxbook.com/files/HITSB.pdf) \(HITBGSEC 2016\)
 * [I've got 99 Problems, but LittleSnitch ain't one](https://www.youtube.com/watch?v=sRcHt-sxcPI) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://speakerd.s3.amazonaws.com/presentations/881b7cc511b34f73a6009d4c4e3ac2ad/DefCon_2016.pdf) \(DEFCON 24\)
 * [Thunderstrike 2](https://www.youtube.com/watch?v=B3vQCaak1EI) - [Trammell Hudson](https://twitter.com/qrs) \(CITP Princeton\)
 
-**2017**
+#### 2017
 
 * [The Apple of your EFI](https://www.youtube.com/watch?v=VT7WwAyOCXI) - [Rich Smith](http://twitter.com/iodboi) and [Pepijn Bruienne](https://twitter.com/bruienne) \(Ekoparty 2017\)
 * [Oversight: Exposing Spies On MacOS](https://www.youtube.com/watch?v=xsDGozG5t9A) - [Patrick Wardle](https://twitter.com/patrickwardle) \(HITBAMS 2017\)
 
-**2018**
+#### 2018
 
 * [A Deep Dive into macOS MDM](https://www.youtube.com/watch?v=ku8jZe-MHUU) - [Jesse Endahl](https://twitter.com/jesseendahl) & [Max Bélanger](https://twitter.com/maxbelanger) [Slides](https://www.dropbox.com/s/8gcuckiwfcmjsr5/us-18-Endahl-A-Deep-Dive-Into-macOS-MDM-And-How-It-Can-Be-Compromised.pdf) \(Black Hat 2018\)
 * [Fire & Ice: Making and Breaking macOS Firewalls](https://www.youtube.com/watch?v=UANF2FQctDg) - [Patrick Wardle](https://twitter.com/patrickwardle) [Slides](https://speakerdeck.com/patrickwardle/fire-and-ice-making-and-breaking-macos-firewalls) \(Black Hat 2018\)
