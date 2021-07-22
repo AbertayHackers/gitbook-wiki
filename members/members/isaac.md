@@ -31,6 +31,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Linux Commands for Beginners](../../help-guides/software/operating-systems/linux-commands.md)
 * [Zsh](../../help-guides/software/tools/zsh.md)
 * [Installing Arch](help-guides/software/operating-systems/arch-walkthrough.md)
+* [Subnetting](help-guides/networking/subnetting)
 
 #### Articles I edited
 
