@@ -2,7 +2,7 @@
 
 *By [Isaac](../../members/isaac.md)*
 
-Subnetting is the process of logically subdividing a network into one or more "subnets"
+Subnetting is the process of logically subdividing a network into one or more "sub-networks"
 
 I will be using this [really good video on the subject](https://www.youtube.com/watch?v=ecCuyq-Wprc) as a guide, as learning this in a classroom environment can get quite tricky and pretty complicated.
 
@@ -13,6 +13,8 @@ One day your supervisor walks to you, saying: “here is the network ID 192.168.
 
 Your task is to list each subnet  network ID,  subnet mask,  Host ID Range, # of usable host IDs, and Broadcast ID.  One last question: How many subnets are wasted after subnetting? 
 ```
+
+The network IP address that has been assigned to us is a **Class C** network (a full breakdown of network classes is available at the [Classful Network](https://en.wikipedia.org/wiki/Classful_network) wikipedia article), this means that there are only 256 addresses available initially. The reasoning behind this is that as a small, localised business with a limited number of devices on-network at any given moment, a large range of addresses can become unmanageable and, above all else, are simply unnecessary.
 
 Our first step is to create a subnetting table, this table is always the same, and can be used as a cheat sheet for subnetting work you do in future:
 
@@ -43,4 +45,3 @@ This is our table:
 - The Host ID Range is the range of *usable* IP addresses in each subnet, these are the IDs that can be granted to devices on a subnet in order for it to gain internet access.
 - Similar to the subnet mask, the number of usable hosts always remains the same due to the fact that each subnet is necessarily the same size. In this example there are 62 usable hosts because the first and last ID in any given subnet is reserved for the Network and Broadcast IDs respectively, and there are 64 total IDs because the maximum number of IDs on this network is 256, and 256 shared by 4 subnets is 64
 - Finally, the Broadcast ID, or Broadcast Address, is the final address available in a subnet, it ensures that transmission to other nodes in a local network (and indeed beyond) is possible
-
