@@ -108,77 +108,118 @@ Commands are case sensitive:
 
 To use this `vimrc` file you'll need to install [Vundle](https://github.com/VundleVim/Vundle.vim) and [Gruvbox](https://github.com/morhetz/gruvbox).
 
-```text
-set nocompatible              " be iMproved, required
-filetype off                  " required
+```vimscript
+"  _     _          _             _                    
+" (_)___| |__  _ __( )___  __   _(_)_ __ ___  _ __ ___ 
+" | |_  / '_ \| '__|// __| \ \ / / | '_ ` _ \| '__/ __|
+" | |/ /| |_) | |    \__ \  \ V /| | | | | | | | | (__ 
+" |_/___|_.__/|_|    |___/ (_)_/ |_|_| |_| |_|_|  \___|
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" misc defaults
+    set nocompatible
+    filetype off
+    set encoding=utf-8
+    set backspace=2
+    filetype plugin on
+    set showcmd
+    
+" colour scheme
+    syntax enable
+    colorscheme gruvbox
+    set background=dark
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+" tabs are 4 spaces
+    set expandtab
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
 
-" plugins from vimawesome.com "
-" git wrapper
-Plugin 'tpope/vim-fugitive'
-" filesystem explorer
-Plugin 'scrooloose/nerdtree'
-" syntax checking
-Plugin 'scrooloose/syntastic'
+" numbering 
+    set number
+    set relativenumber
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+" provides tab completion for all files (incl. subfolders)
+    set path+=**
 
-" colour scheme "
-" packadd! dracula
-syntax enable
-colorscheme gruvbox
+" automatically indent
+    set autoindent
 
-" tabs are 4 spaces "
-set tabstop=4
+" cursor movement
+    " line movement
+        imap <A-Left> <Esc> 0i
+        nmap <A-Left> 0
+        imap <A-Right> <Esc><Right> $i
+        nmap <A-Right> $
 
-" numbering "
-set number
-set relativenumber
+" search as characters are entered
+    set incsearch
+" highlight matched characters
+    set hlsearch
+" Ignore case when searching 
+    set ignorecase
 
-" automatically indent "
-set autoindent
+" shows an autocomplete menu when typing a command
+    set wildmenu
+    set wildignorecase " ignorecase autocomplete
+    set completeopt=preview
+    set wildmode=longest,list,full
 
-" spell check for markdown and txt files "
-autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_gb
-autocmd BufRead,BufNewFile *.txt setlocal spell spelllang=en_gb
+" display ruler on bottom right
+    set ruler
 
-" search as characters are entered "
-set incsearch
-" highlight matched characters "
-set hlsearch
-" Ignore case when searching "
-set ignorecase
+" auto updates file if external source edits the file
+    set autoread
 
-" shows an autocomplete menu when typing a command "
-set wildmenu
-set wildignorecase "ignorecase autocomplete
+" improves performance by only redrawing screen when required
+    set lazyredraw
 
-" display ruler on bottom right "
-set ruler
+" file browsing
+    " no banner
+    let g:netrw_banner = 0
+    " open file in previous window
+    let g:netrw_browse_split = 4
+    " 25% width
+    let g:netrw_winsize = 25
+    " for quick edits, open the file in sensible places
+    let g:netrw_altv = 1
+    let g:netrw_alto = 1
 
-" auto updates file if external source edits the file "
-set autoread
+    " open file browser in left window using ctrl+e
+        map <silent> <C-E> :Lexplore<CR>
 
-" improves performance by only redrawing screen when required "
-set lazyredraw
+" folding
+    set foldenable
+    set foldlevelstart=10
+    set foldmethod=indent
 
-" plugins (found at vimawesome.com) "
-Plugin 'tpope/vimfugitive' # git wrapper
-Plugin 'scrooloose/nerdtree' # filesystem explorer
-Plugin 'scrooloose/syntastic' # syntax checking
+    " folds code using spacebar instead of za combination
+        nnoremap <space> za 
+
+" creates tags file an allows you to jump to function definitions etc
+    command! MakeTags !ctags --recurse .
+    " - Use Ctrl-] to jump to tag under cursor
+    " - Use g-Ctrl-] for ambiguous tags
+    " - Use Ctrl-t to jump back up the tag stack
+
+" language specific settings
+    " plaintext and markdown
+        " spell check for markdown and txt files
+            autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_gb
+            autocmd BufRead,BufNewFile *.txt setlocal spell spelllang=en_gb
+
+    " python
+        " save and run python with f5 (second for if in insert mode)
+            autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python' shellescape(@%, 1)<CR>
+            autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python' shellescape(@%, 1)<CR>
+        " comment out selected lines (in visual moe)
+            autocmd FileType python noremap <F4> :norm I#<CR>       
+        " 80 column border
+            autocmd FileType python set colorcolumn=80
 ```
 
 ### Sam's vimrc
 
-```text
+```vimscript
 "        _
 " __   _(_)_ __ ___  _ __ ___  
 " \ \ / / | '_ ` _ \| '__/ __| 

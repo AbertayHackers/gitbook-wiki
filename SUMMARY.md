@@ -57,6 +57,7 @@
   * [Secure Shell \(SSH\)](help-guides/networking/ssh.md)
   * [TLS 1.3](help-guides/networking/tls-1-3.md)
   * [Wireshark](help-guides/networking/wireshark.md)
+  * [Subnetting](help-guides/networking/subnetting.md)
 * [Techniques](help-guides/techniques/README.md)
   * [A guide to creating malicious macro-enabled Excel worksheets](help-guides/techniques/a-guide-to-creating-malicious-macro-enabled-excel-worksheets.md)
   * [Open Source Intelligence \(OSINT\)](help-guides/techniques/open-source-intelligence.md)
