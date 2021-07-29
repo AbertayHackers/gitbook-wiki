@@ -28,7 +28,7 @@ macOS Catalina and later ship with `zsh` as [the default shell](https://support.
 
 Add a `.hushlogin` file to the directory you terminal starts in to suppress the `Last login:` message at the top of your terminal.
 
-```shell
+```text
 touch .hushlogin
 ```
 
@@ -42,7 +42,7 @@ Click `+` to add a new one called `Lock Screen` and set the key combo \(eg. `⌥
 
 #### Stop Wifi Dropping on Screen Lock
 
-```shell
+```text
 cd /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/
 sudo ./airport en0 prefs DisconnectOnLogout=NO
 ```
@@ -237,7 +237,7 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 ## Books
 
 * [Mac OS X Internals: A Systems Approach](http://osxbook.com/) - Amit Singh \(2006\)
-* \[The Mac Hacker's Handbook\]\([https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363)\) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([ Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
+* \[The Mac Hacker's Handbook\]\(\[[https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363\]\(https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363\)\](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363]%28https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363%29\)\) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([ Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
 * [Mac OS X and iOS Internals](http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://twitter.com/Morpheus______) \([ Amazon](https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)\) \([ Legit PDF](http://newosxbook.com/MOXiI.pdf)\) \(2012\)
 
 ### MacOS and iOS Internals \(Levin\)

@@ -108,7 +108,7 @@ Commands are case sensitive:
 
 To use this `vimrc` file you'll need to install [Vundle](https://github.com/VundleVim/Vundle.vim) and [Gruvbox](https://github.com/morhetz/gruvbox).
 
-```vimscript
+```text
 "  _     _          _             _                    
 " (_)___| |__  _ __( )___  __   _(_)_ __ ___  _ __ ___ 
 " | |_  / '_ \| '__|// __| \ \ / / | '_ ` _ \| '__/ __|
@@ -122,7 +122,7 @@ To use this `vimrc` file you'll need to install [Vundle](https://github.com/Vund
     set backspace=2
     filetype plugin on
     set showcmd
-    
+
 " colour scheme
     syntax enable
     colorscheme gruvbox
@@ -219,7 +219,7 @@ To use this `vimrc` file you'll need to install [Vundle](https://github.com/Vund
 
 ### Sam's vimrc
 
-```vimscript
+```text
 "        _
 " __   _(_)_ __ ___  _ __ ___  
 " \ \ / / | '_ ` _ \| '__/ __| 

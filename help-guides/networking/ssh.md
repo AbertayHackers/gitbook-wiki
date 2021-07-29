@@ -94,45 +94,45 @@ chmod 644 ~/.ssh/id_*.pub
 Only allow your user to access `~/.ssh` and your private keys, allow group and world to access your public keys.
 
 #### config
- 
- ```
+
+```text
   # ~/.shh/config 
   # ssh_config(5) 
-  
+
   Host * 
   # For all hosts use the following directives 
-  
+
   Protocol 2 
   # Use only protocol version two 
-  
+
   IdentitiesOnly yes 
   # By default ssh will send all public keys (identities) in ~/.ssh to the server if you don't specify which key to use with -i 
   # This prevents that by only using the public keys explicitly configured in config or specified with -i 
-  
+
   VisualHostKey yes 
   # Print an ASCII art representation of the remote host key fingerprint at login and for unknown host keys 
-  
+
   HashKnownHosts yes 
   # Hash host names and addresses when they are added to ~/.ssh/known_hosts. 
   # ssh-keygen -R hostname 
   # Removes all keys belonging to hostname from a known_hosts file. 
   UseRoaming no 
   # Mitigates CVE-0216-0777 
-  
+
   # Cryptography 
   KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 
   # Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred 
-  
+
   HostKeyAlgorithms ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com 
   # Only allow ed25519 or RSA keys for client authentication 
-  
+
   Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com 
   # Only use authenticated symmetric ciphers 
   # aes listed for compatibility, chacha20-poly1305 is preferred 
-  
+
   MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
   # Only use encrypt then mac (etm) MACs
- ```
+```
 
 ### Server
 
@@ -147,7 +147,7 @@ Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These pe
 
 #### sshd\_config
 
-```
+```text
 # /etc/ssh/sshd_config 
 # sshd_config(5) 
 

@@ -21,7 +21,7 @@ In the event that you are unable to get access to VMWare Workstation Pro, Workst
 
 Visit the [Kali Linux Downloads](https://www.kali.org/downloads/) page and download the most recent _installer_ version of the OS, I'd personally recommend a torrent download purely to reduce server capacity on OffSec's end \(it's only nice\). Ensure that \(unless you are actually running a 32 bit operating system\) you grab the 64 bit image, this is purely so there are no unforeseen compatibility issues down the line.
 
-![A screenshot of the Kali Linux downloads page with the first link, &quot;Kali Linux 64 bit \(installer\)&quot; highlighted](../../../.gitbook/assets/image-20210516194511356%20%283%29%20%283%29.png)
+![A screenshot of the Kali Linux downloads page with the first link, &quot;Kali Linux 64 bit \(installer\)&quot; highlighted](../../../.gitbook/assets/image-20210516194511356%20%283%29%20%282%29%20%283%29.png)
 
 the file you'll be downloading is a `.iso` file, don't forget to put it in a place you'll remember!
 
