@@ -29,4 +29,3 @@ Here are some watchable hacker films and documentaries. Most of these are about 
 | [Zero Days](https://www.imdb.com/title/tt5446858/) | 2016 |
 | [The Code](https://www.imdb.com/title/tt0315417/) | 2001 |
 | [The Great Hack](https://www.imdb.com/title/tt9358204/) | 2019 |
-

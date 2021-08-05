@@ -106,4 +106,3 @@ If successful and your document is ran and macros enabled, it will connect back 
 * Write your own payload
 * Find a way to get the same idea working with MS Word \(speak to Colin\)
 * Think of something interesting to do post-exploitation
-

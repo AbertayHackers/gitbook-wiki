@@ -22,4 +22,3 @@ You can capture packets from an interface on a remote machine using SSH and tcpd
 On Mac/Ubuntu this is built into Wireshark by default and you can select it as an option from the capture interface screen. \(I think on Windows there's a plugin. Go find out and update this wiki!\)
 
 You just give it the SSH details and it runs tcpdump on the remote machine.
-

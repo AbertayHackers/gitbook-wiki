@@ -95,4 +95,3 @@ By [Sam](../../members/members/samiser.md)
 * [https://xorl.wordpress.com/2018/01/10/thoughts-on-meltdown-spectre/](https://xorl.wordpress.com/2018/01/10/thoughts-on-meltdown-spectre/)
 * [https://www.reddit.com/r/networking/comments/7o4y40/meltdownspectre\_vulnerability\_tracker/](https://www.reddit.com/r/networking/comments/7o4y40/meltdownspectre_vulnerability_tracker/)
 * [https://www.gdatasoftware.com/blog/2018/01/30333-inside-meltdown-spectre](https://www.gdatasoftware.com/blog/2018/01/30333-inside-meltdown-spectre)
-

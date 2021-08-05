@@ -1,6 +1,6 @@
 # Isaac
 
-### they/them :\)
+they/them :\)
 
 ## Isaac B-R
 
@@ -82,4 +82,3 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [twitter](https://twitter.com/IBRice101)
 * [github](https://github.com/IBRice101)
 * [linkedin](https://www.linkedin.com/in/isaac-b-5b6149138/)
-

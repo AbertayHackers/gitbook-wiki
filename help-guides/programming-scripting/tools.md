@@ -21,7 +21,7 @@ Here be a list of tools and useful things for programming.
 
 ### Xcode
 
-[Apple's own ](https://developer.apple.com/xcode/)IDE, \([ App Store ](https://itunes.apple.com/us/app/xcode/id497799835)\) [macOS](https://wiki.hacksoc.co.uk/operating_systems/macos) only. Best for [C](https://wiki.hacksoc.co.uk/programming/c), C++ and Objective-C.
+[Apple's own](https://developer.apple.com/xcode/)IDE, \([App Store](https://itunes.apple.com/us/app/xcode/id497799835)\) [macOS](https://wiki.hacksoc.co.uk/operating_systems/macos) only. Best for [C](https://wiki.hacksoc.co.uk/programming/c), C++ and Objective-C.
 
 ## Text Editors
 
@@ -50,4 +50,3 @@ A highly configurable \(normally\) [terminal based text editor](https://www.vim.
 ### GitHub Desktop
 
 [GitHub Desktop](https://desktop.github.com/) is GitHub's own cross platform GitHub client.
-

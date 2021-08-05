@@ -8,7 +8,7 @@ _Written by Sam \(_[_@Sam1ser_](https://twitter.com/Sam1ser)_\)_
 
 This guide is a beginners introduction to homelabbing. It is by no means an all inclusive technical guide but more of a taster of what is possible with a homelab and why you might want to build your own.
 
-## Why Build a Homelab? <a id="why_build_a_homelab"></a>
+## Why Build a Homelab?
 
 Homelabs are a perfect environment for learning about computing, networking and security.
 
@@ -24,11 +24,11 @@ If this all sounds intimidating and confusing then you are a perfect candidate f
 
 It's an endless cycle of learning, developing, and creating. You will learn an immense amount just from setting up the lab let alone all of the things you can explore once you have a labbing environment.
 
-### Practical Homelab Ideas <a id="practical_homelab_ideas"></a>
+### Practical Homelab Ideas
 
 If you want to embark on this journey but don't have any specific projects in mind, here are a few ideas to start you off with.
 
-#### Virtual Network for Pentesting and Research <a id="virtual_network_for_pentesting_and_research"></a>
+#### Virtual Network for Pentesting and Research
 
 From a hacker's perspective, homelabs are perfect for testing and developing all kinds of skills.
 
@@ -40,25 +40,25 @@ You could also just set up particular services that you want to test the securit
 
 Another use is to learn about services from the sysadmin's perspective. If you know how a system is typically configured and how it works, it will be easier to try and find potential misconfigurations and exploit them in the future.
 
-#### Home Media Server <a id="home_media_server"></a>
+#### Home Media Server
 
 You could go for an all in one package \(plex/emby\) and have all of your movies and music organised there. Or maybe you might want to use something like Calibre to host ebooks. Then you might set up external access and be able to access your media from anywhere.
 
-#### Web Server <a id="web_server"></a>
+#### Web Server
 
 If you want to run a blog, why not host it yourself? Homelabs usually make for ideal webservers. You do however need to be security conscious when exposing any part of your network to the internet.
 
-#### Game Server <a id="game_server"></a>
+#### Game Server
 
 Many games will allow you to host your own private server. Minecraft is great, but it's even greater if you've got your own server for you and your friends. Once again, this comes with security risks. Particularly if you decide to host a public server.
 
-#### Set Up A Pihole <a id="set_up_a_pihole"></a>
+#### Set Up A Pihole
 
 A Pihole replaces your network's DNS server and blocks all adverts on all connected devices.
 
 [Here is a guide](pihole.md) with more information and how to configure your own.
 
-## Homelab Components <a id="homelab_components"></a>
+## Homelab Components
 
 There is no one optimal homelab configuration. Every homelab will have different purposes and thus will be configured differently. It is possible, however, to generalise what a homelab is made of. This may be helpful when first designing your own set up. This section will give an overview of the components of a homelab.
 
@@ -74,7 +74,7 @@ The **Hypervisor** is the software used to create, manage and control your VMs a
 
 The following sections will cover all three in detail. If you already have Computer hardware, skip to Network hardware. If you already have Network hardware too, skip to Hypervisors.
 
-### Computer Hardware <a id="computer_hardware"></a>
+### Computer Hardware
 
 With hardware - from a student's perspective - you're looking to balance power, maintenance cost and noise levels. Before you start hitting up ebay to try and grab some enterprise grade rack mounted gear you should first consider two things:
 
@@ -95,7 +95,7 @@ Of course if your initial purpose of building a homelab requires power that you 
 
 The key thing to remember is this: **building a homelab doesn't have to be expensive.** It absolutely can be, but it doesn't have to be.
 
-#### Hardware Pros and Cons <a id="hardware_pros_and_cons"></a>
+#### Hardware Pros and Cons
 
 Something to consider with hefty server hardware is it can be loud and expensive to run due to the cost of electricity.
 
@@ -109,7 +109,7 @@ Using seperate machines to host front-facing services is also far more secure th
 
 One of the main reasons for homelabbing is to learn about different hardware and it's really fun and satisfying to set up your own physical network. If you have the space and the budget, it's worth it.
 
-#### Components <a id="components"></a>
+#### Components
 
 When thinking about server hardware you will need to think about specs differently from how you might when building a PC.
 
@@ -123,7 +123,7 @@ You probably won't need a graphics card in your server. It would be useful for r
 
 **Importantly** this hardware information may be completely wrong for the lab you need. Again, this guide is aimed at people who want a fairly flexible set up.
 
-#### Single Host Virtualisation <a id="single_host_virtualisation"></a>
+#### Single Host Virtualisation
 
 The most basic homelab setup is to have a single host \(a computer\) running all of your virtual machines/containers.
 
@@ -135,7 +135,7 @@ Typically with a homelab you should be using a bare metal hypervisor as this wil
 
 This setup is a good choice when starting out.
 
-#### Physical Cluster <a id="physical_cluster"></a>
+#### Physical Cluster
 
 This is having multiple physical machines to run your virtual machines/containers. This setup is closer to an enterprise setup and will provide you with the most flexibility when it comes to testing and learning things on your network.
 
@@ -145,7 +145,7 @@ This can potentially be paired with a NAS \(Network Attached Storage\) device fo
 
 This setup is a good one to move to once you're finding your single host setup to be lacking. It's also really fun.
 
-### Network Hardware <a id="network_hardware"></a>
+### Network Hardware
 
 If the computer hardware is the brain, the network hardware is the nervous system. It will allow your devices to communicate with each other, allowing you to access the services you're hosting and allowing you to remotely connect and configure your host/hosts.
 
@@ -153,9 +153,9 @@ Networking tends to be quite an intimidating aspect of homelabbing. This section
 
 In this section it is assumed you have a very basic understanding of networking. This includes subnets, netmasks, firewalls, LAN/WAN and the OSI model. You will not need to know the ins and outs of these things, just have a basic idea of what they are. If at any point in the guide you read something and don't understand it, you should be able to just google it and find out enough. If you're really stuck, ask in the slack.
 
-#### Switch <a id="switch"></a>
+#### Switch
 
-The switch is, at it's most basic, what controls the packet flow of the network. Operating at layer 2 of the OSI model, it uses MAC addresses to forward packets between hosts. To connect to a switch you will need an ethernet port, aka a NIC. If your laptop/main device doesn't have a NIC you can get usb NIC fairly cheaply.
+The switch is, at its most basic, what controls the packet flow of the network. Operating at layer 2 of the OSI model, it uses MAC addresses to forward packets between hosts. To connect to a switch you will need an ethernet port, aka a NIC. If your laptop/main device doesn't have a NIC you can get usb NIC fairly cheaply.
 
 Going deeper, there are two kinds of switches to consider: managed and unmanaged. Unmanaged switches are pretty much plug-n-play. You will be able to connect your hosts and allow them to communicate, but not much more.
 
@@ -179,15 +179,13 @@ For your homelab, you - initially - will not need many ports. An eight port swit
 
 So, in summary, you will probably want to aim for a fanless, managed switch. Ebay is a good place to get hunting.
 
-#### Router <a id="router"></a>
+#### Router
 
 Your router is primarily used as the interface between your LAN and the internet \(WAN\). It functions on layer 3 of the OSI model and uses IP addresses for packet forwarding.
 
 The router you are currently using is probably whatever was supplied by your ISP. For example, the Virgin Media Super Hub 3. This is a basic router with basic functionality.
 
-TODO: Write more here
-
-#### Ethernet Cable <a id="ethernet_cable"></a>
+#### Ethernet Cable
 
 Though you have almost definitely used ethernet cable before, it will be useful to know about different types of ethernet cable, and how to make your own, before investing in some for your lab.
 
@@ -196,4 +194,3 @@ For the standard Homelab the LAN Connection will be established with a RJ-45 hea
 ![RJ-45 headed Ethernet cable](../../.gitbook/assets/image%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 It is recommended that the minimum Category for Ethernet cables for Homelabs would be Cat5e; as it is able to reach speeds of up to 1 Gbps. The Category of your Ethernet cable is very simple yet important as it could be the bottleneck of your interconnectivity. Bandwidths of &gt;1Gbps is **strongly** recommended for NAS setups along with RAID to ensure said bandwidth can be properly saturated.
-

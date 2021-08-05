@@ -120,4 +120,3 @@ After going through the reboot sequence and past GRUB, you should see this, inse
 ![image-20210516205528170](../../../.gitbook/assets/image-20210516205528170.png)
 
 Your installation of Kali is complete, congrats, and happy hacking!!!
-

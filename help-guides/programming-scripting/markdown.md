@@ -134,7 +134,7 @@ When indenting an ordered list, it's typically best to begin the new indent with
 1. This
 2. Is
 3. Another
-   1. Ordered 
+   1. Ordered
    2. List
       1. But
       2. With
@@ -142,7 +142,7 @@ When indenting an ordered list, it's typically best to begin the new indent with
    3. For
    4. Some
 4. Extra
-5. Spice. 
+5. Spice.
 
 ### Unordered Lists
 
@@ -154,7 +154,7 @@ Unordered lists can be made in a number of ways, but they will usually always co
 * Dashes
 * This
 * One
-* Uses 
+* Uses
 * Asterisks
 * This
 * One
@@ -218,4 +218,3 @@ To "Escape" characters, or make special characters \(such as \*, &gt;, \`, etc.\
 ```text
 \* asterisks everywhere!!! \*
 ```
-

@@ -76,7 +76,7 @@ As of Homebrew [1.5.0](https://brew.sh/2018/01/19/homebrew-1.5.0/) `brew install
 
 This was fixed in [1.6.0](https://brew.sh/2018/04/09/homebrew-1.6.0/). `brew install python` still installs `python3.x` but will not symlink `python` to the `python3.x` binary. Running `python` will execute the system `python2.7.x` binary and running `python3` will execute the brew `python3.x` binary.
 
-See [Homebrew and Python ](https://docs.brew.sh/Homebrew-and-Python) for more info.
+See [Homebrew and Python](https://docs.brew.sh/Homebrew-and-Python) for more info.
 
 ### Upgrading Packages
 
@@ -91,13 +91,13 @@ See [FAQ](https://docs.brew.sh/FAQ) for more info.
 
 ## Virtualisation
 
-#### VMWare Fusion
+### VMWare Fusion
 
 We get [VMWare Fusion](https://www.vmware.com/products/fusion.html) free from [VMWare DreamSpark](https://vmapss.onthehub.com/WebStore/Welcome.aspx). Used by most mac wankers on the course. Would recommend over all other virtualisation programs for Mac.
 
 Currently [does not work with M1 Macs](https://blogs.vmware.com/teamfusion/2021/04/fusion-on-apple-silicon-progress-update.html).
 
-#### Parallels
+### Parallels
 
 [Parallels](https://www.parallels.com/uk/products/desktop/)
 
@@ -105,8 +105,8 @@ Currently [does not work with M1 Macs](https://blogs.vmware.com/teamfusion/2021/
 
 ### General
 
-* [Amphetamine](https://github.com/x74353/Amphetamine) \([ App Store](https://itunes.apple.com/gb/app/amphetamine/id937984704)\) - This app keeps your Mac awake for a set period of time, whilst an app is running, and much more.
-* [The Unarchiver](https://theunarchiver.com/) \([ App Store ](https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12)\) Open any archive in seconds
+* [Amphetamine](https://github.com/x74353/Amphetamine) \([App Store](https://itunes.apple.com/gb/app/amphetamine/id937984704)\) - This app keeps your Mac awake for a set period of time, whilst an app is running, and much more.
+* [The Unarchiver](https://theunarchiver.com/) \([App Store](https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12)\) Open any archive in seconds
 * [Rocket](https://matthewpalmer.net/rocket/) Slack-style emoji picker for your Mac
 * [Texpad](https://www.texpad.com/osx) Native Mac OS app with efficient LaTeX environment
 * [DiskMaker X](http://diskmakerx.com/) Build an OS X boot disk
@@ -117,13 +117,13 @@ Currently [does not work with M1 Macs](https://blogs.vmware.com/teamfusion/2021/
 
 For general information see [Programmming](../../programming-scripting/tools.md). This section list macOS specific tools.
 
-* [Xcode](https://developer.apple.com/xcode/) \([ App Store ](https://itunes.apple.com/us/app/xcode/id497799835)\) Apple's own IDE. Best for [C](../../programming-scripting/c-coding.md), C++ and Objective-C.
-* [Quiver](http://happenapps.com/#quiver) \([ App Store](https://itunes.apple.com/app/quiver-programmers-notebook/id866773894)\) notebook built for programmers
+* [Xcode](https://developer.apple.com/xcode/) \([App Store](https://itunes.apple.com/us/app/xcode/id497799835)\) Apple's own IDE. Best for [C](../../programming-scripting/c-coding.md), C++ and Objective-C.
+* [Quiver](http://happenapps.com/#quiver) \([App Store](https://itunes.apple.com/app/quiver-programmers-notebook/id866773894)\) notebook built for programmers
 * [Dash](https://kapeli.com/dash) offline access to 200+ API documentation sets
 
 ### Security/ Privacy
 
-* [1Password](https://1password.com/) \([ App Store ](https://itunes.apple.com/us/app/1password/id443987910)\) Apple device focused password manager
+* [1Password](https://1password.com/) \([App Store](https://itunes.apple.com/us/app/1password/id443987910)\) Apple device focused password manager
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) Application firewall
 * [GPGTools/ GPG Suite](https://gpgtools.org/) “Use GPG Suite to encrypt, decrypt, sign and verify files or messages”
 * [Privileges.app](https://github.com/SAP/macOS-enterprise-privileges) “providing a quick and easy way to get administrator rights when needed”
@@ -134,7 +134,7 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 
 * [BlockBlock](https://objective-see.com/products/blockblock.html) \(_Beta_\) Alerts when something is persistently installed
 * [OverSight](https://objective-see.com/products/oversight.html) Monitors and alerts on mic and webcam access
-* [LuLu](https://objective-see.com/products/lulu.html) Open-source application firewall 
+* [LuLu](https://objective-see.com/products/lulu.html) Open-source application firewall
 * [What's Your Sign?](https://objective-see.com/products/whatsyoursign.html) Adds a menu item to Finder.app to view the cryptographic signature of files
 
 ### Touch Bar
@@ -237,11 +237,10 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 ## Books
 
 * [Mac OS X Internals: A Systems Approach](http://osxbook.com/) - Amit Singh \(2006\)
-* \[The Mac Hacker's Handbook\]\(\[[https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363\]\(https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363\)\](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363]%28https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363%29\)\) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([ Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
-* [Mac OS X and iOS Internals](http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://twitter.com/Morpheus______) \([ Amazon](https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)\) \([ Legit PDF](http://newosxbook.com/MOXiI.pdf)\) \(2012\)
+* [The Mac Hacker's Handbook](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
+* [Mac OS X and iOS Internals](http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)\) \([Legit PDF](http://newosxbook.com/MOXiI.pdf)\) \(2012\)
 
 ### MacOS and iOS Internals \(Levin\)
 
-* [MacOS and iOS Internals, Volume I - User Mode](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([ Amazon](https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)\) \(2017\)
-* [MacOS and iOS Internals, Volume III: Security & Insecurity](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([ Amazon ](https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)\) \(2016\)
-
+* [MacOS and iOS Internals, Volume I - User Mode](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)\) \(2017\)
+* [MacOS and iOS Internals, Volume III: Security & Insecurity](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)\) \(2016\)
