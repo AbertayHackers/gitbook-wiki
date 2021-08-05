@@ -23,4 +23,3 @@ sudo service networking restart
 ```
 
 You can test the change by running something like `dig google.com` then check that `SERVER:` matches the value you added to `dhclient.conf` above.
-

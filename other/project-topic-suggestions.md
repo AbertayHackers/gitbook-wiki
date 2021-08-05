@@ -2,7 +2,7 @@
 
 This page will list some suggested topics for possible projects ranging from simple to expert. If you have any suggested topics, submit a pull request to [Github](https://github.com/AbertayHackers/) ([How to](https://wiki.hacksoc.co.uk/contributing/contributions/how-to))
 
-### Offensive topics
+## Offensive topics
 
 - Malware infection vectors
 - Evaluation of penetration tools
@@ -15,7 +15,7 @@ This page will list some suggested topics for possible projects ranging from sim
 - Layer 2 or 3 attacks
 - Evaluation of an exploit eg Dirtyc0w
 
-### Defensive topics
+## Defensive topics
 
 - Configuration of Splunk, or something like it
 - Build, configure and evaluare GRSec or SELinux
@@ -23,14 +23,14 @@ This page will list some suggested topics for possible projects ranging from sim
 - Something IDS related
 - Read blue team field manual and do something from that
 
-### Privacy topics
+## Privacy topics
 
 - Set up and configure TOR
 - Comparison of encrypted messengers
 - Evaluation of Protonmail and encrypted email clients
 - Setting up, using and deploying PGP
 
-### Other topics
+## Other topics
 
 - Evaluate a network protocol
 - Set up and evaluate something like Pi-Hole, or something like that

@@ -19,4 +19,3 @@
 * Moved Sarah's welcome messages to the bot
 * Revamped the category design to include emojis
 * Removed the Fresher role from previous year freshers
-

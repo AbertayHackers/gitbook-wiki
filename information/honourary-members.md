@@ -14,4 +14,3 @@ description: A list of the society's honourary members
 * Jamie McCunnie
 * [Mikey](https://twitter.com/0xmachos)
 * [Paul Boyle](https://twitter.com/paulboyle98)
-

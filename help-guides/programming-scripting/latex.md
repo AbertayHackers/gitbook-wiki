@@ -8,12 +8,12 @@
 
 * [MacOS](http://www.tug.org/mactex/) \(Required\)
 * Windows
-  * [MiKTeX ](http://miktex.org/)\(Required\)
+  * [MiKTeX](http://miktex.org/)\(Required\)
   * [TexMaker](http://www.xm1math.net/texmaker/download.html#windows)
   * [proTeXt](http://www.tug.org/protext/)
   * [TeX Live](http://www.tug.org/texlive)
 * Linux
-  * [Tex Live ](http://www.tug.org/texlive)\(Required\)
+  * [Tex Live](http://www.tug.org/texlive)\(Required\)
 
 [Source](https://www.latex-project.org/get/)
 
@@ -52,7 +52,7 @@ To build your Bibliography run:
 To build your Glossary run:
 
 1. `pdflatex whitepaper.tex`
-2. `makeglossaries whitepaper` 
+2. `makeglossaries whitepaper`
 3. `pdflatex whitepaper.tex`
 
 ### Shit You Might Encounter While Compiling
@@ -133,7 +133,7 @@ Usage: `Cost \customtilde \$10,000`
 * Template for 4th year dissertation proposal \(two-column\) – Two column proposal template
 * Template for 4th year dissertation \(one column, 1.5 line spaced with special documentation pages and title page\) – Dissertation Template with Bibliography and LoT and LoF
 
-#### Syntax Highlighting
+### Syntax Highlighting
 
 ```text
   \usepackage{listings}
@@ -188,9 +188,8 @@ Enables support for Text Companion fonts such as legal, currency and mathematica
 
 ## Resources
 
-* [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex 
+* [tablesgenerator.com](http://www.tablesgenerator.com/) Create pretty tables and paste in auto generated Tex
 * [Tex StackExchange](https://tex.stackexchange.com/)
 * [Awesome Documentation that 'just works'](https://www.sharelatex.com/learn)
 * [The Comprehensive LATEX Symbol List](https://www.cs.cmu.edu/~bhudson/symbols-letter.pdf)
 * [Arbitrary LaTeX Reference](http://latex.knobs-dials.com/) “Many problems in LaTeX requires some research, so I started to record my findings.”
-

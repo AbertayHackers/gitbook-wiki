@@ -1,12 +1,10 @@
 # Common Interview Questions
 
-
-
 So… You've passed the initial application and landed yourself a technical interview. Below is a list of questions that are commonly found in technical interviews.
 
 No two interviews will be the same, so use this as a guide rather than a definitive answer for what to expect. Different job roles \(e.g. SOC analyst vs pentester vs malware analyst\) will also have different questions. The companies where the questions are seen and the answers to the questions aren't listed \(that would be too easy!\).
 
-### Some questions you may be asked <a id="some_questions_you_may_be_asked"></a>
+## Some questions you may be asked
 
 * Describe three of the most common ways an external attacker today might attempt to gain access to a network.
 * You just got put in charge of a network after the last sysadmin was fired. What steps would you take to protect the network?
@@ -41,7 +39,7 @@ No two interviews will be the same, so use this as a guide rather than a definit
 * How would you mitigate cross-site scripting?
 * What is the difference between data protection in transit and data protection at-rest?
 
-### Some tasks you may be asked to do <a id="some_tasks_you_may_be_asked_to_do"></a>
+## Some tasks you may be asked to do
 
 You may either be asked to do these tasks at a face-to-face interview, over Skype with screen-sharing enabled or fully independently.
 
@@ -51,7 +49,7 @@ You may either be asked to do these tasks at a face-to-face interview, over Skyp
 * Write code \(usually in a language of your choice on a computer, on paper or on a whiteboard\)
 * Configure a piece of software and do a presentation on the configuration and usage \(e.g. Splunk\)
 
-### Some other useful talking points <a id="some_other_useful_talking_points"></a>
+## Some other useful talking points
 
 These all show you have a legitimate interest in the subject
 
@@ -59,4 +57,3 @@ These all show you have a legitimate interest in the subject
 * Your homelab
 * Your past \(relevant\) experience \(e.g. an internship/volunteering\)
 * Conferences/hackathons/CTF's you've attended
-

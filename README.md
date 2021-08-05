@@ -15,4 +15,3 @@ Most of our members study at Abertay University which offers two courses related
 [Facebook](https://www.facebook.com/abertayhackers)  
 [GitHub](https://github.com/AbertayHackers)  
 [Reddit](https://www.reddit.com/r/abertayhackers)
-

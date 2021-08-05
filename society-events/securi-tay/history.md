@@ -1,6 +1,6 @@
 # History
 
-## Securi-Tay <a id="securi-tay1"></a>
+## Securi-Tay
 
 \(known as “Securi-Tay 2011” on the shirt design for the year\)
 
@@ -14,19 +14,19 @@
   * [10 Years of Application Security](https://www.youtube.com/watch?v=LKAycjrfxM0) by Rory McCune
 * CTF Winners: St Andrews University Team
 
-## Securi-Tay 2 <a id="securi-tay_2"></a>
+## Securi-Tay 2
 
 * Date: 16th January 2013 \(Wednesday\)
 * [Talks](https://www.youtube.com/playlist?list=PL2Nv8J__40K29OGsyNURKOxmsI6JYuy9b) \(YouTube\)
   * \(“Apologies for the missing videos from Track A. We experienced a technical failure during the 11:10 session that disrupted our recordings.”\)
 * Website: [Internet Archive](https://web.archive.org/web/20121121201749/https://securi-tay.co.uk)
 
-## Securi-Tay 3 <a id="securi-tay_3"></a>
+## Securi-Tay 3
 
 * Date: 15th January 2014 \(Wednesday\)
 * Website: [Internet Archive](https://web.archive.org/web/20131215005359/http://securi-tay.co.uk/)
 
-## Securi-Tay IV <a id="securi-tay_iv"></a>
+## Securi-Tay IV
 
 * Date: 27th February 2015 \(Friday\)
 * [Website](https://2015.securi-tay.co.uk/)
@@ -34,21 +34,21 @@
 * [Talks](https://www.youtube.com/playlist?list=PLqjUlpQ6EnBywH5y9Ap92-usJdVlfPAFg) \(YouTube\)
   * Currently Private
 
-## Securi-Tay V <a id="securi-tay_v"></a>
+## Securi-Tay V
 
 * Date: 26th and 27th February 2016 \(Friday & Saturday\)
 * [Website](https://2016.securi-tay.co.uk/)
 * Tweets: [\#SecuriTayV](https://twitter.com/search?q=%23SecuriTayV)
 * [Talks](https://www.youtube.com/playlist?list=PLqjUlpQ6EnByIZpuG-P9kgpDa2ao_YJwn) \(YouTube\)
 
-## Securi-Tay 2017 <a id="securi-tay_2017"></a>
+## Securi-Tay 2017
 
 * Date: 24th February 2017 \(Friday\)
 * [Website](https://2017.securi-tay.co.uk/)
 * Tweets: [\#SecuriTay2017](https://twitter.com/search?q=%23SecuriTay2017)
 * [Talks](https://www.youtube.com/playlist?list=PLqjUlpQ6EnByc0mpipwGU0dyPRdC1dC-k) \(YouTube\)
 
-## Securi-Tay 2018 <a id="securi-tay_2018"></a>
+## Securi-Tay 2018
 
 * Original Date: 2nd and 3rd March \(Friday & Saturday\)
   * Postponed to: 18th and 19th May 2018 \(Friday & Saturday\)
@@ -57,14 +57,14 @@
 * Tweets: [\#SecuriTay2018](https://twitter.com/search?q=%23SecuriTay2018)
 * [Talks](https://www.youtube.com/playlist?list=PLqjUlpQ6EnBymGb_-_12kcEzqSlx6o3TZ) \(YouTube\)
 
-## Securi-Tay 2019 <a id="securi-tay_2019"></a>
+## Securi-Tay 2019
 
 * Date: 1st March 2019 \(Friday\)
 * [Website](https://2019.securi-tay.co.uk/)
 * [Programme](https://2019.securi-tay.co.uk/assets/programme.pdf) \(14MB\)
 * Tweets: [\#SecuriTay2019](https://twitter.com/search?f=tweets&q=%23SecuriTay2019)
 
-## Securi-Tay 2020 <a id="securi-tay_2020"></a>
+## Securi-Tay 2020
 
 * Pre-party was made official this year, for the first time @ Dukes Corner, night of 27th February
 * Date: 28th February 2020 \(Friday\)
@@ -72,4 +72,3 @@
 * [Programme](https://2020.securi-tay.co.uk/assets/programme.pdf) \(14MB\) _- currently shows 2019 programme_
 * Tweets: [\#SecuriTay2020](https://twitter.com/search?f=tweets&q=%23SecuriTay2020)
 * This year was also the first year that the afterparty was not held at the Abertay Student Union - instead, it was held at Inns & Gunn Beer Kitchen, next door to Dundee Rep Theatre
-

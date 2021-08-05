@@ -18,4 +18,3 @@ public class Hello { // the file name here would be Hello.java
     }
 }
 ```
-

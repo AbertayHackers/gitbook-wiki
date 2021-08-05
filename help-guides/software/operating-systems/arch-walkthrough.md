@@ -2,7 +2,7 @@
 
 _By_ [_Isaac_](../../../members/members/isaac.md)
 
-Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design. 
+Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design.
 
 ## Why Arch?
 
@@ -72,7 +72,7 @@ cfdisk /dev/sda
 
 When the following window shows up, select GPT
 
-![](../../../.gitbook/assets/arch-3.png)
+![Partition window](../../../.gitbook/assets/arch-3.png)
 
 You should now see a window containing a menu with single line containing the word `Free space`. This is the partition menu, we will be creating three partitions here:
 
@@ -95,10 +95,10 @@ you now have the three necessary partitions to continue, you can verify this by 
 Now we must create the filesystems by entering the following commands:
 
 ```sh
-mkswap /dev/sda3		# swap partition
+mkswap /dev/sda3# swap partition
 swapon /dev/sda3
 
-mkfs.ext4 /dev/sda2		# root partition
+mkfs.ext4 /dev/sda2 # root partition
 
 mkfs.fat -F32 /dev/sda1  # EFI partition
 ```
@@ -106,9 +106,9 @@ mkfs.fat -F32 /dev/sda1  # EFI partition
 Next we mount the partitions (we don't need to mount swap)
 
 ```sh
-mount /dev/sda2 /mnt	# root partition
+mount /dev/sda2 /mnt # root partition
 
-mkdir /mnt/boot			# make dir for boot and mount
+mkdir /mnt/boot # make dir for boot and mount
 mount /dev/sda1 /mnt/boot
 ```
 
@@ -165,27 +165,27 @@ in order to generate the locales.
 
 Next, create and open a file located at `/etc/locale.conf`, and add (in my case) the line `LANG=en_GB.UTF-8`, then edit `/etc/hostname` and add your chosen hostname, I will be going with `izbrarch`. After this edit `/etc/hosts` and add the following line:
 
-```
+```conf
 127.0.0.1 localhost ::1 localhost 127.0.1.1 izbrarch.localdomain izbrarch
 ```
 
 Next we have networking. At the moment, the Arch installation environment has a series of preconfigured network settings (in `systemd`) in order to facilitate required installations, however the full post-installation system still needs a configured network. In order to configure this, run the following:
 
 ```sh
-systemctl enable systemd-networkd	# networking
-systemctl enable systemd-resolved	# dns resolution
+systemctl enable systemd-networkd # networking
+systemctl enable systemd-resolved # dns resolution
 ```
 
 After this, run the `ip addr` command, this should show two sets of data, the first one, `lo`, is localhost and therefore already configured with `127.0.0.1`, the second one, however (on my machine `ens33`) is relevant for the next step
 
 Create and edit a file located at `/etc/systemd/network/20-wired.network` and add the following lines:
 
-```
+```conf
 [Match] Name=ens33 
 [Network] DHCP=yes
 ```
 
-The network configuration is now complete. 
+The network configuration is now complete.
 
 Change your password using the `passwd` command
 
@@ -196,9 +196,9 @@ If you're on an intel CPU, install `intel-ucode` using `pacman`
 The final stage to installing Arch is getting the bootloader in place, this is the software that is responsible for booting the computer. By far the most popular bootloader is `GRUB`, which we will be installing to the `EFI` partition in `SDA1`
 
 ```sh
-pacman -S grub efibootmgr	# get grub and an efi boot manager
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB	# install
-grub-mkconfig -o /boot/grub/grub.cfg	# generate config file
+pacman -S grub efibootmgr # get grub and an efi boot manager
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB # install
+grub-mkconfig -o /boot/grub/grub.cfg # generate config file
 ```
 
 After this we can exit the file system, reboot and we're pretty much done! Run the following:
@@ -215,5 +215,4 @@ After this you can follow the Arch Wiki's [General Recommendations](https://wiki
 
 Happy Arch-ing! :)
 
-![](../../../.gitbook/assets/arch-logo.png)
-
+![the arch logo](../../../.gitbook/assets/arch-logo.png)

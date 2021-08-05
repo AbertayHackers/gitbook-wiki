@@ -53,4 +53,3 @@ This talk covered some of the solutions from the Tryhackme HackBack CTF event. A
 * Twitter: [@Sam1ser](https://web.archive.org/web/20200923101608/https://twitter.com/Sam1ser)
 * Soundcloud: [Samiser](https://web.archive.org/web/20200923101608/https://soundcloud.com/samiser)
 * GitHub: [Samiser](https://web.archive.org/web/20200923101608/https://github.com/samiser/)
-
