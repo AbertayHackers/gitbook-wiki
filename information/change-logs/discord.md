@@ -1,5 +1,11 @@
 # Discord
 
+## 29/07/2021
+
+* Enabled the new Threads feature and altered permissions system to consolodate usage perms into the `@everyone` role, as per other perms.
+* Added the `discord.hacksoc.co.uk` automated signup site in early beta. It works, but doesn't look very pretty.
+* Added Hacksoc Helper vanity role
+
 ## 09/05/2021
 
 * Added a grads channel

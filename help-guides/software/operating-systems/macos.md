@@ -28,7 +28,7 @@ macOS Catalina and later ship with `zsh` as [the default shell](https://support.
 
 Add a `.hushlogin` file to the directory you terminal starts in to suppress the `Last login:` message at the top of your terminal.
 
-```shell
+```text
 touch .hushlogin
 ```
 
@@ -42,7 +42,7 @@ Click `+` to add a new one called `Lock Screen` and set the key combo \(eg. `⌥
 
 #### Stop Wifi Dropping on Screen Lock
 
-```shell
+```text
 cd /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/
 sudo ./airport en0 prefs DisconnectOnLogout=NO
 ```
