@@ -50,6 +50,7 @@
     * [The Browser Exploitation Framework \(BeEF\)](help-guides/software/tools/the-browser-exploitation-framework.md)
     * [Nmap](help-guides/software/tools/nmap.md)
     * [Vim](help-guides/software/tools/vim.md)
+    * [Vimium](help-guides/software/tools/vimium.md)
     * [Zsh](help-guides/software/tools/zsh.md)
 * [Networking](help-guides/networking/README.md)
   * [Domain Name System \(DNS\)](help-guides/networking/dns.md)

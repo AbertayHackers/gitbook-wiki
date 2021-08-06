@@ -30,8 +30,9 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Vim](../../help-guides/software/tools/vim.md)
 * [Linux Commands for Beginners](../../help-guides/software/operating-systems/linux-commands.md)
 * [Zsh](../../help-guides/software/tools/zsh.md)
-* [Installing Arch](https://github.com/AbertayHackers/gitbook-wiki/tree/128fd5664a9eed6c99bbff4379d587bc2c92b512/members/members/help-guides/software/operating-systems/arch-walkthrough.md)
-* [Subnetting](https://github.com/AbertayHackers/gitbook-wiki/tree/128fd5664a9eed6c99bbff4379d587bc2c92b512/members/members/help-guides/networking/subnetting/README.md)
+* [Installing Arch](../../help-guides/software/operating-systems/arch-walkthrough.md)
+* [Subnetting](../../help-guides/networking/subnetting.md)
+* [Vimium](../../help-guides/software/tools/vimium.md)
 
 #### Articles I edited
 
