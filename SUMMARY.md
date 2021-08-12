@@ -67,6 +67,10 @@
 * [Home Lab](help-guides/home-lab/README.md)
   * [PiHole](help-guides/home-lab/pihole.md)
 
+## Glossary
+
+* [Infosec Terms](glossary/infosec.md)
+
 ## Members
 
 * [Profiles](members/members/README.md)
