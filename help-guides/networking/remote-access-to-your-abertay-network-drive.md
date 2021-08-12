@@ -42,3 +42,4 @@ If your Desktop Environment is Unity, Gnome, XFCE or LXDE, that's what you want.
 If your DE is KDE Plasma or LXQT, that's what you want
 
 Warning: KNetAttach\(the script for connecting to webdav folders in KDE Plasma\) is currently broken. You can still connect to the network drive by putting `webdavs://myfiles.abertay.ac.uk/myfiles/hcwebdav/Home drive/` into the full path in Dolphin
+

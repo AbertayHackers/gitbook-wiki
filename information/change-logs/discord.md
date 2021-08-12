@@ -1,5 +1,9 @@
 # Discord
 
+## 12/08/2021
+
+* Pushed the Discord portal to fully live at discord.hacksoc.co.uk.
+
 ## 29/07/2021
 
 * Enabled the new Threads feature and altered permissions system to consolodate usage perms into the `@everyone` role, as per other perms.
@@ -25,3 +29,4 @@
 * Moved Sarah's welcome messages to the bot
 * Revamped the category design to include emojis
 * Removed the Fresher role from previous year freshers
+

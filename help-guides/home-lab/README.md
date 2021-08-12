@@ -189,8 +189,9 @@ The router you are currently using is probably whatever was supplied by your ISP
 
 Though you have almost definitely used ethernet cable before, it will be useful to know about different types of ethernet cable, and how to make your own, before investing in some for your lab.
 
-For the standard Homelab the LAN Connection will be established with a RJ-45 headed Ethernet cable. This would likely connect into a [Switch](./#switch) or [Router](./#router) as discussed above. 
+For the standard Homelab the LAN Connection will be established with a RJ-45 headed Ethernet cable. This would likely connect into a [Switch](./#switch) or [Router](./#router) as discussed above.
 
-![RJ-45 headed Ethernet cable](../../.gitbook/assets/image%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![RJ-45 headed Ethernet cable](../../.gitbook/assets/image%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29.png)
 
 It is recommended that the minimum Category for Ethernet cables for Homelabs would be Cat5e; as it is able to reach speeds of up to 1 Gbps. The Category of your Ethernet cable is very simple yet important as it could be the bottleneck of your interconnectivity. Bandwidths of &gt;1Gbps is **strongly** recommended for NAS setups along with RAID to ensure said bandwidth can be properly saturated.
+

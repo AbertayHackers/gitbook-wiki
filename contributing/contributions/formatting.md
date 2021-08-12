@@ -25,3 +25,4 @@ This article will go over a few recommendations for formatting and best practise
 ## Editing using GitBook
 
 \[TBA\]
+

@@ -4,7 +4,7 @@ description: How to set up a PiHole
 
 # PiHole
 
-*An install guide by Kyle*
+_An install guide by Kyle_
 
 Using a Raspberry Pi as the networks DNS server, [Pi-Hole](https://pi-hole.net/) “blocks ads for all your devices without the need to install client-side software. The Pi-hole blocks ads at the DNS-level, so all your devices are protected.”[1\)](https://wiki.hacksoc.co.uk/guides/pihole#fn__1) This also allows ad blocking on devices which do not support it \(think mobile/tablet\)
 
@@ -37,13 +37,11 @@ This guide has been tested using Raspbian Jessie, macOS Sierra 10.12.3 & PiFille
 5. run route -ne and note the default gateway IP address \(routers IP address\)
 6. Now we need to edit the dhcpcd.conf file using `sudo vim /etc/dhcpcd.conf`
 7. The following information needs to be added to the bottom of the file:
-
 8. ```text
    interface eth0 (interface ethernet)
    static ip_address=192.168.0.88       # the ip to give the Pi
    static routers=192.168.0.1           # the gateway/routers IP
    ```
-
 9. `sudo reboot` will allow all changes to take effect
 10. To check it has worked run `ifconfig` and eth0 should be assigned 192.168.0.88 \(or whatever you chose\)
 11. Enabling SSH: this is on by default on the Raspberry Pi - if it is not working run `sudo raspi-config` and enable it in the advanced &gt; ssh menu.
@@ -76,3 +74,4 @@ You cannot edit the DNS servers on the Virgin HomeHub and after searching around
   * . `Network and Sharing Centre > Click on the connection type > Properties > Internet Protocol Version 4 (TCP/IPv4) > Properties > Select “Use the following DNS server addresses”` and add in the IP address of the Pi
 
 [1\)](https://wiki.hacksoc.co.uk/guides/pihole#fnt__1) Quoted from their [GitHub](https://github.com/pi-hole/pi-hole)
+

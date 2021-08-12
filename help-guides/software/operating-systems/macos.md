@@ -237,10 +237,11 @@ For general information see [Programmming](../../programming-scripting/tools.md)
 ## Books
 
 * [Mac OS X Internals: A Systems Approach](http://osxbook.com/) - Amit Singh \(2006\)
-* [The Mac Hacker's Handbook](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
+* \[The Mac Hacker's Handbook\]\([https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363](https://www.wiley.com/en-us/The+Mac+Hacker's+Handbook-p-9780470395363)\) - [Charlie Miller](https://twitter.com/0xcharlie) and [Dino Dai Zovi](https://twitter.com/dinodaizovi) \([Amazon](https://www.amazon.co.uk/Mac-Hackers-Handbook-Charlie-Miller/dp/0470395362)\) \(2009\)
 * [Mac OS X and iOS Internals](http://www.wrox.com/WileyCDA/WroxTitle/Mac-OS-X-and-iOS-Internals-To-the-Apple-s-Core.productCd-1118057651.html) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.co.uk/Mac-OS-IOS-Internals-Programmer/dp/1118057651)\) \([Legit PDF](http://newosxbook.com/MOXiI.pdf)\) \(2012\)
 
 ### MacOS and iOS Internals \(Levin\)
 
 * [MacOS and iOS Internals, Volume I - User Mode](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)\) \(2017\)
 * [MacOS and iOS Internals, Volume III: Security & Insecurity](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)\) \(2016\)
+

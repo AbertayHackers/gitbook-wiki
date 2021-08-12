@@ -70,3 +70,4 @@ This page lists some good books recommended by current and past students for a v
 
 * [MacOS and iOS Internals, Volume I - User Mode](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-User-Mode/dp/099105556X)\) \(2017\)
 * [MacOS and iOS Internals, Volume III: Security & Insecurity](http://newosxbook.com/index.php) - [Jonathan Levin](https://twitter.com/Morpheus______) \([Amazon](https://www.amazon.com/MacOS-iOS-Internals-III-Insecurity/dp/0991055535)\) \(2016\)
+

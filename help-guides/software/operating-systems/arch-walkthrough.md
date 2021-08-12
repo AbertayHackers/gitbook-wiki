@@ -2,7 +2,7 @@
 
 _By_ [_Isaac_](../../../members/members/isaac.md)
 
-Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design.
+Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS \(keep it simple, stupid\) principle of design.
 
 ## Why Arch?
 
@@ -88,7 +88,7 @@ you now have the three necessary partitions to continue, you can verify this by 
 
 Now we must create the filesystems by entering the following commands:
 
-```sh
+```bash
 mkswap /dev/sda3# swap partition
 swapon /dev/sda3
 
@@ -99,7 +99,7 @@ mkfs.fat -F32 /dev/sda1  # EFI partition
 
 Next we mount the partitions \(we don't need to mount swap\)
 
-```sh
+```bash
 mount /dev/sda2 /mnt # root partition
 
 mkdir /mnt/boot # make dir for boot and mount
@@ -165,7 +165,7 @@ Next, create and open a file located at `/etc/locale.conf`, and add \(in my case
 
 Next we have networking. At the moment, the Arch installation environment has a series of preconfigured network settings \(in `systemd`\) in order to facilitate required installations, however the full post-installation system still needs a configured network. In order to configure this, run the following:
 
-```sh
+```bash
 systemctl enable systemd-networkd # networking
 systemctl enable systemd-resolved # dns resolution
 ```
@@ -174,7 +174,7 @@ After this, run the `ip addr` command, this should show two sets of data, the fi
 
 Create and edit a file located at `/etc/systemd/network/20-wired.network` and add the following lines:
 
-```conf
+```text
 [Match] Name=ens33 
 [Network] DHCP=yes
 ```
@@ -189,7 +189,7 @@ If you're on an intel CPU, install `intel-ucode` using `pacman`
 
 The final stage to installing Arch is getting the bootloader in place, this is the software that is responsible for booting the computer. By far the most popular bootloader is `GRUB`, which we will be installing to the `EFI` partition in `SDA1`
 
-```sh
+```bash
 pacman -S grub efibootmgr # get grub and an efi boot manager
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB # install
 grub-mkconfig -o /boot/grub/grub.cfg # generate config file
@@ -210,3 +210,4 @@ After this you can follow the Arch Wiki's [General Recommendations](https://wiki
 Happy Arch-ing! :\)
 
 ![the arch logo](../../../.gitbook/assets/arch-logo.png)
+

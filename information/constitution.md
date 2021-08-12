@@ -8,7 +8,7 @@ description: >-
 
 ## Name
 
- The name of the society shall be “Abertay University Students’ Association Ethical Hacking Society”.
+The name of the society shall be “Abertay University Students’ Association Ethical Hacking Society”.
 
 ## Aims and Objectives
 
@@ -20,7 +20,7 @@ description: >-
 
 ## Membership
 
- All members shall pay the minimum subscription fee that shall be determined by the Committee at the beginning of each academic year. The Membership ​of the Society ​shall be open to all, providing they are full members of the Association, provided they have expressed their agreement with the aims and objectives of the society. The minimum number of members to affiliate is 8 Abertay Students.
+All members shall pay the minimum subscription fee that shall be determined by the Committee at the beginning of each academic year. The Membership ​of the Society ​shall be open to all, providing they are full members of the Association, provided they have expressed their agreement with the aims and objectives of the society. The minimum number of members to affiliate is 8 Abertay Students.
 
 ### Full membership of the society implies the right to
 
@@ -41,7 +41,7 @@ description: >-
 
 ### Termination of membership of the society
 
- The society committee members by vote or Abertay SA may discontinue any membership of any society. Any member who feels that they have been unjustly excluded shall have a right of appeal to the SRC \(Student Representative Council\) and shall additionally have recourse to the complaints procedure.
+The society committee members by vote or Abertay SA may discontinue any membership of any society. Any member who feels that they have been unjustly excluded shall have a right of appeal to the SRC \(Student Representative Council\) and shall additionally have recourse to the complaints procedure.
 
 ## Governance
 
@@ -115,7 +115,7 @@ description: >-
 
 ### Society meetings
 
- The Ethical Hacking Society must meet at minimum monthly during undergraduate teaching time. Meetings may be held outside this time but are not deemed mandatory.
+The Ethical Hacking Society must meet at minimum monthly during undergraduate teaching time. Meetings may be held outside this time but are not deemed mandatory.
 
 ### Financial
 
@@ -155,3 +155,4 @@ description: >-
 
 1. Abertay SA may disaffiliate the Ethical Hacking Society from the Students Association if it breaches any of the Laws or Bylaws or is found to be in breach of Abertay SA’s own constitution, or the constitution of the society, or in circumstances where the activities of the Society cannot continue safely
 2. In the event of the Society failing to submit the minutes of their AGM and a list of those present to the Vice-President of the SA by the end of the academic year, the Society shall be deemed to have been disaffiliated and shall have no link to the Students Association
+

@@ -13,3 +13,4 @@ Main Highlights
 The [autopep8](https://github.com/pbrod/autopep8) package "automatically formats Python code to conform to the PEP 8 style guide".
 
 In the Atom IDE, compliance can be set with the following steps: 1. Setting/ Preferences &gt; Packages &gt; Search “language-python” &gt; Settings &gt; Python Grammar &gt; Tab Length &gt; Set to “4” 2. Setting/ Preferences &gt; Editor &gt; Tab Type &gt; Set to “Soft”
+

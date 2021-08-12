@@ -26,3 +26,4 @@ With this done, you can now edit or add wiki files. Once you've made the changes
 2. Commit the changes locally: `git commit -m "description of the changes you've made"`
 3. Push the changes to your fork on Github: `git push`
 4. Finally, go to [https://github.com/\[username\]/gitbook-wiki/pulls](https://github.com/[username]/gitbook-wiki/pulls) and open a pull request to request that your changes be added to the site.
+

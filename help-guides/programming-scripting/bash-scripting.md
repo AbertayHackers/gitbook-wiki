@@ -99,3 +99,4 @@ set -euo pipefail
 ```
 
 [Unofficial Bash Strict Mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
+

@@ -95,7 +95,7 @@ Only allow your user to access `~/.ssh` and your private keys, allow group and w
 
 #### config
 
- ```sh
+```bash
   # ~/.shh/config 
   # ssh_config(5) 
 
@@ -147,7 +147,7 @@ Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These pe
 
 #### sshd\_config
 
-```sh
+```bash
 # /etc/ssh/sshd_config 
 # sshd_config(5) 
 
@@ -195,3 +195,4 @@ Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.
 MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
 # Only use encrypt then mac (etm) MACs
 ```
+

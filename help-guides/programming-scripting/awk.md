@@ -38,3 +38,4 @@ awk '/hello/ {print $0}'
 will print every line in the file which contains the string 'hello' \(note the '/' characters wrapping the text to match - these are required by the interpreter\). Any regex can be used in this context.
 
 Any commands included within the '{}' characters will be performed on the line matching the pattern. If there are multiple matches, AWK will step through each match and perform these instructions on each line in turn. Multiple commands can be included here, separated by a semi-colon \(e.g. ''awk '/test {$output=$1+“ ”\).
+

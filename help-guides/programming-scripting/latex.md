@@ -193,3 +193,4 @@ Enables support for Text Companion fonts such as legal, currency and mathematica
 * [Awesome Documentation that 'just works'](https://www.sharelatex.com/learn)
 * [The Comprehensive LATEX Symbol List](https://www.cs.cmu.edu/~bhudson/symbols-letter.pdf)
 * [Arbitrary LaTeX Reference](http://latex.knobs-dials.com/) “Many problems in LaTeX requires some research, so I started to record my findings.”
+

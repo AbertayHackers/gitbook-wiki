@@ -72,3 +72,4 @@
 * [Programme](https://2020.securi-tay.co.uk/assets/programme.pdf) \(14MB\) _- currently shows 2019 programme_
 * Tweets: [\#SecuriTay2020](https://twitter.com/search?f=tweets&q=%23SecuriTay2020)
 * This year was also the first year that the afterparty was not held at the Abertay Student Union - instead, it was held at Inns & Gunn Beer Kitchen, next door to Dundee Rep Theatre
+

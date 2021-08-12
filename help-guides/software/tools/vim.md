@@ -6,7 +6,7 @@ description: a guide to the Vim text editor
 
 _By_ [_Isaac_](../../../members/members/isaac.md)
 
-![Vim with the Gruvbox Dark Theme installed](../../../.gitbook/assets/Vim-gruvbox.png)
+![Vim with the Gruvbox Dark Theme installed](https://github.com/AbertayHackers/gitbook-wiki/tree/2a6f552b2997f1013c7d67197fa4f0ded118969d/.gitbook/assets/Vim-gruvbox.png)
 
 Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor \(hence the name Vim, standing for vi iMproved\), which was originally published in 1976 for some essentially prehistoric computer systems.
 
@@ -46,9 +46,9 @@ You may be thinking this is all very complicated, and you'd be right. The skill 
 
 Helpfully, when you install the Vim package, it comes bundled with a program called `Vimtutor`, this program resembles a Vim text file and walks you through editing itself in the same way you'd edit a text file in Vim. Once you complete it you should have a rudimentary grasp on the editor.
 
-If you prefer to use games as your way of learning \(looking at you, Duolingo users\), then have no fear, [Vim Adventures](https://Vim-adventures.com/) has you covered. The game uses Vim navigation key bindings  to take you through a small fantasy game, teaching you a whole bunch of other things along the way!
+If you prefer to use games as your way of learning \(looking at you, Duolingo users\), then have no fear, [Vim Adventures](https://Vim-adventures.com/) has you covered. The game uses Vim navigation key bindings to take you through a small fantasy game, teaching you a whole bunch of other things along the way!
 
-If you're also the kind of person who loves to get stuck in to things in order to learn them properly, there are a multitude of ways to make use of the vim keybindings outside of the editor itself. A full wiki article on one of these ways of getting stuck in (using Vimium in-browser) can be found [here](vimium.md), some other ways include turning on vim keybinding support in other text editors like Visual Studio Code and the JetBrains suite of IDEs, and even using entire window managers on Linux, such as i3.
+If you're also the kind of person who loves to get stuck in to things in order to learn them properly, there are a multitude of ways to make use of the vim keybindings outside of the editor itself. A full wiki article on one of these ways of getting stuck in \(using Vimium in-browser\) can be found [here](vimium.md), some other ways include turning on vim keybinding support in other text editors like Visual Studio Code and the JetBrains suite of IDEs, and even using entire window managers on Linux, such as i3.
 
 ## Some Basics
 
@@ -324,4 +324,5 @@ To use this `Vimrc` file you'll need to install [Gruvbox](https://github.com/mor
     vnoremap <C-B> :<C-U>Hexmode<CR>
 ```
 
-![:wq!](../../../.gitbook/assets/Vim-logo.png)
+![:wq!](https://github.com/AbertayHackers/gitbook-wiki/tree/2a6f552b2997f1013c7d67197fa4f0ded118969d/.gitbook/assets/Vim-logo.png)
+

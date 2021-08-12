@@ -36,7 +36,7 @@ The number of hashes you add should correspond to the level of headings you want
 ### This would be heading level 3
 ```
 
-And so on. These headings \(as with a lot of Markdown's syntax\) have a direct equivalent in HTML, the markup language that webpages use for formatting. The equivalent would be using the \, \, and \ tags respectively
+And so on. These headings \(as with a lot of Markdown's syntax\) have a direct equivalent in HTML, the markup language that webpages use for formatting. The equivalent would be using the \, \, and  tags respectively
 
 ### Alternate Syntax
 
@@ -218,3 +218,4 @@ To "Escape" characters, or make special characters \(such as \*, &gt;, \`, etc.\
 ```text
 \* asterisks everywhere!!! \*
 ```
+

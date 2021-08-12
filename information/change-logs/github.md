@@ -14,3 +14,4 @@
 * Started Gitbook signup and requested non-profit enterprise status
 * Moved the Gameathon bot from my Github account into the society org
 * Upgraded the hacksoc bot and created an org repo for it
+
