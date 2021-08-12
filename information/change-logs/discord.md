@@ -2,7 +2,9 @@
 
 ## 12/08/2021
 
-* Pushed the Discord portal to fully live at discord.hacksoc.co.uk.
+* Pushed the Discord portal to fully live at `discord.hacksoc.co.uk`.
+* Removed access to unnecessary channels for unverified members \(twitter log and join list\)
+* Archived the 2021 AGM channel to NextCloud
 
 ## 29/07/2021
 
