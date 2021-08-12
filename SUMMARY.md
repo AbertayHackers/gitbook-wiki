@@ -6,6 +6,7 @@
 
 * [Constitution](information/constitution.md)
 * [Change Logs](information/change-logs/README.md)
+  * [Website](information/change-logs/website.md)
   * [Discord](information/change-logs/discord.md)
   * [Github](information/change-logs/github.md)
   * [Server](information/change-logs/server.md)
