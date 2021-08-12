@@ -70,6 +70,11 @@
 ## Glossary
 
 * [Infosec Terms](glossary/infosec.md)
+* [Computing Terms](glossary/computing.md)
+* [Hardware Terms](glossary/hardware.md)
+* [General Terms](glossary/general.md)
+* [Development Terms](glossary/development.md)
+* [Networking Terms](glossary/networking.md)
 
 ## Members
 

@@ -38,6 +38,14 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 
 * [Programming Tools](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/members/..help-guides/programming-scripting/tools.md)
   * Added basic info about JetBrains IDEs, Visual Studio, and Vim
+* [Glossary](/glossary/REAMDE.md)
+  * Initialised the following with boilerplate and standard content:
+    * [Computing](/glossary/computing.md)
+    * [Development](/glossary/development.md)
+    * [General](/glossary/general.md)
+    * [Hardware](/glossary/hardware.md)
+    * [Infosec](/glossary/infosec.md)
+    * [Networking](/glossary/networking.md)
 
 #### Articles I archived and brought over from the old wiki
 
