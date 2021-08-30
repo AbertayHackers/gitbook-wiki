@@ -1,5 +1,9 @@
 # Discord
 
+## 30/08/2021
+
+* Updated the welcome screen
+
 ## 12/08/2021
 
 * Pushed the Discord portal to fully live at `discord.hacksoc.co.uk`.
