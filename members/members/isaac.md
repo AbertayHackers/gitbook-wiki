@@ -24,7 +24,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 
 #### Articles I wrote/created
 
-* [A Guide to Markdown](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/help-guides/programming-scripting.markdown.md)
+* [A Guide to Markdown](help-guides/programming-scripting.markdown.md)
 * [Google-Fu](/help-guides/techniques/google-fu.md)
 * [Installing Arch](/help-guides/software/operating-systems/arch-walkthrough.md)
 * [Installing Kali in VMWare](/help-guides/software/operating-systems/kali-walkthrough.md)
@@ -37,7 +37,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 
 #### Articles I edited
 
-* [Programming Tools](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/members/..help-guides/programming-scripting/tools.md)
+* [Programming Tools](/help-guides/programming-scripting/tools.md)
   * Added basic info about JetBrains IDEs, Visual Studio, and Vim
 * [Glossary](/glossary/REAMDE.md)
   * Initialised the following with boilerplate and standard content:
@@ -65,25 +65,25 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
   * [Java Coding](/help-guides/programming-scripting/java-coding.md)
   * [LaTeX](/help-guides/programming-scripting/latex.md)
   * [Python Scripting](/help-guides/programming-scripting/python-scripting.md)
-  * [Tools](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/members/..help-guides/programming-scripting/tools.md)
+  * [Tools](/help-guides/programming-scripting/tools.md)
 * Operating Systems:
   * [MacOS](/help-guides/software/operating-systems/macos.md)
 * Tools:
   * [A guide to creating malicious macro-enabled Excel worksheets](/help-guides/techniques/a-guide-to-creating-malicious-macro-enabled-excel-worksheets.md)
-  * [A guide to using PGP on Android](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/help-guides/software/tools/a-guide-to-using-pgp-on-android.md)
-  * [A guide to using PGP on macOS](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/help-guides/software/tools/a-guide-to-using-pgp-on-macos.md)
+  * [A guide to using PGP on Android](/help-guides/software/tools/a-guide-to-using-pgp-on-android.md)
+  * [A guide to using PGP on macOS](/help-guides/software/tools/a-guide-to-using-pgp-on-macos.md)
   * [Nmap](/help-guides/software/tools/nmap.md)
   * [Open Source Intelligence \(OSINT\)](/help-guides/techniques/open-source-intelligence.md)
-  * [PGP](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/help-guides/software/tools/pgp.md)
+  * [PGP](/help-guides/software/tools/pgp.md)
   * [Regular Expressions](/help-guides/software/tools/regular-expressions.md)
-  * [The Browser Exploitation Framework \(BeEF\)](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/help-guides/software/tools/the-browser-exploitation-framework/README.md)
+  * [The Browser Exploitation Framework \(BeEF\)](/help-guides/software/tools/the-browser-exploitation-framework/README.md)
 * Techniques
 * Other
-  * [Data Dumps](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/other/data-dumps.md)
-  * [Local Tech/Security Meetups](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/other/meetups.md)
+  * [Data Dumps](/other/data-dumps.md)
+  * [Local Tech/Security Meetups](/other/meetups.md)
   * [Meltdown & Spectre](/other/other/meltdown-spectre.md)
   * [Movies](/other/other/movies.md)
-  * [Project Topic Suggestions](https://github.com/AbertayHackers/gitbook-wiki/tree/a9abe6e6ffe29bc07aff9d5a644192dd1a9cefab/other/project-topic-suggestions.md)
+  * [Project Topic Suggestions](/other/project-topic-suggestions.md)
   * [Recommended Reading](/other/other/recommended-reading.md)
 
 ### Links
