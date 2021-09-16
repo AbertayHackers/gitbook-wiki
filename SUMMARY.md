@@ -63,6 +63,7 @@
 * [Techniques](help-guides/techniques/README.md)
   * [A guide to creating malicious macro-enabled Excel worksheets](help-guides/techniques/a-guide-to-creating-malicious-macro-enabled-excel-worksheets.md)
   * [Open Source Intelligence \(OSINT\)](help-guides/techniques/open-source-intelligence.md)
+  * [Google-Fu](help-guides/techniques/google-fu.md)
 * [Jobs](help-guides/jobs/README.md)
   * [Common Interview Questions](help-guides/jobs/common-interview-questions.md)
 * [Home Lab](help-guides/home-lab/README.md)
