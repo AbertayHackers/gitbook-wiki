@@ -63,6 +63,7 @@
 * [Techniques](help-guides/techniques/README.md)
   * [A guide to creating malicious macro-enabled Excel worksheets](help-guides/techniques/a-guide-to-creating-malicious-macro-enabled-excel-worksheets.md)
   * [Open Source Intelligence \(OSINT\)](help-guides/techniques/open-source-intelligence.md)
+  * [Google-Fu](help-guides/techniques/google-fu.md)
 * [Jobs](help-guides/jobs/README.md)
   * [Common Interview Questions](help-guides/jobs/common-interview-questions.md)
 * [Home Lab](help-guides/home-lab/README.md)
@@ -71,6 +72,11 @@
 ## Glossary
 
 * [Infosec Terms](glossary/infosec.md)
+* [Computing Terms](glossary/computing.md)
+* [Hardware Terms](glossary/hardware.md)
+* [General Terms](glossary/general.md)
+* [Development Terms](glossary/development.md)
+* [Networking Terms](glossary/networking.md)
 
 ## Members
 
