@@ -196,8 +196,6 @@ A glossary of Infosec terms and abbreviations.
 
 ## U
 
-
-
 ## V
 
 * **VA**: Vulnerability Assessment
@@ -225,8 +223,6 @@ A glossary of Infosec terms and abbreviations.
 * **XSS**: Cross-Site Scripting
 
 ## Y
-
-
 
 ## Z
 
