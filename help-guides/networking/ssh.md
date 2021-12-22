@@ -23,10 +23,12 @@
 
 Key types are listed in the order of preference below:
 
-1. `ED25519`
-2. &gt;= 2048bit `RSA`
-
-**Never** use `DSA` keys and avoid `ECDSA` keys if you can. Both [fail catastrophically on bad randomness](https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys/46781#46781).
+* `ED25519`
+* &gt;= 2048bit `RSA`
+* `ECDSA`
+  * `DSA` and `ECDSA` both [fail catastrophically on bad randomness](https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys/46781#46781).
+  * **Never** use `DSA` keys 
+  * Avoid `ECDSA` keys if you can
 
 ## Mobile
 
@@ -51,16 +53,6 @@ ssh-keygen -t ed25519 -a 100
 
 * `-t`: Type of key to generate
 * `-a`: Number of Key Derivation Function \(KDF\) rounds
-
-#### RSA
-
-```text
-ssh-keygen -t rsa -b 2048 -a 100
-```
-
-* `-t`: Type of key to generate
-* `-b`: Size of key in bits
-* `-a`: Number of \(KDF\) rounds
 
 ### Remove Hashed known\_hosts Entry
 
@@ -121,18 +113,26 @@ Only allow your user to access `~/.ssh` and your private keys, allow group and w
   # Mitigates CVE-0216-0777 
 
   # Cryptography 
-  KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 
-  # Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred 
 
-  HostKeyAlgorithms ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com 
-  # Only allow ed25519 or RSA keys for client authentication 
+  KexAlgorithms curve25519-sha256
+  # Allow only curve25519
 
-  Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com 
-  # Only use authenticated symmetric ciphers 
-  # aes listed for compatibility, chacha20-poly1305 is preferred 
+  HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256
+  # Allow only ed25519 or ECDSA keys for client authentication
+  # ECDSA for Secretive/ Secure Enclave keys
+  # ed25519 for everything else
 
-  MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
+  Ciphers chacha20-poly1305@openssh.com
+  # Only use chacha20-poly1305
+  # Chacha20-poly1305 is preferred over AES-GCM because the SSH protocol does 
+  #   not encrypt message sizes when GCM (or EtM) is in use. 
+  #   This allows some traffic analysis even without decrypting the data.
+  #   See: http://blog.djm.net.au/2013/11/chacha20-and-poly1305-in-openssh.html
+
+  MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com
   # Only use encrypt then mac (etm) MACs
+  # Allow only HMAC-SHA2-512/256 or UMAC-128
+  #   https://crypto.stackexchange.com/a/56432
 ```
 
 ### Server
@@ -144,7 +144,7 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These permissions are required** by the `StrictModes` directive.
+Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These permissions are required** by the [`StrictModes`](https://man.openbsd.org/sshd_config#StrictModes) directive.
 
 #### sshd\_config
 
@@ -165,8 +165,8 @@ Protocol 2
 LogLevel VERBOSE 
 # Logs user's key fingerprint on login 
 
-HostKey /etc/ssh/ssh_host_rsa_key 
-HostKey /etc/ssh/ssh_host_ed25519_key 
+HostKey /etc/ssh/ssh_host_ed25519_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
 # Key files cannot be group/world-accessible 
 
 PermitRootLogin no 
@@ -183,18 +183,25 @@ Subsystem sftp internal-sftp
 
 # Cryptography 
 
-KexAlgorithms curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521 
-# Define Key Exchange Algorithms # NIST curves are listed for compatibility, curve25519 is preferred 
+KexAlgorithms curve25519-sha256
+# Allow only curve25519
 
-HostKeyAlgorithms ssh-ed25519,ssh-rsa 
-# Only allow ed25519 or RSA keys for client authentication 
+HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256
+# Allow only ed25519 or ECDSA keys for client authentication
+# ECDSA for Secretive/ Secure Enclave keys
+# ed25519 for everything else
 
-Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com 
-# Only use authenticated symmetric ciphers 
-# aes listed for compatibility, chacha20-poly1305 is preferred 
+Ciphers chacha20-poly1305@openssh.com
+# Only use chacha20-poly1305
+# Chacha20-poly1305 is preferred over AES-GCM because the SSH protocol does 
+#   not encrypt message sizes when GCM (or EtM) is in use. 
+#   This allows some traffic analysis even without decrypting the data.
+#   See: http://blog.djm.net.au/2013/11/chacha20-and-poly1305-in-openssh.html
 
-MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com
 # Only use encrypt then mac (etm) MACs
+# Allow only HMAC-SHA2-512/256 or UMAC-128
+#   https://crypto.stackexchange.com/a/56432
 ```
 
 #### Debugging `sshd` Issues
@@ -212,4 +219,3 @@ sudo systemctl restart sshd
 sudo systemctl status sshd
 # On systemd based systems print the status of the sshd service
 ```
-
