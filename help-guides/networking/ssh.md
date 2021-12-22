@@ -116,11 +116,12 @@ Only allow your user to access `~/.ssh` and your private keys, allow group and w
 
   KexAlgorithms curve25519-sha256
   # Allow only curve25519
-
-  HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256
-  # Allow only ed25519 or ECDSA keys for client authentication
+  
+  HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256
+  # Allow ed25519, ECDSA and RSA SHA2 keys for client authentication
+  # ed25519 is the preferred key type
   # ECDSA for Secretive/ Secure Enclave keys
-  # ed25519 for everything else
+  # rsa-sha2-* for compatability
 
   Ciphers chacha20-poly1305@openssh.com
   # Only use chacha20-poly1305
@@ -186,10 +187,11 @@ Subsystem sftp internal-sftp
 KexAlgorithms curve25519-sha256
 # Allow only curve25519
 
-HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256
-# Allow only ed25519 or ECDSA keys for client authentication
+HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256
+# Allow ed25519, ECDSA and RSA SHA2 keys for client authentication
 # ECDSA for Secretive/ Secure Enclave keys
-# ed25519 for everything else
+# ed25519 is the preferred key type
+# rsa-sha2-* for compatability
 
 Ciphers chacha20-poly1305@openssh.com
 # Only use chacha20-poly1305
