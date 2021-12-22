@@ -168,6 +168,7 @@ LogLevel VERBOSE
 
 HostKey /etc/ssh/ssh_host_ed25519_key
 HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_rsa_key
 # Key files cannot be group/world-accessible 
 
 PermitRootLogin no 
