@@ -17,6 +17,7 @@
 ## Tools
 
 * [ssh\_scan](https://github.com/mozilla/ssh_scan) “configuration and policy scanner” \(Mozilla\)
+* [Secretive](https://github.com/maxgoedjen/secretive) Generate and store SSH keys in the Mac Secure Enclave (`ecdsa-sha2-nistp256` keys)
 
 ## Key Types
 
@@ -194,5 +195,21 @@ Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.
 
 MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com 
 # Only use encrypt then mac (etm) MACs
+```
+
+#### Debugging `sshd` Issues
+
+```shell
+sudo sshd -t
+# Test mode. Only check the validity of the configuration file and sanity of the keys.
+```
+```shell
+sudo systemctl restart sshd
+# On systemd based systems restart the sshd service
+```
+
+```shell
+sudo systemctl status sshd
+# On systemd based systems print the status of the sshd service
 ```
 
