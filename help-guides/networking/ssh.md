@@ -17,6 +17,7 @@
 ## Tools
 
 * [ssh\_scan](https://github.com/mozilla/ssh_scan) “configuration and policy scanner” \(Mozilla\)
+* [Secretive](https://github.com/maxgoedjen/secretive) Generate and store SSH keys in the Mac Secure Enclave (`ecdsa-sha2-nistp256` keys)
 
 ## Key Types
 
