@@ -2,50 +2,41 @@
 
 * [OpenSSH Manual Pages](https://www.openssh.com/manual.html)
 
-## Guides
+# Guides
 
-* [OpenSSH Guidelines](https://infosec.mozilla.org/guidelines/openssh) \(Mozilla\)
+* [OpenSSH Guidelines](https://infosec.mozilla.org/guidelines/openssh) - Mozilla
 * [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html) - [stribika](https://twitter.com/stribika)
-* [Securing SSH](https://wiki.centos.org/HowTos/Network/SecuringSSH) \(CentOS Wiki\)
+* [Securing SSH](https://wiki.centos.org/HowTos/Network/SecuringSSH) - CentOS Wiki
 
-## Articles
+# Articles
 
-* [The default OpenSSH key encryption is worse than plaintext](https://latacora.singles/2018/08/03/the-default-openssh.html) \(Latacora Blog\)
-* [ChaCha20 and Poly1305 in OpenSSH](http://blog.djm.net.au/2013/11/chacha20-and-poly1305-in-openssh.html)
-* [How Facebook does SSH at scale](https://code.fb.com/security/scalable-and-secure-access-with-ssh/)
+* [The default OpenSSH key encryption is worse than plaintext](https://latacora.singles/2018/08/03/the-default-openssh.html) - [lvh](https://twitter.com/lvh) \(Latacora Blog\)
+* [ChaCha20 and Poly1305 in OpenSSH](http://blog.djm.net.au/2013/11/chacha20-and-poly1305-in-openssh.html) - [Damien Miller](https://twitter.com/damienmiller)
+* [How Facebook does SSH at scale](https://code.fb.com/security/scalable-and-secure-access-with-ssh/) - Marlon Dutra
 
-## Tools
+# Tools
 
 * [ssh\_scan](https://github.com/mozilla/ssh_scan) “configuration and policy scanner” \(Mozilla\)
 * [Secretive](https://github.com/maxgoedjen/secretive) Generate and store SSH keys in the Mac Secure Enclave (`ecdsa-sha2-nistp256` keys)
 
-## Key Types
 
-Key types are listed in the order of preference below:
-
-* `ED25519`
-* &gt;= 2048bit `RSA`
-* `ECDSA`
-  * `DSA` and `ECDSA` both [fail catastrophically on bad randomness](https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys/46781#46781).
-  * **Never** use `DSA` keys 
-  * Avoid `ECDSA` keys if you can
-
-## Mobile
+# Mobile
 
 If you use SSH on the go often you'll want to look at using [Mosh](https://mosh.org/)
 
-### iOS
+## iOS
 
-* [Termius](https://www.termius.com/) [App Store](https://itunes.apple.com/us/app/termius-ssh-shell-console-terminal/id549039908?mt=8) \(free\)
-* [Prompt 2](https://panic.com/prompt/) [App Store](https://itunes.apple.com/gb/app/prompt-2/id917437289?mt=8) \(£14.99\)
+* [Termius](https://www.termius.com/) [App Store](https://apps.apple.com/gb/app/termius-ssh-client/id549039908) \(Free\)
+* [Prompt 2](https://panic.com/prompt/) [App Store](https://apps.apple.com/gb/app/prompt-2/id917437289) \(£12.99\)
+* [Blink Shell](https://blink.sh) [App Store](https://apps.apple.com/gb/app/id1156707581) \(£17.99\)
 
-## Examples
+# Examples
 
-### Generate Keys
+## Generate Keys
 
 The `ssh-keygen` utility is used to create new SSH keys on most \*nix systems.
 
-#### ED25519
+### ED25519
 
 ```text
 ssh-keygen -t ed25519 -a 100
@@ -54,7 +45,7 @@ ssh-keygen -t ed25519 -a 100
 * `-t`: Type of key to generate
 * `-a`: Number of Key Derivation Function \(KDF\) rounds
 
-### Remove Hashed known\_hosts Entry
+## Remove Hashed known\_hosts Entry
 
 If your client is set to hash known hosts e.g. has the following line in `~/.ssh/config`
 
@@ -72,21 +63,31 @@ ssh-keygen -R example.com
 
 Which will remove all keys associated with that hostname from `~/.ssh/known_hosts`.
 
-## Configuration
+# Configuration
 
-### Client
+## Key Types
 
-#### Permissions
+Key types are listed in the order of preference below:
 
-```text
+* `ED25519`
+* &gt;= 2048bit `RSA`
+* `ECDSA`
+  * `DSA` and `ECDSA` both [fail catastrophically on bad randomness](https://security.stackexchange.com/questions/5096/rsa-vs-dsa-for-ssh-authentication-keys/46781#46781).
+  * **Never** use `DSA` keys 
+  * Avoid `ECDSA` keys if you can
+
+## Client
+
+### Permissions
+
+Only allow your user to access `~/.ssh` and your private keys, allow group and world to access your public keys.
+```shell
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_*
 chmod 644 ~/.ssh/id_*.pub
 ```
 
-Only allow your user to access `~/.ssh` and your private keys, allow group and world to access your public keys.
-
-#### config
+### config
 
 ```bash
   # ~/.shh/config 
@@ -136,18 +137,18 @@ Only allow your user to access `~/.ssh` and your private keys, allow group and w
   #   https://crypto.stackexchange.com/a/56432
 ```
 
-### Server
+## Server
 
-#### Permissions
+### Permissions
 
-```text
+Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`.
+```shell
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
+**These permissions are required** by the [`StrictModes`](https://man.openbsd.org/sshd_config#StrictModes) directive.
 
-Only allow your user to access `~/.ssh` and `~/.ssh/authorized_keys`. **These permissions are required** by the [`StrictModes`](https://man.openbsd.org/sshd_config#StrictModes) directive.
-
-#### sshd\_config
+### sshd\_config
 
 ```bash
 # /etc/ssh/sshd_config 
@@ -207,7 +208,7 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@op
 #   https://crypto.stackexchange.com/a/56432
 ```
 
-#### Debugging `sshd` Issues
+### Debugging `sshd` Issues
 
 ```shell
 sudo sshd -t
