@@ -122,7 +122,7 @@ chmod 644 ~/.ssh/id_*.pub
   # Allow ed25519, ECDSA and RSA SHA2 keys for client authentication
   # ed25519 is the preferred key type
   # ECDSA for Secretive/ Secure Enclave keys
-  # rsa-sha2-* for compatability
+  # rsa-sha2-* for compatibility
 
   Ciphers chacha20-poly1305@openssh.com
   # Only use chacha20-poly1305
@@ -193,7 +193,7 @@ HostKeyAlgorithms ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256
 # Allow ed25519, ECDSA and RSA SHA2 keys for client authentication
 # ECDSA for Secretive/ Secure Enclave keys
 # ed25519 is the preferred key type
-# rsa-sha2-* for compatability
+# rsa-sha2-* for compatibility
 
 Ciphers chacha20-poly1305@openssh.com
 # Only use chacha20-poly1305
