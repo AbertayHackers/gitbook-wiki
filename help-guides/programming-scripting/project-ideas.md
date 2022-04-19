@@ -9,8 +9,29 @@ This article is a selection of project ideas and concepts, initially posted by t
 1. Write a program which finds the factorial of a number entered by the user.
 2. Develop a program to convert currency X to currency Y and visa versa.
 3. Write a program that print out the following, user will input the top number:
+```
+*****
+****
+***
+**
+*
+```
 4. Write a program that print out the following, user will input the bottom number: 
+```
+*
+**
+***
+****
+*****
+******
+```
 5. Write a program that prints out the following triangle, the user will input the bottom number:
+```
+*
+***
+*****
+*******
+```
 6. Develop a program that uses a randomly generated number to select 1 of 3 (or more) functions to show the user.
 7. Guessing game. Write a game that asks the user to guess a number between 1 and a 100. If you guessed correctly, it will say you win. If your too high or too low it will also let you know. 
 8. Create a program which generates Fibonacci series till a number 'n' where 'n' is entered by the user. For eg. if the user enters 10 then the output would be: 1 1 2 3 5 8 
