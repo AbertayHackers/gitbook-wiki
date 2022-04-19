@@ -29,6 +29,7 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [Installing Arch](/help-guides/software/operating-systems/arch-walkthrough.md)
 * [Installing Kali in VMWare](/help-guides/software/operating-systems/kali-walkthrough.md)
 * [Linux Commands for Beginners](/help-guides/software/operating-systems/linux-commands.md)
+* [Project Ideas](help-guides/programming-scripting/project-ideas.md)
 * [Some formatting rules for contributing to the Wiki](/contributing/contributions/formatting.md)
 * [Subnetting](/help-guides/networking/subnetting.md)
 * [Vim](/help-guides/software/tools/vim.md)
