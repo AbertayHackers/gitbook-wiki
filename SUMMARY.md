@@ -34,6 +34,7 @@
   * [Java Coding](help-guides/programming-scripting/java-coding.md)
   * [LaTeX](help-guides/programming-scripting/latex.md)
   * [Markdown](help-guides/programming-scripting/markdown.md)
+  * [Project Ideas](help-guides/programming-scripting/project-ideas.md)
   * [Python Scripting](help-guides/programming-scripting/python-scripting.md)
   * [Tools](help-guides/programming-scripting/tools.md)
 * [Software](help-guides/software/README.md)

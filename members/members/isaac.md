@@ -24,16 +24,17 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 
 #### Articles I wrote/created
 
-* [A Guide to Markdown](https://github.com/AbertayHackers/gitbook-wiki/tree/f4a5696b52cbb65fc17d4c37ca3aacd85e09357a/members/members/help-guides/programming-scripting.markdown.md)
-* [Google-Fu](../../help-guides/techniques/google-fu.md)
-* [Installing Arch](../../help-guides/software/operating-systems/arch-walkthrough.md)
-* [Installing Kali in VMWare](../../help-guides/software/operating-systems/kali-walkthrough.md)
-* [Linux Commands for Beginners](../../help-guides/software/operating-systems/linux-commands.md)
-* [Some formatting rules for contributing to the Wiki](../../contributing/contributions/formatting.md)
-* [Subnetting](../../help-guides/networking/subnetting.md)
-* [Vim](../../help-guides/software/tools/vim.md)
-* [Vimium](../../help-guides/software/tools/vimium.md)
-* [Zsh](../../help-guides/software/tools/zsh.md)
+* [A Guide to Markdown](help-guides/programming-scripting.markdown.md)
+* [Google-Fu](/help-guides/techniques/google-fu.md)
+* [Installing Arch](/help-guides/software/operating-systems/arch-walkthrough.md)
+* [Installing Kali in VMWare](/help-guides/software/operating-systems/kali-walkthrough.md)
+* [Linux Commands for Beginners](/help-guides/software/operating-systems/linux-commands.md)
+* [Project Ideas](help-guides/programming-scripting/project-ideas.md)
+* [Some formatting rules for contributing to the Wiki](/contributing/contributions/formatting.md)
+* [Subnetting](/help-guides/networking/subnetting.md)
+* [Vim](/help-guides/software/tools/vim.md)
+* [Vimium](/help-guides/software/tools/vimium.md)
+* [Zsh](/help-guides/software/tools/zsh.md)
 
 #### Articles I edited
 
