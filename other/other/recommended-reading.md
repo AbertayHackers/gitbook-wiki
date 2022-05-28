@@ -70,7 +70,7 @@ This page lists some good books recommended by current and past students for a v
 
 ### Linux
 * [Linux Pocket Book](https://www.amazon.co.uk/dp/B01GGQKXRG?tag=guru990c-21&geniuslink=true) - Daniel Barrett \(2016\)
-* [The Linxu Command Line](https://www.amazon.co.uk/dp/1593279523?tag=guru990c-21&geniuslink=true) - William Shotts \(2019\)
+* [The Linux Command Line](https://www.amazon.co.uk/dp/1593279523?tag=guru990c-21&geniuslink=true) - William Shotts \(2019\)
 * [How Linux Works](https://www.amazon.co.uk/How-Linux-Works-Superuser-Should/dp/1593275676) - Brian Ward \(2014\)
 * [Linux Basics for Hackers](https://www.amazon.co.uk/dp/1593278551/ref=as_li_qf_asin_il_tl?ie=UTF8&linkCode=gs2&linkId=afcaf1673cbd101a6a13e52fc26ac492&creativeASIN=1593278551&tag=linuxhint-21&creative=9325) - OccupyTheWeb \(2018\)
 * [Kali Linux Revealed](https://www.amazon.co.uk/dp/0997615605/ref=as_li_qf_asin_il_tl?ie=UTF8&linkCode=gs2&linkId=e50996005435b72cb7a1cc781a0ae163&creativeASIN=0997615605&tag=linuxhint-21&creative=9325) - Raphaël Hertzog, Mati Ahroni, Jim O'Gorman \(2017\)
