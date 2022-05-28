@@ -93,5 +93,5 @@ Originally from Liverpool, currently resident of wonderful, sunny Dundee
 * [blog](http://ibrice101.github.io/)
 * [twitter](https://twitter.com/IBRice101)
 * [github](https://github.com/IBRice101)
-* [linkedin](https://www.linkedin.com/in/isaac-b-5b6149138/)
+* [linkedin](https://www.linkedin.com/in/izbr/)
 
