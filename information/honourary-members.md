@@ -14,4 +14,5 @@ description: A list of the society's honourary members
 * Jamie McCunnie
 * [Mikey](https://twitter.com/0xmachos)
 * [Paul Boyle](https://twitter.com/paulboyle98)
-
+* [Sarah Cunningham](https://twitter.com/Casual_Unknown)
+* [Cari Watterton](https://twitter.com/CariWatterton)
