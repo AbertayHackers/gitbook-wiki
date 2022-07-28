@@ -12,7 +12,7 @@ A glossary of Infosec terms and abbreviations.
 * **AES**: Advanced Encryption Standard
 * **AMSI**: Anti-Malware Scan Interface
 * **AP**: Access Point
-* **APT**: Advanced Persisten Threat
+* **APT**: Advanced Persistent Threat
 * **AV**: Antivirus
 
 ## B
@@ -26,8 +26,8 @@ A glossary of Infosec terms and abbreviations.
 * **CISA**: Certified Information Systems Auditor
 * **CISM**: Certified Information Security 
 * **CISSP**: Certified Information Systems Security Professional
-* **CS**: Cobolt Strike
-* **CSP**: Content Security Polic
+* **CS**: Cobalt Strike
+* **CSP**: Content Security Policy
 * **CVE**; Common Vulnerabilities and Exposures
 * **CVSS**: Common Vulnerability Scoring System
 
@@ -36,7 +36,7 @@ A glossary of Infosec terms and abbreviations.
 * **DDoS**: Distributed Denial of Service
 * **DES**: Data Encryption Standard
 * **DLP**: Data-loss Prevention
-* **DOS**: Dinial of Service
+* **DOS**: Denial of Service
 * **DSA**: Digital Signature Algorithm
 
 ## E
@@ -150,7 +150,7 @@ A glossary of Infosec terms and abbreviations.
 * **PERSEC**: Personal Security \(military\)
 * **PFS**: Perfect Forward Secrecy
 * **PGP**: Pretty Good Privacy
-* **PII**: Personally Identifiable Infomation
+* **PII**: Personally Identifiable Information
 * **PIM**: Privilege Identity Management
 * **PIN**: Personal Identification Number
 * **PKI**: Public Key Infrastructure
@@ -170,10 +170,10 @@ A glossary of Infosec terms and abbreviations.
 
 ## R
 
-* **RAT**: Remote \(Adimistration/Access\) Too
+* **RAT**: Remote \(Administration/Access\) Too
 * **RBA**: Risk-based Assessment
 * **RCA**: Root Cause Analysis
-* **RCE**: Remote Code Executionl
+* **RCE**: Remote Code Execution
 
 ## S
 

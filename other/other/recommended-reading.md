@@ -48,6 +48,8 @@ This page lists some good books recommended by current and past students for a v
 * [Art of Software Security Assessment](https://www.amazon.co.uk/d/Books/Art-Software-Security-Assessment-Vulnerabilities/0321444426) - Mark Dowd, John McDonald, Justin Schuh \(2006\)
 * [The Shellcoders Handbook](https://www.amazon.co.uk/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X) - Chris Anley, John Heasman, Felix Lindner, Gerardo Richarte \(2007\)
 * [Learning Linux Binary Analysis](https://www.amazon.co.uk/Learning-Binary-Analysis-elfmaster-ONeill/dp/1782167102) - Ryan O'Neill \(2016\)
+* [The Ghidra Book](https://www.amazon.co.uk/Ghidra-Book-Definitive-Chris-Eagle/dp/1718501021) - Chris Eagle, Kara Nance \(2021\)
+* [Malware Reverse Engineering Handbook](https://ccdcoe.org/uploads/2020/07/Malware_Reverse_Engineering_Handbook.pdf) - Ahmet Balci, Dan Ungureanu, Jaromír Vondruška \(2020\)
 
 ## Digital Forensics
 
@@ -65,6 +67,13 @@ This page lists some good books recommended by current and past students for a v
 * [There's an entire series of books 'Hacking Exposed' for a whole lot of topics, I'm too lazy to add them all manually](https://researchcenter.paloaltonetworks.com/2016/09/the-cybersecurity-canon-hacking-exposed-series/)
 
 ## Operating Systems
+
+### Linux
+* [Linux Pocket Book](https://www.amazon.co.uk/dp/B01GGQKXRG?tag=guru990c-21&geniuslink=true) - Daniel Barrett \(2016\)
+* [The Linux Command Line](https://www.amazon.co.uk/dp/1593279523?tag=guru990c-21&geniuslink=true) - William Shotts \(2019\)
+* [How Linux Works](https://www.amazon.co.uk/How-Linux-Works-Superuser-Should/dp/1593275676) - Brian Ward \(2014\)
+* [Linux Basics for Hackers](https://www.amazon.co.uk/dp/1593278551/ref=as_li_qf_asin_il_tl?ie=UTF8&linkCode=gs2&linkId=afcaf1673cbd101a6a13e52fc26ac492&creativeASIN=1593278551&tag=linuxhint-21&creative=9325) - OccupyTheWeb \(2018\)
+* [Kali Linux Revealed](https://www.amazon.co.uk/dp/0997615605/ref=as_li_qf_asin_il_tl?ie=UTF8&linkCode=gs2&linkId=e50996005435b72cb7a1cc781a0ae163&creativeASIN=0997615605&tag=linuxhint-21&creative=9325) - Raphaël Hertzog, Mati Ahroni, Jim O'Gorman \(2017\)
 
 ### macOS & iOS
 
