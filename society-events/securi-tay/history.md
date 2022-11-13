@@ -71,5 +71,19 @@
 * [Website](https://2020.securi-tay.co.uk/)
 * [Programme](https://2020.securi-tay.co.uk/assets/programme.pdf) \(14MB\) _- currently shows 2019 programme_
 * Tweets: [\#SecuriTay2020](https://twitter.com/search?f=tweets&q=%23SecuriTay2020)
-* This year was also the first year that the afterparty was not held at the Abertay Student Union - instead, it was held at Inns & Gunn Beer Kitchen, next door to Dundee Rep Theatre
+* This year was also the first year that the afterparty was not held at the Abertay Student Union - instead, it was held at Innis & Gunn Beer Kitchen, next door to Dundee Rep Theatre
 
+## Securi-Tay X | Securi-Tay 2022
+
+* Pre-party was held at Dukes Corner, night of 3rd March
+* Date: 4th March 2022 \(Friday\)
+* [Website](https://2022.securi-tay.co.uk)
+* Programme will be uploaded soon...
+* Tweets: [\#SecuriTayX](https://twitter.com/search?f=tweets&q=%23SecuriTayX)
+* This year the afterparty moved to The Barrelman on Commercial Street for the first time
+
+## Securi-Tay 2023
+
+* Date: 3rd March 2023 \(Friday\)
+* [Website](https://2023.securi-tay.co.uk)
+* Tweets: [\#SecuriTay2023](https://twitter.com/search?f=tweets&q=%23SecuriTay2023)
