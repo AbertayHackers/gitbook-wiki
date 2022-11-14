@@ -6,22 +6,22 @@ description: A guide to installing Kali Linux in a VMWare Workstation virtual ma
 
 _By_ [_Isaac_](../../../members/members/isaac.md)
 
-This guide will walk you through downloading and installing Kali Linux in a virtual machine from scratch in a few easy steps. Kali is the preferred operating system of most hackers/pen testers and provides you with \(almost\) any tool you could possibly need in the course of your work right out of the box.
+This guide will walk you through downloading and installing Kali Linux in a virtual machine from scratch in a few easy steps. Kali is the preferred operating system of most hackers/pen testers and provides you with (almost) any tool you could possibly need in the course of your work right out of the box.
 
 For this walkthrough we'll be using VMWare products, in particular VMware Workstation pro, this is for two main reasons:
 
 1. VMWare has the most widely used suite of products for virtualisation, and therefore you'll most likely face a VMWare product in the real world
 2. Abertay University kindly provides all Ethical Hacking students with a license to use VMWare Workstation Pro
 
-In the event that you are unable to get access to VMWare Workstation Pro, Workstation Player can be downloaded [here](https://www.vmware.com/go/getplayer-win) for Windows and [here](https://www.vmware.com/go/getplayer-linux) for Linux \(links are direct installation\), VMWare's website is [here](https://www.vmware.com/uk/products/workstation-player/workstation-player-evaluation.html).
+In the event that you are unable to get access to VMWare Workstation Pro, Workstation Player can be downloaded [here](https://www.vmware.com/go/getplayer-win) for Windows and [here](https://www.vmware.com/go/getplayer-linux) for Linux (links are direct installation), VMWare's website is [here](https://www.vmware.com/uk/products/workstation-player/workstation-player-evaluation.html).
 
 ![VMware Workstation Player 16](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/images/vmw-tn-work.png)
 
 ## Step 1. Installation
 
-Visit the [Kali Linux Downloads](https://www.kali.org/downloads/) page and download the most recent _installer_ version of the OS, I'd personally recommend a torrent download purely to reduce server capacity on OffSec's end \(it's only nice\). Ensure that \(unless you are actually running a 32 bit operating system\) you grab the 64 bit image, this is purely so there are no unforeseen compatibility issues down the line.
+Visit the [Kali Linux Downloads](https://www.kali.org/downloads/) page and download the most recent _installer_ version of the OS, I'd personally recommend a torrent download purely to reduce server capacity on OffSec's end (it's only nice). Ensure that (unless you are actually running a 32 bit operating system) you grab the 64 bit image, this is purely so there are no unforeseen compatibility issues down the line.
 
-![A screenshot of the Kali Linux downloads page with the first link, &quot;Kali Linux 64 bit \(installer\)&quot; highlighted](../../../.gitbook/assets/image-20210516194511356%20%283%29%20%282%29.png)
+![A screenshot of the Kali Linux downloads page with the first link, "Kali Linux 64 bit (installer)" highlighted](<../../../.gitbook/assets/image-20210516194511356 (3) (2) (2) (2).png>)
 
 the file you'll be downloading is a `.iso` file, don't forget to put it in a place you'll remember!
 
@@ -29,7 +29,7 @@ the file you'll be downloading is a `.iso` file, don't forget to put it in a pla
 
 ## Step 2. Installing the Kali ISO into the virtualisation software
 
-Once you have the file downloaded and VMWare Workstation/Player open, go to File &gt; New Virtual Machine \(or just press ctrl + n\). Once you've done that, you should be greeted with a configuration wizard that looks something like this:
+Once you have the file downloaded and VMWare Workstation/Player open, go to File > New Virtual Machine (or just press ctrl + n). Once you've done that, you should be greeted with a configuration wizard that looks something like this:
 
 ![First page of the wizard](../../../.gitbook/assets/image-20210516200141705.png)
 
@@ -43,7 +43,7 @@ Next you'll be prompted to specify what operating system the iso file is, as Kal
 
 ![Specify what operating system](../../../.gitbook/assets/image-20210516200405804.png)
 
-Next you'll need to give the VM a descriptive name, I've done with "Kali-Walkthrough" here, but if this is your first installation, just simply calling it "Kali \(or something along those lines\)" will be fine.
+Next you'll need to give the VM a descriptive name, I've done with "Kali-Walkthrough" here, but if this is your first installation, just simply calling it "Kali (or something along those lines)" will be fine.
 
 ![Naming the VM](../../../.gitbook/assets/image-20210516200436301.png)
 
@@ -63,7 +63,7 @@ Once you're done you should be shown a page like this, hit the little green play
 
 Once you've launched the VM, after a few seconds of booting up, you'll be greeted with the following screen:
 
-![Kali Linux Installer \(BIOS mode\) in VMWare Workstation](../../../.gitbook/assets/image-20210516202102062.png)
+![Kali Linux Installer (BIOS mode) in VMWare Workstation](../../../.gitbook/assets/image-20210516202102062.png)
 
 Select "Graphical Install", this will take you firstly to a number of screens that allow you to specify language and keyboard layout, and then the following screens, which asks you for a hostname and domain name, it's ok to keep "kali", as I did in the first screenshot, or to make something up, as I did in the second, you can keep these both as they were, if you like.
 
@@ -71,9 +71,9 @@ Select "Graphical Install", this will take you firstly to a number of screens th
 
 ![Configure network domain name](../../../.gitbook/assets/image-20210516202649497.png)
 
-After this will come the personal details, fill these in as you would normally \(first name, username, password, etc\)
+After this will come the personal details, fill these in as you would normally (first name, username, password, etc)
 
-![Insert your real name \(I chose just to use my first name\)](../../../.gitbook/assets/image-20210516202706035.png)
+![Insert your real name (I chose just to use my first name)](../../../.gitbook/assets/image-20210516202706035.png)
 
 ![Insert your chosen username, i chose just to use my name again this time](../../../.gitbook/assets/image-20210516202932993.png)
 
@@ -93,11 +93,11 @@ Select "All files in one partition", this is the option that will give new users
 
 Look over the partition disks page to make sure everything is in order, once you're happy that it is, click finish partitioning and write changes to disk and continue, then when prompted on the next page, click "yes" and continue.
 
-![Confirm partition \(overview\)](../../../.gitbook/assets/image-20210516203119226.png)
+![Confirm partition (overview)](../../../.gitbook/assets/image-20210516203119226.png)
 
 ![Continue partitioning](../../../.gitbook/assets/image-20210516203141001.png)
 
-Now comes the part where you get to choose software that comes preinstalled on the operating system. The first thing to settle on is the desktop environment,with the options being XFCE \(the Kali default\), GNOME, and KDE Plasma. This oprion is primarily for aesthtic purposes \(and assorted built in programs etc\). If you don't already have a preference, I recommend selecting XFCE.
+Now comes the part where you get to choose software that comes preinstalled on the operating system. The first thing to settle on is the desktop environment,with the options being XFCE (the Kali default), GNOME, and KDE Plasma. This oprion is primarily for aesthtic purposes (and assorted built in programs etc). If you don't already have a preference, I recommend selecting XFCE.
 
 After this is the tools. I'd recommend keeping defult settings here as well and installing extra programs as and when you require them, this keeps the size of the VM to a reasonable level whilst also ensuring you have most of the tools you'll need.
 
@@ -113,11 +113,10 @@ After this, the installation is nearly complete, click "continue" when prompted 
 
 ![Finish installation](../../../.gitbook/assets/image-20210516205402868.png)
 
-After going through the reboot sequence and past GRUB, you should see this, insert your username and password as before and continue \(root/toor no longer works since Kali switched to non root user as default\).
+After going through the reboot sequence and past GRUB, you should see this, insert your username and password as before and continue (root/toor no longer works since Kali switched to non root user as default).
 
 ![image-20210516205457810](../../../.gitbook/assets/image-20210516205457810.png)
 
 ![image-20210516205528170](../../../.gitbook/assets/image-20210516205528170.png)
 
 Your installation of Kali is complete, congrats, and happy hacking!!!
-

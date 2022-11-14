@@ -4,7 +4,7 @@ description: A beginner's introduction to homelabbing
 
 # Home Lab
 
-_Written by Sam \(_[_@Sam1ser_](https://twitter.com/Sam1ser)_\)_
+_Written by Sam (_[_@Sam1ser_](https://twitter.com/Sam1ser)_)_
 
 This guide is a beginners introduction to homelabbing. It is by no means an all inclusive technical guide but more of a taster of what is possible with a homelab and why you might want to build your own.
 
@@ -12,7 +12,7 @@ This guide is a beginners introduction to homelabbing. It is by no means an all 
 
 Homelabs are a perfect environment for learning about computing, networking and security.
 
-They provide a safe sandbox that you can use to run/deploy \(and subsequently learn about\) many applications and services. This is perfect for getting to know any applications/services that you may encounter during your studies or at work. For example, if you are looking into the security of LDAP and Active Directory, you can just set up your own Active Directory server and experiment with it yourself.
+They provide a safe sandbox that you can use to run/deploy (and subsequently learn about) many applications and services. This is perfect for getting to know any applications/services that you may encounter during your studies or at work. For example, if you are looking into the security of LDAP and Active Directory, you can just set up your own Active Directory server and experiment with it yourself.
 
 They can be very easy to configure or very hard to configure, it's entirely up to you how much of a challenge you want to face. If you just want to self-host pre-packaged services, it's fairly easy. If you want to create your own systems and configure them from scratch - or even write your own services - this will be more challenging. Again, it's up to you.
 
@@ -42,7 +42,7 @@ Another use is to learn about services from the sysadmin's perspective. If you k
 
 #### Home Media Server
 
-You could go for an all in one package \(plex/emby\) and have all of your movies and music organised there. Or maybe you might want to use something like Calibre to host ebooks. Then you might set up external access and be able to access your media from anywhere.
+You could go for an all in one package (plex/emby) and have all of your movies and music organised there. Or maybe you might want to use something like Calibre to host ebooks. Then you might set up external access and be able to access your media from anywhere.
 
 #### Web Server
 
@@ -81,13 +81,13 @@ With hardware - from a student's perspective - you're looking to balance power, 
 * What hardware do you already own?
 * What is the scale of your project?
 
-You \(most likely\) do not need to buy anything to start homelabbing right now!
+You (most likely) do not need to buy anything to start homelabbing right now!
 
 The first thing you should be doing when considering a homelab build is what you already have access to. Do you have an old desktop lying around? Start with that. Or maybe a disused laptop. That will work too! You do not need a very powerful computer to power your homelab.
 
 Even if you only have your daily driver PC or laptop, everything you could want to do with a homelab can be virtualised. Coding, Linux, Containers, VMs, Networking and more can all be done with just your PC that you are already using. However, if you are reading this guide, that's probably not sufficient.
 
-If you have looked into homelabs before \(/r/homelab\) you may be imagining a massive rack filled with servers, switches and routers but really you don't want this while first starting out. It's feasible to buy some rack mounted gear at the beginning but it will be better to start with whatever you can get you hands on.
+If you have looked into homelabs before (/r/homelab) you may be imagining a massive rack filled with servers, switches and routers but really you don't want this while first starting out. It's feasible to buy some rack mounted gear at the beginning but it will be better to start with whatever you can get you hands on.
 
 As you create your homelab you may run into some hardware restrictions. For example: not having enough RAM to host all the VMs you want to host, or your CPU might just not be powerful enough to cut it. This is when you should start looking into getting better hardware.
 
@@ -99,7 +99,7 @@ The key thing to remember is this: **building a homelab doesn't have to be expen
 
 Something to consider with hefty server hardware is it can be loud and expensive to run due to the cost of electricity.
 
-Before buying some new kit, it's worth finding out how much it will cost to run by finding the wattage, converting it to kilowatt-hours \(kWh\) and then multiplying that by how much your electricity provider charges you per kWh.
+Before buying some new kit, it's worth finding out how much it will cost to run by finding the wattage, converting it to kilowatt-hours (kWh) and then multiplying that by how much your electricity provider charges you per kWh.
 
 A lot of hardware uses really noisy fans, so if you are in a confined living situation and can't sort out sufficient noise blocking take this into consideration! There is also a lot of hardware that operates near silently. Look for fanless systems.
 
@@ -125,7 +125,7 @@ You probably won't need a graphics card in your server. It would be useful for r
 
 #### Single Host Virtualisation
 
-The most basic homelab setup is to have a single host \(a computer\) running all of your virtual machines/containers.
+The most basic homelab setup is to have a single host (a computer) running all of your virtual machines/containers.
 
 The host will be running a hypervisor. This is required to distribute the host's resources between virtual machines. It can be either bare metal, running directly on the host's hardware, or embedded, running as software on a host operating system.
 
@@ -141,7 +141,7 @@ This is having multiple physical machines to run your virtual machines/container
 
 This setup is also the most easily scalable as to add more power to your lab you can just add more hosts, rather than upgrading the parts of an individual host.
 
-This can potentially be paired with a NAS \(Network Attached Storage\) device for more a more flexible and reliable storage solution. This is a seperate host where you would install your hard drives, then the main host running the hypervisor will mount these drives over the network.
+This can potentially be paired with a NAS (Network Attached Storage) device for more a more flexible and reliable storage solution. This is a seperate host where you would install your hard drives, then the main host running the hypervisor will mount these drives over the network.
 
 This setup is a good one to move to once you're finding your single host setup to be lacking. It's also really fun.
 
@@ -163,15 +163,15 @@ Managed switches however give you more control over your LAN traffic. You can do
 
 Some features I find very useful are VLANs, QoS and Link Aggregation.
 
-VLANs \(Virtual LANs\) allow you to segregate your network into seperate isolated groups. This can be useful in many homelab situations, but an example is having a guest wireless network and a private wireless network. The guest network allows your guests to connect to the internet using your Wi-Fi but without giving them access to your homelab hosts. Very useful!
+VLANs (Virtual LANs) allow you to segregate your network into seperate isolated groups. This can be useful in many homelab situations, but an example is having a guest wireless network and a private wireless network. The guest network allows your guests to connect to the internet using your Wi-Fi but without giving them access to your homelab hosts. Very useful!
 
-QoS \(Quality of Service\) allows you to prioritise certain network traffic. For example, streaming movies from your media server could be prioritised over webserver access. Again, you can probably imagine many more uses for this.
+QoS (Quality of Service) allows you to prioritise certain network traffic. For example, streaming movies from your media server could be prioritised over webserver access. Again, you can probably imagine many more uses for this.
 
 Finally, Link Aggregation, which allows you to use two NICs connected to two ports on the switch and combine their bandwidth for one data stream. This not only increases the bandwidth significantly but also increases the reliability of the connection. Particularly useful for a NAS, which will probably be one of the more bandwidth intensive hosts on your network.
 
 So, as you can probably tell by now, a managed switch is probably best for a homelab.
 
-Another thing to consider is PoE \(Power over Ethernet\) ports. These are useful for powering smaller devices on your network like Wi-Fi access points. All you need to do is connect the ethernet cable and the device will run off the power supplied by the switch through the cable. Raspberry Pis also have a PoE hat, which can make for nice discreet IoT type devices.
+Another thing to consider is PoE (Power over Ethernet) ports. These are useful for powering smaller devices on your network like Wi-Fi access points. All you need to do is connect the ethernet cable and the device will run off the power supplied by the switch through the cable. Raspberry Pis also have a PoE hat, which can make for nice discreet IoT type devices.
 
 **However** PoE ports usually require cooling systems. These can be very noisy, so be careful! If you are in a confined space without good noise insulation, you will regret buying a fully PoE switch. You should ideally be looking for a fanless switch.
 
@@ -181,7 +181,7 @@ So, in summary, you will probably want to aim for a fanless, managed switch. Eba
 
 #### Router
 
-Your router is primarily used as the interface between your LAN and the internet \(WAN\). It functions on layer 3 of the OSI model and uses IP addresses for packet forwarding.
+Your router is primarily used as the interface between your LAN and the internet (WAN). It functions on layer 3 of the OSI model and uses IP addresses for packet forwarding.
 
 The router you are currently using is probably whatever was supplied by your ISP. For example, the Virgin Media Super Hub 3. This is a basic router with basic functionality.
 
@@ -191,7 +191,6 @@ Though you have almost definitely used ethernet cable before, it will be useful 
 
 For the standard Homelab the LAN Connection will be established with a RJ-45 headed Ethernet cable. This would likely connect into a [Switch](./#switch) or [Router](./#router) as discussed above.
 
-![RJ-45 headed Ethernet cable](../../.gitbook/assets/image%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29.png)
+![RJ-45 headed Ethernet cable](<../../.gitbook/assets/image (2) (2) (2) (2) (2) (3) (3) (2) (2).png>)
 
-It is recommended that the minimum Category for Ethernet cables for Homelabs would be Cat5e; as it is able to reach speeds of up to 1 Gbps. The Category of your Ethernet cable is very simple yet important as it could be the bottleneck of your interconnectivity. Bandwidths of &gt;1Gbps is **strongly** recommended for NAS setups along with RAID to ensure said bandwidth can be properly saturated.
-
+It is recommended that the minimum Category for Ethernet cables for Homelabs would be Cat5e; as it is able to reach speeds of up to 1 Gbps. The Category of your Ethernet cable is very simple yet important as it could be the bottleneck of your interconnectivity. Bandwidths of >1Gbps is **strongly** recommended for NAS setups along with RAID to ensure said bandwidth can be properly saturated.
