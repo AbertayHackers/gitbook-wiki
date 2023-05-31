@@ -37,7 +37,7 @@ All members shall pay the minimum subscription fee that shall be determined by t
 1. Honorary members can be nominated by any society member. Honorary members will be approved at the AGM, where any objections can be made.
 2. Can be revoked by the SA in circumstances where behaviour has been deemed inappropriate. Can be appealed by normal SA appeal process.
 3. Honorary membership have the same rights as associate membership.
-4. Up to 5 people made honorary members per year.
+4. Up to 5 new honorary members can be made each year.
 
 ### Termination of membership of the society
 
