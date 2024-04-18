@@ -90,6 +90,6 @@
 
 ## Securi-Tay 2024
 
-* Date: 1St March 2024 (Friday)
+* Date: 1st March 2024 (Friday)
 * [Website](https://2024.securi-tay.co.uk/)
 * Tweets: [#SecuriTay2024](https://twitter.com/search?f=tweets\&q=%23SecuriTay2024)
