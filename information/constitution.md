@@ -50,7 +50,7 @@ The society committee members by vote or Abertay Students’ Association may dis
 3. All Committee members must be Students of Abertay University.
 4. All Committee members must be Full Members of the Society.
 5. The Administrative affairs of the Society shall be conducted or delegated to members of the Society Committee.
-6. The Committee of the Society shall be elected at the Society’s Annual General Meeting \(AGM\), held in the second semester. If a committee member leaves their post out with the period of the AGM a vote will be called within 2 weeks to elect a new member to the position.
+6. The Committee of the Society shall be elected either in advance of or at the Society’s Annual General Meeting \(AGM\), held in the second semester. In the event that a committee poisition is vacant a by-election will be called to elect a new member to the position.
 
 ### Roles and Responsibilities of Society Committee
 
