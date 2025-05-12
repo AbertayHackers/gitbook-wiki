@@ -35,13 +35,13 @@ All members shall pay the minimum subscription fee that shall be determined by t
 ### Honorary membership of the society
 
 1. Honorary members can be nominated by any society member. Honorary members will be approved at the AGM, where any objections can be made.
-2. Can be revoked by the SA in circumstances where behaviour has been deemed inappropriate. Can be appealed by normal SA appeal process.
+2. Can be revoked by the SA in circumstances where behaviour has been deemed inappropriate. Can be appealed by normal Students’ Association appeal process.
 3. Honorary membership have the same rights as associate membership.
 4. Up to 5 new honorary members can be made each year.
 
 ### Termination of membership of the society
 
-The society committee members by vote or Abertay SA may discontinue any membership of any society. Any member who feels that they have been unjustly excluded shall have a right of appeal to the SRC \(Student Representative Council\) and shall additionally have recourse to the complaints procedure.
+The society committee members by vote or Abertay Students’ Association may discontinue any membership of any society. Any member who feels that they have been unjustly excluded shall have a right of appeal to the SRC \(Student Representative Council\) and shall additionally have recourse to the complaints procedure.
 
 ## Governance
 
@@ -50,7 +50,7 @@ The society committee members by vote or Abertay SA may discontinue any membersh
 3. All Committee members must be Students of Abertay University.
 4. All Committee members must be Full Members of the Society.
 5. The Administrative affairs of the Society shall be conducted or delegated to members of the Society Committee.
-6. The Committee of the Society shall be elected at the Society’s Annual General Meeting \(AGM\), held in the second semester. If a committee member leaves their post out with the period of the AGM a vote will be called within 2 weeks to elect a new member to the position.
+6. The Committee of the Society shall be elected either in advance of or at the Society’s Annual General Meeting \(AGM\), held in the second semester. In the event that a committee poisition is vacant a by-election will be called to elect a new member to the position.
 
 ### Roles and Responsibilities of Society Committee
 
@@ -58,7 +58,7 @@ The society committee members by vote or Abertay SA may discontinue any membersh
 2. To be responsible for ensuring that the Society shall only hold accounts with the Association, and that the Society and its members comply with financial procedures and rules made by the Association from time to time.
 3. To ensure that the membership registration procedures defined are properly complied with and that a receipt is made for each Society member’s subscription.
 4. To ensure that the Society’s web properties are kept up-to-date.
-5. On election, the contact details of all Society Committee members must be provided to the Vice President of the SA in order for society funds to be released.
+5. On election, the contact details of all Society Committee members must be provided to the Vice President of the Students’ Association in order for society funds to be released.
 6. To work with the other members of the committee to achieve the aims of the Society for the benefit of the Societies’ membership
 7. One Committee member is expected to attend each Society Council, EGMs and AGMs of the Association.
 8. All members and Committee should endeavour to uphold the aims and values stated in the constitution.
@@ -98,9 +98,9 @@ The society committee members by vote or Abertay SA may discontinue any membersh
 1. The AGM will be held once every academic year during Semester 2.
 2. AGMs shall be open to all members of the Society.
 3. Only full members of the Society who joined before Feb 1 are entitled to vote.
-4. Notice of the AGM shall be given to all Society members, The SA Vice President and advertised to all students at least 28 days before the meeting.
+4. Notice of the AGM shall be given to all Society members, The Students’ Association Vice President and advertised to all students at least 28 days before the meeting.
 5. The business of the AGM shall include the election of the next Society Committee and the presentation of the annual financial accounts of the Society.
-6. Each AGM will be minuted and a copy of these minutes shall be submitted to Abertay SA.
+6. Each AGM will be minuted and a copy of these minutes shall be submitted to Abertay Students’ Association.
 7. Quorum shall be 67% of the active members. The number of active members shall be determined by the committee by averaging the attendance of meetings between Oct 1 and April 1.
 8. In the event of the Quorum not being met, a new AGM shall be announced and held within a further 14 days.
 
@@ -123,22 +123,22 @@ The Ethical Hacking Society must meet at minimum monthly during undergraduate te
 2. Funding belonging to the Society will be used to achieve the aims, beliefs and objectives outlined in the “Aims and Objectives” section of this document
 3. The Treasurer shall be responsible for the proper account of the funds in accordance with Students’ Association regulations.
 4. The President, Vice President, Secretary or Treasurer’s signatures shall be required to authorise financial transactions.
-5. In the event of the Society ceasing to be recognised as a legal entity, either as an affiliated organisation within the Abertay Students Association, or as an independent organisation, all remaining funds shall be donated 50%/50% to the [Internet Archive](https://archive.org/) and the [Open Rights Group](https://www.openrightsgroup.org/). If one of the two charities ceases to exist, 100% of the funds will go to the remaining charity.
-6. In the event that both charities cease to exist the SAs finance officer will approach the current committee to solicit the name of a charity to donate the remaining funds to.
-7. In the event of suspected financial malpractice, Abertay SA has the right to investigate and act accordingly through discipline procedures.
+5. In the event of the Society ceasing to be recognised as a legal entity, either as an affiliated organisation within the Abertay Students' Association, or as an independent organisation, all remaining funds shall be donated 50%/50% to the [Internet Archive](https://archive.org/) and the [Open Rights Group](https://www.openrightsgroup.org/). If one of the two charities ceases to exist, 100% of the funds will go to the remaining charity.
+6. In the event that both charities cease to exist the Students’ Association's finance officer will approach the current committee to solicit the name of a charity to donate the remaining funds to.
+7. In the event of suspected financial malpractice, Abertay Students’ Association has the right to investigate and act accordingly through discipline procedures.
 
 ## General
 
-1. We are a recognised Abertay SA Society, and the Society shall at all times abide by the Constitution and Schedules of Abertay SA.
+1. We are a recognised Abertay Students’ Association Society, and the Society shall at all times abide by the Constitution and Schedules of Abertay Students’ Association.
 2. At least one member of the Committee shall attend each meeting of the Society council meetings, which are held on a monthly basis.
-3. All publications made by the Society must include Abertay SA’s logo, and Scottish Charity Number. For a copy of these please email societies@abertay.ac.uk
+3. All publications made by the Society must include Abertay Students’ Association’s logo, and Scottish Charity Number. For a copy of these please email societies@abertay.ac.uk
 4. Society members may request any and all information related to the Ethical Hacking Society from the Committee to be provided to them. Requests will be limited to information stored on society platforms, and the Committee may reserve the right to redact sensitive information from such requests. All requests must be answered within four weeks.
 5. As a society composed of members from a diverse range of political backgrounds, the Society should remain neutral and unbiased regarding political matters.
 6. If at any point, circumstance dictates a major change to the society and/or changes to the way it operates, an EGM shall be immediately called, following standard EGM procedure, to allow the society to discuss and, if necessary, vote on the proposed changes.
 
 ## Affiliations with Outside Organisations
 
-1. The Society may affiliate to an outside organisation\(s\), providing the affiliation is approved by the society committee and the Vice President of the Student’s Association.
+1. The Society may affiliate to an outside organisation\(s\), providing the affiliation is approved by the society committee and the Vice President of the Students' Association.
 2. The Society may only affiliate to an outside organisation\(s\) who’s Beliefs and Activities are in strict conformity to the “Aims and Objectives” section of this document.
 3. The Society may not affiliate to any organisation that conflicts with any standing policy
 4. No affiliation to an outside organisation will be allowed to compromise the autonomy of the Society.
@@ -148,11 +148,11 @@ The Ethical Hacking Society must meet at minimum monthly during undergraduate te
 1. Amendments to the Constitution must have the approval of two-thirds of the active members of the Society present at the AGM or at an EGM of the Society convened for this purpose
 2. Notice of the proposed constitutional changes must be published in the agenda and cannot be brought up under the item 'any other business’
 3. Any amendment to the Constitution is subject to the final approval of the Executive Committee
-4. In the event of changes to the Abertay Students Association's constitution, an EGM shall be immediately called, following standard EGM procedure, to appropriately amend the society's constitution to accommodate any changes that may affect the society.
+4. In the event of changes to the Abertay Students' Association's constitution, an EGM shall be immediately called, following standard EGM procedure, to appropriately amend the society's constitution to accommodate any changes that may affect the society.
 5. In the event of the Executive Committee withholding approval of any amendments to the constitution, an EGM will immediately be called, following standard EGM procedure, to allow the society to discuss the reasons for withheld approval, and take appropriate action to allow an updated constitution to be deemed valid.
 
 ## Disaffiliation
 
-1. Abertay SA may disaffiliate the Ethical Hacking Society from the Students Association if it breaches any of the Laws or Bylaws or is found to be in breach of Abertay SA’s own constitution, or the constitution of the society, or in circumstances where the activities of the Society cannot continue safely
-2. In the event of the Society failing to submit the minutes of their AGM and a list of those present to the Vice-President of the SA by the end of the academic year, the Society shall be deemed to have been disaffiliated and shall have no link to the Students Association
+1. Abertay Students’ Association may disaffiliate the Ethical Hacking Society from the Students' Association if it breaches any of the Laws or Bylaws or is found to be in breach of Abertay Students’ Association’s own constitution, or the constitution of the society, or in circumstances where the activities of the Society cannot continue safely
+2. In the event of the Society failing to submit the minutes of their AGM and a list of those present to the Vice-President of the Students’ Association by the end of the academic year, the Society shall be deemed to have been disaffiliated and shall have no link to the Students' Association
 
