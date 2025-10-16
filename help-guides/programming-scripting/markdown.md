@@ -6,7 +6,7 @@ description: >-
 
 # Markdown
 
-_Written by_ [_Isaac_](../../members/members/isaac.md)
+_Written by_ [_Isaac_](broken-reference)
 
 Markdown is an extremely lightweight markup language for formatting text in a plaintext editor. Places Markdown is used include Wikipedia's editor, GitHub (for documentation and readme files), online forums, blogs, Discord, and this wiki!
 
@@ -36,7 +36,7 @@ The number of hashes you add should correspond to the level of headings you want
 ### This would be heading level 3
 ```
 
-And so on. These headings (as with a lot of Markdown's syntax) have a direct equivalent in HTML, the markup language that webpages use for formatting. The equivalent would be using the \\, \\, and  tags respectively
+And so on. These headings (as with a lot of Markdown's syntax) have a direct equivalent in HTML, the markup language that webpages use for formatting. The equivalent would be using the \\, \\, and tags respectively
 
 ### Alternate Syntax
 
@@ -171,7 +171,7 @@ Links and images are actually added in very similar ways. A plain hyperlink can 
 
 Images are formatted in the exact same way, but with an exclamation point (!) in front of the first square bracket. You can (and indeed always should) place image alt text where you would have placed the link's text, for example:
 
-![What a handsome young lad, I sure hope he never lets me down!](https://www.nme.com/wp-content/uploads/2017/07/RICK\_ROLL.jpg)
+![What a handsome young lad, I sure hope he never lets me down!](https://www.nme.com/wp-content/uploads/2017/07/RICK_ROLL.jpg)
 
 This ends up looking like this in text editor:
 

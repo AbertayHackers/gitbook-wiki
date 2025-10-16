@@ -12,6 +12,7 @@
   * [Server](information/change-logs/server.md)
 * [Meetings](information/meetings/README.md)
   * [2021-2022](information/meetings/2021-2022.md)
+  * [2025-2026](information/meetings/2025-2026.md)
 * [Honourary Members](information/honourary-members.md)
 
 ## Contributing
@@ -51,20 +52,20 @@
     * [Radare2](help-guides/software/tools/radare2.md)
     * [Nmap](help-guides/software/tools/nmap.md)
     * [Regular Expressions](help-guides/software/tools/regular-expressions.md)
-    * [The Browser Exploitation Framework \(BeEF\)](help-guides/software/tools/the-browser-exploitation-framework.md)
+    * [The Browser Exploitation Framework (BeEF)](help-guides/software/tools/the-browser-exploitation-framework.md)
     * [Vim](help-guides/software/tools/vim.md)
     * [Vimium](help-guides/software/tools/vimium.md)
     * [Zsh](help-guides/software/tools/zsh.md)
 * [Networking](help-guides/networking/README.md)
-  * [Domain Name System \(DNS\)](help-guides/networking/dns.md)
+  * [Domain Name System (DNS)](help-guides/networking/dns.md)
   * [Remote access to your Abertay network drive](help-guides/networking/remote-access-to-your-abertay-network-drive.md)
-  * [Secure Shell \(SSH\)](help-guides/networking/ssh.md)
+  * [Secure Shell (SSH)](help-guides/networking/ssh.md)
   * [TLS 1.3](help-guides/networking/tls-1-3.md)
   * [Wireshark](help-guides/networking/wireshark.md)
   * [Subnetting](help-guides/networking/subnetting.md)
 * [Techniques](help-guides/techniques/README.md)
   * [A guide to creating malicious macro-enabled Excel worksheets](help-guides/techniques/a-guide-to-creating-malicious-macro-enabled-excel-worksheets.md)
-  * [Open Source Intelligence \(OSINT\)](help-guides/techniques/open-source-intelligence.md)
+  * [Open Source Intelligence (OSINT)](help-guides/techniques/open-source-intelligence.md)
   * [Google-Fu](help-guides/techniques/google-fu.md)
 * [Jobs](help-guides/jobs/README.md)
   * [Common Interview Questions](help-guides/jobs/common-interview-questions.md)
@@ -80,13 +81,6 @@
 * [Development Terms](glossary/development.md)
 * [Networking Terms](glossary/networking.md)
 
-## Members
-
-* [Profiles](members/members/README.md)
-  * [AG](members/members/ag.md)
-  * [Isaac](members/members/isaac.md)
-  * [Sam](members/members/samiser.md)
-
 ## Other
 
 * [Other](other/other/README.md)
@@ -96,4 +90,3 @@
   * [Movies](other/other/movies.md)
   * [Project topic suggestions](other/other/project-topic-suggestions.md)
   * [Recommended Reading](other/other/recommended-reading.md)
-

@@ -4,7 +4,7 @@ description: A guide to installing Kali Linux in a VMWare Workstation virtual ma
 
 # Installing Kali
 
-_By_ [_Isaac_](../../../members/members/isaac.md)
+_By_ [_Isaac_](broken-reference)
 
 This guide will walk you through downloading and installing Kali Linux in a virtual machine from scratch in a few easy steps. Kali is the preferred operating system of most hackers/pen testers and provides you with (almost) any tool you could possibly need in the course of your work right out of the box.
 
@@ -59,7 +59,7 @@ Once you're done you should be shown a page like this, hit the little green play
 
 ![VMWare Workstation page after just creating a new VM](../../../.gitbook/assets/image-20210516200708432.png)
 
-## Step 3.  Installing the OS
+## Step 3. Installing the OS
 
 Once you've launched the VM, after a few seconds of booting up, you'll be greeted with the following screen:
 

@@ -1,6 +1,6 @@
 # Meltdown & Spectre
 
-By [Sam](../../members/members/samiser.md)
+By [Sam](broken-reference)
 
 ## Vendor Responses
 
@@ -67,7 +67,7 @@ By [Sam](../../members/members/samiser.md)
 * [Arstechnica - Here’s how, and why, the Spectre and Meltdown patches will hurt performance](https://arstechnica.com/gadgets/2018/01/heres-how-and-why-the-spectre-and-meltdown-patches-will-hurt-performance/)
 * [El Reg - IBM melts down fixing Meltdown as processes and patches stutter](https://www.theregister.co.uk/2018/01/09/ibm_meltdown_spectre_patch_issues/)
 
-## Other \(Uncategorised\)
+## Other (Uncategorised)
 
 * [https://lwn.net/Articles/742702/](https://lwn.net/Articles/742702/)
 * [https://googleprojectzero.blogspot.co.uk/2018/01/reading-privileged-memory-with-side.html](https://googleprojectzero.blogspot.co.uk/2018/01/reading-privileged-memory-with-side.html)
@@ -79,7 +79,7 @@ By [Sam](../../members/members/samiser.md)
 * [https://www.peerlyst.com/posts/a-collection-of-links-to-pdfs-of-papers-on-micro-architectural-side-channel-attacks-sorted-by-date-paul-harvey](https://www.peerlyst.com/posts/a-collection-of-links-to-pdfs-of-papers-on-micro-architectural-side-channel-attacks-sorted-by-date-paul-harvey)
 * [https://lwn.net/Articles/742999/](https://lwn.net/Articles/742999/)
 * [https://www.renditioninfosec.com/2018/01/meltdown-and-sceptre-enterprise-action-plan/](https://www.renditioninfosec.com/2018/01/meltdown-and-sceptre-enterprise-action-plan/)
-* [https://plus.google.com/+KristianK%C3%B6hntopp/posts/Ep26AoAZxxd](https://plus.google.com/+KristianKöhntopp/posts/Ep26AoAZxxd)
+* [https://plus.google.com/+KristianK%C3%B6hntopp/posts/Ep26AoAZxxd](https://plus.google.com/+KristianK%C3%B6hntopp/posts/Ep26AoAZxxd)
 * [https://github.com/lattera/articles/blob/master/infosec/Vulnerabilities/2018-01-05\_Meltdown\_Spectre/article.md](https://github.com/lattera/articles/blob/master/infosec/Vulnerabilities/2018-01-05_Meltdown_Spectre/article.md)
 * [https://gist.github.com/woachk/2f86755260f2fee1baf71c90cd6533e9](https://gist.github.com/woachk/2f86755260f2fee1baf71c90cd6533e9)
 * [https://isc.sans.edu/diary/23197](https://isc.sans.edu/diary/23197)
@@ -95,4 +95,3 @@ By [Sam](../../members/members/samiser.md)
 * [https://xorl.wordpress.com/2018/01/10/thoughts-on-meltdown-spectre/](https://xorl.wordpress.com/2018/01/10/thoughts-on-meltdown-spectre/)
 * [https://www.reddit.com/r/networking/comments/7o4y40/meltdownspectre\_vulnerability\_tracker/](https://www.reddit.com/r/networking/comments/7o4y40/meltdownspectre_vulnerability_tracker/)
 * [https://www.gdatasoftware.com/blog/2018/01/30333-inside-meltdown-spectre](https://www.gdatasoftware.com/blog/2018/01/30333-inside-meltdown-spectre)
-

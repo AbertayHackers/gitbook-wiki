@@ -4,41 +4,38 @@ description: a guide to the Vim text editor
 
 # Vim
 
-_By_ [_Isaac_](../../../members/members/isaac.md)
+_By_ [_Isaac_](broken-reference)
 
 ![Vim with the Gruvbox Dark Theme installed](https://github.com/AbertayHackers/gitbook-wiki/tree/2a6f552b2997f1013c7d67197fa4f0ded118969d/.gitbook/assets/Vim-gruvbox.png)
 
-Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor \(hence the name Vim, standing for vi iMproved\), which was originally published in 1976 for some essentially prehistoric computer systems.
+Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor (hence the name Vim, standing for vi iMproved), which was originally published in 1976 for some essentially prehistoric computer systems.
 
 Its wide availability and extensive customisability, on top of the efficiency the program affords makes it one of the most popular and most preferred text editors by many amateur and professional programmers.
 
 ## Why use Vim?
 
-1. Wide availability
+1.  Wide availability
 
-   Vim, and its predecessor vi, is pretty much ubiquitous across all Unix based systems. Essentially it's possible to access any Unix terminal anywhere in the world, \(including over SSH which is a big benefit for CLI text editors\), and be pretty confident that the vi/Vim text editors will be on there so you can start editing straight away.
+    Vim, and its predecessor vi, is pretty much ubiquitous across all Unix based systems. Essentially it's possible to access any Unix terminal anywhere in the world, (including over SSH which is a big benefit for CLI text editors), and be pretty confident that the vi/Vim text editors will be on there so you can start editing straight away.
 
-   As hackers this is really important, as in the course of our work it's often important to access many different machines and edit text on them, having a constant like vi/Vim is really nice.
+    As hackers this is really important, as in the course of our work it's often important to access many different machines and edit text on them, having a constant like vi/Vim is really nice.
+2.  Great documentation and a fantastic community
 
-2. Great documentation and a fantastic community
+    For reasons you'll see in a moment, Vim needs quite a lot of documentation to support its use. Thankfully though, the Vim community has collectively made countless wiki articles, cheat sheets, walkthroughs, stack exchange posts, and official website/repo commits to assist you in your journey through the world of Vim. Any query you could have is just a few seconds away from being answered thanks to the community.
 
-   For reasons you'll see in a moment, Vim needs quite a lot of documentation to support its use. Thankfully though, the Vim community has collectively made countless wiki articles, cheat sheets, walkthroughs, stack exchange posts, and official website/repo commits to assist you in your journey through the world of Vim. Any query you could have is just a few seconds away from being answered thanks to the community.
+    The community is also responsible for an absolute ton of fantastic plugins and addons, which we'll talk about next.
+3.  Customisability
 
-   The community is also responsible for an absolute ton of fantastic plugins and addons, which we'll talk about next.
+    Through the usage of the `Vimrc` config file (examples at the bottom of this page), you can customise Vim to your absolute heart's content. You can change colour schemes, remap key bindings, add plugins that allow you to do essentially anything you could do in an IDE, configure tabs and whitespace, and so much more. You really can do anything with Vim and enough time.
+4.  Efficiency
 
-3. Customisability
+    This is the big one, and the main reason that most people can be such Vim evangelists. In most text editors, you're thrown into the editor able to write to the buffer immediately, this is brilliant if you're editing a long stream of text and not going back to edit it much (like writing a report or something), but not so great when writing code. In code you often have to edit single lines at a time and quickly jump to other lines in other parts of the document, Vim makes this process much quicker and easier by removing the mouse from the equation and making you edit using keystrokes without straying too far from the home row (starting asdf).
 
-   Through the usage of the `Vimrc` config file \(examples at the bottom of this page\), you can customise Vim to your absolute heart's content. You can change colour schemes, remap key bindings, add plugins that allow you to do essentially anything you could do in an IDE, configure tabs and whitespace, and so much more. You really can do anything with Vim and enough time.
+    "How does this work?" you may ask, well, Vim is a modal editor, meaning there are several distinct modes you can put the editor in, including "Insert" (`i`), which is what you'd expect from a text editor, "Visual" (`v`), which highlights blocks of text, and "Normal" (`Esc`), which allows you to navigate the document.
 
-4. Efficiency
+    [This article](https://betterprogramming.pub/understanding-the-efficiency-of-Vim-d6a5ab8feb2d) on the efficiency of Vim is a great introduction. TL;DR: you're able to send commands (like `dd` which deletes a line), repeat the commands by adding a number (`d10d` deletes 10 lines), and even create macros, a series of commands of arbitrary length that users can record to a register, specified by pressing `q` followed by another letter on the keyboard, performing a series of actions, pressing `q` again to stop recording, and then typing `@x` (where `x` was the chosen register) to repeat the action any number of times.
 
-   This is the big one, and the main reason that most people can be such Vim evangelists. In most text editors, you're thrown into the editor able to write to the buffer immediately, this is brilliant if you're editing a long stream of text and not going back to edit it much \(like writing a report or something\), but not so great when writing code. In code you often have to edit single lines at a time and quickly jump to other lines in other parts of the document, Vim makes this process much quicker and easier by removing the mouse from the equation and making you edit using keystrokes without straying too far from the home row \(starting asdf\).
-
-   "How does this work?" you may ask, well, Vim is a modal editor, meaning there are several distinct modes you can put the editor in, including "Insert" \(`i`\), which is what you'd expect from a text editor, "Visual" \(`v`\), which highlights blocks of text, and "Normal" \(`Esc`\), which allows you to navigate the document.
-
-   [This article](https://betterprogramming.pub/understanding-the-efficiency-of-Vim-d6a5ab8feb2d) on the efficiency of Vim is a great introduction. TL;DR: you're able to send commands \(like `dd` which deletes a line\), repeat the commands by adding a number \(`d10d` deletes 10 lines\), and even create macros, a series of commands of arbitrary length that users can record to a register, specified by pressing `q` followed by another letter on the keyboard, performing a series of actions, pressing `q` again to stop recording, and then typing `@x` \(where `x` was the chosen register\) to repeat the action any number of times.
-
-   In short, Vim is a language, a relatively simple language with its own grammar and syntax, that you can learn with some persistence and dedication, and will pay absolute dividends for you to know for you to become the best developer you can be. How do you even begin to learn this kind of thing though? well...
+    In short, Vim is a language, a relatively simple language with its own grammar and syntax, that you can learn with some persistence and dedication, and will pay absolute dividends for you to know for you to become the best developer you can be. How do you even begin to learn this kind of thing though? well...
 
 ## How to learn
 
@@ -46,15 +43,15 @@ You may be thinking this is all very complicated, and you'd be right. The skill 
 
 Helpfully, when you install the Vim package, it comes bundled with a program called `Vimtutor`, this program resembles a Vim text file and walks you through editing itself in the same way you'd edit a text file in Vim. Once you complete it you should have a rudimentary grasp on the editor.
 
-If you prefer to use games as your way of learning \(looking at you, Duolingo users\), then have no fear, [Vim Adventures](https://Vim-adventures.com/) has you covered. The game uses Vim navigation key bindings to take you through a small fantasy game, teaching you a whole bunch of other things along the way!
+If you prefer to use games as your way of learning (looking at you, Duolingo users), then have no fear, [Vim Adventures](https://vim-adventures.com/) has you covered. The game uses Vim navigation key bindings to take you through a small fantasy game, teaching you a whole bunch of other things along the way!
 
-If you're also the kind of person who loves to get stuck in to things in order to learn them properly, there are a multitude of ways to make use of the vim keybindings outside of the editor itself. A full wiki article on one of these ways of getting stuck in \(using Vimium in-browser\) can be found [here](vimium.md), some other ways include turning on vim keybinding support in other text editors like Visual Studio Code and the JetBrains suite of IDEs, and even using entire window managers on Linux, such as i3.
+If you're also the kind of person who loves to get stuck in to things in order to learn them properly, there are a multitude of ways to make use of the vim keybindings outside of the editor itself. A full wiki article on one of these ways of getting stuck in (using Vimium in-browser) can be found [here](vimium.md), some other ways include turning on vim keybinding support in other text editors like Visual Studio Code and the JetBrains suite of IDEs, and even using entire window managers on Linux, such as i3.
 
 ## Some Basics
 
-With thanks to David Rayner and his [Best Vim Tips](https://Vim.fandom.com/wiki/Best_Vim_Tips) article on the Vim wiki \(recommended skim\).
+With thanks to David Rayner and his [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips) article on the Vim wiki (recommended skim).
 
-```text
+```
 <Esc> is the escape key or use <ctrl>[  sometimes written as  <C-[>
 
 Vimtutor    : starts Vim editing a copy of a tutorial file -- very good.
@@ -101,21 +98,21 @@ Commands are case sensitive:
 
 ## Further Reading
 
-* [The Vim Website](https://www.Vim.org/)
+* [The Vim Website](https://www.vim.org/)
 * [Vim's Man page](https://linux.die.net/man/1/Vim)
 * [Vi/Vim stack exchange](https://vi.stackexchange.com/)
-* [Vimawesome](https://Vimawesome.com/) \(plugin site\)
-* [Cheat sheet](https://Vim.rtorr.com/)
-* [Best Vim Tips](https://Vim.fandom.com/wiki/Best_Vim_Tips)
+* [Vimawesome](https://vimawesome.com/) (plugin site)
+* [Cheat sheet](https://vim.rtorr.com/)
+* [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
 * Or, if you'd like to get further acquainted with the Vim Keymappings, read [this other article on the wiki](vimium.md) for some other places you can use them!
 
-## Various Vimrcs \(configs\)
+## Various Vimrcs (configs)
 
 ### Isaac's Vimrc
 
 To use this `Vimrc` file you'll need to install [Gruvbox](https://github.com/morhetz/gruvbox).
 
-```text
+```
 "  _     _          _             _                    
 " (_)___| |__  _ __( )___  __   _(_)_ __ ___  _ __ ___ 
 " | |_  / '_ \| '__|// __| \ \ / / | '_ ` _ \| '__/ __|
@@ -226,7 +223,7 @@ To use this `Vimrc` file you'll need to install [Gruvbox](https://github.com/mor
 
 ### Sam's Vimrc
 
-```text
+```
 "        _
 " __   _(_)_ __ ___  _ __ ___  
 " \ \ / / | '_ ` _ \| '__/ __| 
@@ -325,4 +322,3 @@ To use this `Vimrc` file you'll need to install [Gruvbox](https://github.com/mor
 ```
 
 ![:wq!](https://github.com/AbertayHackers/gitbook-wiki/tree/2a6f552b2997f1013c7d67197fa4f0ded118969d/.gitbook/assets/Vim-logo.png)
-
