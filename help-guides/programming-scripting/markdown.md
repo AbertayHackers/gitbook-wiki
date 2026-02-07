@@ -6,7 +6,7 @@ description: >-
 
 # Markdown
 
-_Written by_ [_Isaac_](broken-reference)
+_Written by_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 Markdown is an extremely lightweight markup language for formatting text in a plaintext editor. Places Markdown is used include Wikipedia's editor, GitHub (for documentation and readme files), online forums, blogs, Discord, and this wiki!
 

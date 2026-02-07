@@ -4,7 +4,7 @@ description: a walkthrough and usage guide for the Radare2 reverse engineering f
 
 # Radare2
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 ![The Radare2 Logo](.gitbook/assets/r2logo.png)
 

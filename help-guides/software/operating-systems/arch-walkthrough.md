@@ -1,6 +1,6 @@
 # Installing Arch
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design.
 

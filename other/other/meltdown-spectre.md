@@ -1,6 +1,6 @@
 # Meltdown & Spectre
 
-By [Sam](broken-reference)
+By [Sam](/broken/pages/xLJl9lKK1yrFRgjd7yts)
 
 ## Vendor Responses
 

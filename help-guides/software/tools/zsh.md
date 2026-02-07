@@ -4,7 +4,7 @@ description: A guide to the Z Shell, a backwards compatible Bourne-based termina
 
 # Zsh
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 ![Z Shell Logo](../../../.gitbook/assets/zsh-logo.jpg)
 

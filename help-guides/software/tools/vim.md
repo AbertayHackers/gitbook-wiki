@@ -4,7 +4,7 @@ description: a guide to the Vim text editor
 
 # Vim
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 ![Vim with the Gruvbox Dark Theme installed](https://github.com/AbertayHackers/gitbook-wiki/tree/2a6f552b2997f1013c7d67197fa4f0ded118969d/.gitbook/assets/Vim-gruvbox.png)
 

@@ -4,7 +4,7 @@ description: A guide to formatting when committing to the Hacksoc wiki
 
 # Formatting and Best Practise
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 There are a few things you'll need to consider when contributing to the Wiki when writing articles, creating new sections, and making general improvements.
 

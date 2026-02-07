@@ -4,7 +4,7 @@ description: A list of the most useful linux commands and what they do (for begi
 
 # Linux Commands for Beginners
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 This article will describe some basic commands that you may use on a regular basis in Linux.
 

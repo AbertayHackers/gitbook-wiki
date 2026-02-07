@@ -6,7 +6,7 @@ description: >-
 
 # Vimium
 
-_By_ [_Isaac_](broken-reference)
+_By_ [_Isaac_](/broken/pages/uBbrQFZlflRogQcjYpRx)
 
 [Vimium](https://vimium.github.io/) is a web browser extension available for Chrome-based browsers and Firefox that allows users to make use of Vim-like keybindings for navigating the internet.
 
