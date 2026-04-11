@@ -6,13 +6,14 @@ We are a group of Ethical Hacking students at [Abertay University](http://www.ab
 
 Along with running our weekly meetings we are also known for organising our annual conference [Securi-Tay](https://securi-tay.co.uk), which is Europe's biggest student-run information security conference, aimed to help students interact with industry. Our members are known for attending many different conferences and events around the world, and you may have seen some of them presenting work at these events. Along with conferences the Abertay Hackers do appear regularly at many CTF events.
 
-Most of our members study at Abertay University which offers two courses related to information security, these are our Bsc\(Hons\) in Ethical Hacking and our Msc in Ethical Hacking and Cyber security. Both courses are very popular due to the hands-on teaching approach supplied by our lecturers and our modules which simulate work that we may face in a real-world environment.
+Most of our members study at Abertay University which offers two courses related to information security, these are our Bsc(Hons) in Ethical Hacking and our Msc in Ethical Hacking and Cyber security. Both courses are very popular due to the hands-on teaching approach supplied by our lecturers and our modules which simulate work that we may face in a real-world environment.
+
+Our mascot is a djungleskog called Meatball!
 
 ## Links
 
-[Website](https://hacksoc.co.uk/)  
-[Twitter](https://twitter.com/abertayhackers)  
-[Facebook](https://www.facebook.com/abertayhackers)  
-[GitHub](https://github.com/AbertayHackers)  
+[Website](https://hacksoc.co.uk/)\
+[Twitter](https://twitter.com/abertayhackers)\
+[Facebook](https://www.facebook.com/abertayhackers)\
+[GitHub](https://github.com/AbertayHackers)\
 [Reddit](https://www.reddit.com/r/abertayhackers)
-
